@@ -1,0 +1,1 @@
+require 'rawg/client'
