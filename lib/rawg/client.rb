@@ -2,13 +2,23 @@
 
 module RAWG
   class Client
-    VERSION = '0.1'
-    DEFAULT_USER_AGENT = "rawgrb/#{VERSION}"
+    GEM_NAME        = 'rawgrb'
+    GEM_VERSION     = '0.1'
+    GEM_USER_AGENT  = "#{GEM_NAME}/#{GEM_VERSION}"
 
-    attr_accessor :user_agent
+    attr_reader :user_agent
 
-    def initialize(user_agent: DEFAULT_USER_AGENT)
-      @user_agent = user_agent
+    def initialize(user_agent: nil)
+      @user_agent = build_user_agent(user_agent)
+    end
+
+    private
+
+    def build_user_agent(user_agent)
+      ua = user_agent&.to_s&.strip
+      return GEM_USER_AGENT if ua.nil? || ua.empty?
+
+      [ua, GEM_USER_AGENT].join(' ')
     end
   end
 end
