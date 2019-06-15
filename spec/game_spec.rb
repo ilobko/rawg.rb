@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'helper'
+require 'spec_helper'
 
 describe RAWG::Game do
   subject { FactoryBot.build(:game) }
