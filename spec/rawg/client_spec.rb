@@ -3,7 +3,7 @@
 require 'spec_helper'
 
 describe RAWG::Client do
-  it 'has constant BASE_URL' do
+  it 'has correct BASE_URL' do
     expect(described_class::BASE_URL).to eq('https://api.rawg.io')
   end
 
@@ -36,13 +36,46 @@ describe RAWG::Client do
       expect(a_get('/api/games/22509')).to have_been_made.once
     end
 
+    it 'sends correct User-Agent header' do
+      stub_get('/api/games/22509').to_return(status: 200)
+      client.find_game(22_509)
+      expect(a_get('/api/games/22509')
+        .with(headers: { 'User-Agent': client.user_agent }))
+        .to have_been_made
+    end
+
     context 'when game exists' do
-      it 'returns hash with symbolized keys'
-      it 'returns requested game'
+      before do
+        stub_get('/api/games/22509').to_return(
+          body: fixture('find_game_response.json'),
+          headers: { content_type: 'application/json' }
+        )
+      end
+
+      it 'returns hash with symbolized keys' do
+        response = client.find_game(22_509)
+        expect(response).to be_a(Hash)
+        expect(response.keys).to all be_a(Symbol)
+      end
+
+      it 'returns requested game' do
+        response = client.find_game(22_509)
+        expect(response[:id]).to be_eql(22_509)
+      end
     end
 
     context 'when game doesn\'t exist' do
-      it 'returns nil'
+      before do
+        stub_get('/api/games/0').to_return(
+          body: fixture('not_found_game_response.json'),
+          headers: { content_type: 'application/json' }
+        )
+      end
+
+      it 'returns nil' do
+        response = client.find_game(0)
+        expect(response).to be_nil
+      end
     end
   end
 end
