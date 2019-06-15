@@ -4,7 +4,7 @@ require 'faraday'
 
 module RAWG
   class Client
-    GEM_NAME        = 'rawgrb'
+    GEM_NAME        = 'rawg-rb'
     GEM_VERSION     = '0.1'
     GEM_USER_AGENT  = "#{GEM_NAME}/#{GEM_VERSION}"
     BASE_URL = 'https://api.rawg.io'
