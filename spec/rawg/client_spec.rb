@@ -82,4 +82,60 @@ describe RAWG::Client do
       end
     end
   end
+
+  describe '#user_info' do
+    subject(:client) { described_class.new }
+
+    it 'requests correct endpoint' do
+      stub_get('/api/users/1').to_return(status: 200)
+      client.user_info(1)
+      expect(a_get('/api/users/1')).to have_been_made.once
+    end
+
+    it 'sends correct User-Agent header' do
+      stub_get('/api/users/1').to_return(status: 200)
+      client.user_info(1)
+      expect(a_get('/api/users/1')
+        .with(headers: { 'User-Agent': client.user_agent }))
+        .to have_been_made
+    end
+
+    context 'when user exists' do
+      before do
+        stub_get('/api/users/1').to_return(
+          body: fixture('user_info_response.json'),
+          headers: { content_type: 'application/json' }
+        )
+      end
+
+      it 'returns hash' do
+        response = client.user_info(1)
+        expect(response).to be_a(Hash)
+      end
+
+      it 'returns hash with symbolized keys' do
+        response = client.user_info(1)
+        expect(response.keys).to all be_a(Symbol)
+      end
+
+      it 'returns requested game' do
+        response = client.user_info(1)
+        expect(response[:id]).to be_eql(1)
+      end
+    end
+
+    context 'when user doesn\'t exist' do
+      before do
+        stub_get('/api/users/0').to_return(
+          body: fixture('game_not_found_response.json'),
+          headers: { content_type: 'application/json' }
+        )
+      end
+
+      it 'returns nil' do
+        response = client.user_info(0)
+        expect(response).to be_nil
+      end
+    end
+  end
 end

@@ -24,6 +24,13 @@ module RAWG
       response
     end
 
+    def user_info(id)
+      response = http_client.get("/api/users/#{id}").body
+      return nil if !response.is_a?(Hash) || response[:detail] == 'Not found.'
+
+      response
+    end
+
     private
 
     def build_user_agent(user_agent)
