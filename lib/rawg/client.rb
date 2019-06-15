@@ -17,7 +17,7 @@ module RAWG
       @user_agent = build_user_agent(user_agent)
     end
 
-    def find_game(id)
+    def game_info(id)
       response = http_client.get("/api/games/#{id}").body
       return nil if !response.is_a?(Hash) || response[:detail] == 'Not found.'
 

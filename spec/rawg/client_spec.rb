@@ -27,18 +27,18 @@ describe RAWG::Client do
     end
   end
 
-  describe '#find_game' do
+  describe '#game_info' do
     subject(:client) { described_class.new }
 
     it 'requests correct endpoint' do
       stub_get('/api/games/22509').to_return(status: 200)
-      client.find_game(22_509)
+      client.game_info(22_509)
       expect(a_get('/api/games/22509')).to have_been_made.once
     end
 
     it 'sends correct User-Agent header' do
       stub_get('/api/games/22509').to_return(status: 200)
-      client.find_game(22_509)
+      client.game_info(22_509)
       expect(a_get('/api/games/22509')
         .with(headers: { 'User-Agent': client.user_agent }))
         .to have_been_made
@@ -47,19 +47,23 @@ describe RAWG::Client do
     context 'when game exists' do
       before do
         stub_get('/api/games/22509').to_return(
-          body: fixture('find_game_response.json'),
+          body: fixture('game_info_response.json'),
           headers: { content_type: 'application/json' }
         )
       end
 
-      it 'returns hash with symbolized keys' do
-        response = client.find_game(22_509)
+      it 'returns hash' do
+        response = client.game_info(22_509)
         expect(response).to be_a(Hash)
+      end
+
+      it 'returns hash with symbolized keys' do
+        response = client.game_info(22_509)
         expect(response.keys).to all be_a(Symbol)
       end
 
       it 'returns requested game' do
-        response = client.find_game(22_509)
+        response = client.game_info(22_509)
         expect(response[:id]).to be_eql(22_509)
       end
     end
@@ -67,13 +71,13 @@ describe RAWG::Client do
     context 'when game doesn\'t exist' do
       before do
         stub_get('/api/games/0').to_return(
-          body: fixture('not_found_game_response.json'),
+          body: fixture('game_not_found_response.json'),
           headers: { content_type: 'application/json' }
         )
       end
 
       it 'returns nil' do
-        response = client.find_game(0)
+        response = client.game_info(0)
         expect(response).to be_nil
       end
     end
