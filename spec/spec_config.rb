@@ -3,6 +3,9 @@
 require 'rspec'
 require 'rawg'
 require 'factory_bot'
+require 'webmock/rspec'
+
+WebMock.disable_net_connect!
 
 RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
