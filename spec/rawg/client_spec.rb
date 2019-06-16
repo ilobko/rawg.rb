@@ -134,6 +134,30 @@ describe RAWG::Client do
     end
   end
 
+  describe '#search_games' do
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.search_games('gta') },
+                    method: :get,
+                    endpoint: '/api/games?search=gta',
+                    successful_response: fixture('search_games_response.json')
+
+    it 'searches games without parameters' do
+      stub_get('/api/games?search=gta').to_return(status: :ok)
+      client.search_games('gta')
+    end
+
+    it 'searches games using single genre' do
+      stub_get('/api/games?search=tank&genres=strategy').to_return(status: :ok)
+      client.search_games('tank', genres: 'strategy')
+    end
+
+    it 'searches games using multiple genres' do
+      stub_get('/api/games?search=zombie&genres=racing,sports')
+        .to_return(status: :ok)
+      client.search_games('zombie', genres: %w[racing sports])
+    end
+  end
+
   describe '#user_info' do
     it_behaves_like 'a request',
                     subject: -> { described_class.new.user_info(1) },

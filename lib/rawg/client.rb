@@ -29,6 +29,13 @@ module RAWG
       request("/api/users/#{id}")
     end
 
+    def search_games(search, genres: nil)
+      request('/api/games', {
+        search: search,
+        genres: genres.is_a?(Array) ? genres.join(',') : genres
+      }.compact)
+    end
+
     private
 
     def build_user_agent(user_agent)

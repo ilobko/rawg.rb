@@ -1,0 +1,2688 @@
+{
+  "count": 35,
+  "next": "https://api.rawg.io/api/games?page=2&search=gta",
+  "previous": null,
+  "results": [
+    {
+      "slug": "grand-theft-auto-1998",
+      "name": "Grand Theft Auto (1998)",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 27,
+            "name": "PlayStation",
+            "slug": "playstation1"
+          }
+        },
+        {
+          "platform": {
+            "id": 43,
+            "name": "Game Boy Color",
+            "slug": "game-boy-color"
+          }
+        },
+        {
+          "platform": {
+            "id": 26,
+            "name": "Game Boy",
+            "slug": "game-boy"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "1997-10-21",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/518/51870d98ef5600fb84a7cdd265c6e1e0.jpg",
+      "rating": 3.86,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 53,
+          "percent": 57.61
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 18,
+          "percent": 19.57
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 17,
+          "percent": 18.48
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 4,
+          "percent": 4.35
+        }
+      ],
+      "ratings_count": 92,
+      "reviews_text_count": 0,
+      "added": 693,
+      "added_by_status": {
+        "yet": 20,
+        "owned": 551,
+        "beaten": 66,
+        "toplay": 6,
+        "dropped": 49,
+        "playing": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 1997,
+          "change": "equal",
+          "position": 9
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 365,
+      "id": 52998,
+      "score": "40.59039",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 92,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/518/51870d98ef5600fb84a7cdd265c6e1e0.jpg"
+        },
+        {
+          "id": 803962,
+          "image": "https://media.rawg.io/media/screenshots/8f5/8f577f88855945518d24edf59dba9dff.jpg"
+        },
+        {
+          "id": 803963,
+          "image": "https://media.rawg.io/media/screenshots/aab/aabcb87421c5e3f5af4ac39d62b01eae.jpg"
+        },
+        {
+          "id": 803964,
+          "image": "https://media.rawg.io/media/screenshots/311/31181ab4311854dcccb0da8dcb25a8d1.jpg"
+        },
+        {
+          "id": 729954,
+          "image": "https://media.rawg.io/media/screenshots/277/277ebd8d5e111292314173ddec029f6f.jpg"
+        },
+        {
+          "id": 729955,
+          "image": "https://media.rawg.io/media/screenshots/9b7/9b7995efbe72ca11c11bdc0101c69eae.jpg"
+        },
+        {
+          "id": 729956,
+          "image": "https://media.rawg.io/media/screenshots/afb/afbe0f8a33778e5434155eaf9b97076b.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "gta-bankrob",
+      "name": "GTA-bankrob",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2017-04-10",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/70d/70d98f3c42cdc6db6cfd6318e6519b96.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 19,
+      "id": 197932,
+      "score": "26.265408",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/70d/70d98f3c42cdc6db6cfd6318e6519b96.jpg"
+        },
+        {
+          "id": 1290516,
+          "image": "https://media.rawg.io/media/screenshots/70d/70d98f3c42cdc6db6cfd6318e6519b96.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": []
+    },
+    {
+      "slug": "gta-chinatown-wars",
+      "name": "GTA: Chinatown Wars",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/779/779a4846cb63b583b01bbf6bc666dd21.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 132,
+      "id": 221159,
+      "score": "23.130262",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/779/779a4846cb63b583b01bbf6bc666dd21.jpg"
+        },
+        {
+          "id": 1363682,
+          "image": "https://media.rawg.io/media/screenshots/cea/cea62a4e8de5f37c6bf43d31ac801427.jpg"
+        },
+        {
+          "id": 1363683,
+          "image": "https://media.rawg.io/media/screenshots/a3c/a3cdb9845b1a11fb572b74b5748c82a6.jpg"
+        },
+        {
+          "id": 1363684,
+          "image": "https://media.rawg.io/media/screenshots/ebe/ebecbbb25e74990fa780ae8f69377d24.jpg"
+        },
+        {
+          "id": 1363685,
+          "image": "https://media.rawg.io/media/screenshots/5a8/5a80ce5f09c73192f7d216d7cc4113da.jpg"
+        },
+        {
+          "id": 1363686,
+          "image": "https://media.rawg.io/media/screenshots/c90/c90761127e6928176a894f423e8e94cc.jpg"
+        },
+        {
+          "id": 1363687,
+          "image": "https://media.rawg.io/media/screenshots/b4c/b4ca6c8b7a2d9e949ec2b1c1dd06bda7.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "gta-v-demo",
+      "name": "GTA-V-DEMO",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2014-03-02",
+      "tba": false,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 0,
+      "id": 91472,
+      "score": "22.642656",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        }
+      ]
+    },
+    {
+      "slug": "gta-bosnia-kings-of-the-sea",
+      "name": "GTA: BOSNIA (KINGS OF THE SEA)",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2018-07-12",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/40a/40afd177ec550760c771ca4c07858202.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 28,
+      "id": 164863,
+      "score": "15.879646",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/40a/40afd177ec550760c771ca4c07858202.jpg"
+        },
+        {
+          "id": 1219193,
+          "image": "https://media.rawg.io/media/screenshots/40a/40afd177ec550760c771ca4c07858202.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 34,
+          "name": "Educational",
+          "slug": "educational"
+        }
+      ]
+    },
+    {
+      "slug": "gta-text-101",
+      "name": "GTA Text 101",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2017-01-30",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/cde/cdee0bfb0ff691d970808eef5ed81a9a.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 32,
+      "id": 165092,
+      "score": "13.931536",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/cde/cdee0bfb0ff691d970808eef5ed81a9a.jpg"
+        },
+        {
+          "id": 1219727,
+          "image": "https://media.rawg.io/media/screenshots/cde/cdee0bfb0ff691d970808eef5ed81a9a.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": []
+    },
+    {
+      "slug": "gta-vii-alpha",
+      "name": "GTA VII Alpha",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2018-09-10",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/fc9/fc9a3a950dcd713d057d65027d893c26.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 10,
+      "id": 236633,
+      "score": "13.675747",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/fc9/fc9a3a950dcd713d057d65027d893c26.jpg"
+        },
+        {
+          "id": 1608338,
+          "image": "https://media.rawg.io/media/screenshots/fc9/fc9a3a950dcd713d057d65027d893c26.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        }
+      ]
+    },
+    {
+      "slug": "gta-mamaia-vice",
+      "name": "gta mamaia vice",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2018-12-29",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/d33/d3353832a30b659bdf1dd1cc31cf72ed.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 31,
+      "id": 281271,
+      "score": "13.675747",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/d33/d3353832a30b659bdf1dd1cc31cf72ed.jpg"
+        },
+        {
+          "id": 1794315,
+          "image": "https://media.rawg.io/media/screenshots/d33/d3353832a30b659bdf1dd1cc31cf72ed.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": []
+    },
+    {
+      "slug": "stonogas-gta-parody",
+      "name": "Stonoga's GTA - Parody",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2018-09-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/ce9/ce978160c6e53e4acecfb9543acf9979.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 162,
+      "id": 240838,
+      "score": "12.527945",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/ce9/ce978160c6e53e4acecfb9543acf9979.jpg"
+        },
+        {
+          "id": 1627066,
+          "image": "https://media.rawg.io/media/screenshots/68f/68f6c172b23d54190e619648092568a7.jpg"
+        },
+        {
+          "id": 1627067,
+          "image": "https://media.rawg.io/media/screenshots/580/5800c29b0aa72dcd59ed564679475709.jpg"
+        },
+        {
+          "id": 1627068,
+          "image": "https://media.rawg.io/media/screenshots/66e/66e3f0796b085e13ec272d9cae218f67.jpg"
+        },
+        {
+          "id": 1627069,
+          "image": "https://media.rawg.io/media/screenshots/ce9/ce978160c6e53e4acecfb9543acf9979.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        }
+      ]
+    },
+    {
+      "slug": "gta-san-andreas-hangman",
+      "name": "Gta San Andreas Hangman",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2016-09-27",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/1f7/1f7b7c5446aa31bf886632177302415d.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 13,
+      "id": 165602,
+      "score": "10.27679",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/1f7/1f7b7c5446aa31bf886632177302415d.jpg"
+        },
+        {
+          "id": 1221004,
+          "image": "https://media.rawg.io/media/screenshots/1f7/1f7b7c5446aa31bf886632177302415d.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": []
+    },
+    {
+      "slug": "jcheater-gta-iii-edition",
+      "name": "JCheater: GTA III Edition",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/1c8/1c812c87e823f0f9630e92c826fe280c.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 171,
+      "id": 225045,
+      "score": "9.872427",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/1c8/1c812c87e823f0f9630e92c826fe280c.jpg"
+        },
+        {
+          "id": 1442822,
+          "image": "https://media.rawg.io/media/screenshots/502/50265c8033c37c29654afa5f90c1d4f5.jpg"
+        },
+        {
+          "id": 1442823,
+          "image": "https://media.rawg.io/media/screenshots/f2d/f2d8dc2cdc800406b5eece4829d78e4e.jpg"
+        },
+        {
+          "id": 1442824,
+          "image": "https://media.rawg.io/media/screenshots/a9b/a9b471ee8f96df325461cdd765cfc435.jpg"
+        },
+        {
+          "id": 1442825,
+          "image": "https://media.rawg.io/media/screenshots/a6b/a6b0547c48085c8bc432da3face83419.jpg"
+        },
+        {
+          "id": 1442826,
+          "image": "https://media.rawg.io/media/screenshots/f36/f36ee77caf6928bd9617e6f43b23b3e2.jpg"
+        },
+        {
+          "id": 1442827,
+          "image": "https://media.rawg.io/media/screenshots/f3e/f3e14c1fa8ad18999bfe6f8ae22d817a.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-iii",
+      "name": "Grand Theft Auto III",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 80,
+            "name": "Xbox",
+            "slug": "xbox-old"
+          }
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2001-10-22",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/97d/97d403fd9da760192bcc2a061529f891.jpg",
+      "rating": 4.21,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 220,
+          "percent": 54.46
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 139,
+          "percent": 34.41
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 40,
+          "percent": 9.9
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 5,
+          "percent": 1.24
+        }
+      ],
+      "ratings_count": 404,
+      "reviews_text_count": 7,
+      "added": 2407,
+      "added_by_status": {
+        "yet": 73,
+        "owned": 1704,
+        "beaten": 440,
+        "toplay": 27,
+        "dropped": 142,
+        "playing": 21
+      },
+      "metacritic": 93,
+      "charts": {
+        "year": {
+          "year": 2001,
+          "change": "up",
+          "position": 1
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 420,
+      "id": 432,
+      "score": "9.124055",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 404,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/97d/97d403fd9da760192bcc2a061529f891.jpg"
+        },
+        {
+          "id": 27199,
+          "image": "https://media.rawg.io/media/screenshots/eda/eda58fc81f11086dd2c2bb0c49175a31.jpg"
+        },
+        {
+          "id": 27201,
+          "image": "https://media.rawg.io/media/screenshots/199/199398979a6ded0298638549666fffe9.jpg"
+        },
+        {
+          "id": 27203,
+          "image": "https://media.rawg.io/media/screenshots/e8a/e8a098b2a7f9ce400330b14110bacf03.jpg"
+        },
+        {
+          "id": 27204,
+          "image": "https://media.rawg.io/media/screenshots/15d/15d04a0a27192157c45df62c1d9cd89f.jpg"
+        },
+        {
+          "id": 27206,
+          "image": "https://media.rawg.io/media/screenshots/1a8/1a8cadda5edfe81178534adf691ebf41.jpg"
+        },
+        {
+          "id": 27207,
+          "image": "https://media.rawg.io/media/screenshots/d0d/d0d4789a8aefd1722f3786a41391182b.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "jmodder-gta-iii-edition",
+      "name": "JModder: GTA III Edition",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/c73/c73d8e5a84905cf35c3e0bf6880365e3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 8,
+      "id": 225065,
+      "score": "8.854729",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/c73/c73d8e5a84905cf35c3e0bf6880365e3.jpg"
+        },
+        {
+          "id": 1443193,
+          "image": "https://media.rawg.io/media/screenshots/b21/b2112b905effe7003eb21808f6ebdf9c.jpg"
+        },
+        {
+          "id": 1443194,
+          "image": "https://media.rawg.io/media/screenshots/c73/c73d8e5a84905cf35c3e0bf6880365e3.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-vice-city",
+      "name": "Grand Theft Auto: Vice City",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 80,
+            "name": "Xbox",
+            "slug": "xbox-old"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2002-10-29",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg",
+      "rating": 4.4,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 405,
+          "percent": 53.86
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 282,
+          "percent": 37.5
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 47,
+          "percent": 6.25
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 18,
+          "percent": 2.39
+        }
+      ],
+      "ratings_count": 751,
+      "reviews_text_count": 1,
+      "added": 2900,
+      "added_by_status": {
+        "yet": 69,
+        "owned": 1929,
+        "beaten": 729,
+        "toplay": 27,
+        "dropped": 128,
+        "playing": 18
+      },
+      "metacritic": 94,
+      "charts": {
+        "year": {
+          "year": 2002,
+          "change": "equal",
+          "position": 1
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 346,
+      "id": 430,
+      "score": "8.853428",
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/84d/84df7081524be9e5085ccd1decb143b8.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/bd4/bd4e8464b296d5ac0abe896da45687e0.mp4",
+          "640": "https://media.rawg.io/media/stories-640/84d/84df7081524be9e5085ccd1decb143b8.mp4",
+          "full": "https://media.rawg.io/media/stories/581/5813b70351f72469ebdb6d030c12c986.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/f7b/f7bb91e54450c8ab9d03faba11fabf4d.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 752,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg"
+        },
+        {
+          "id": 27216,
+          "image": "https://media.rawg.io/media/screenshots/dfd/dfd73edec49df98ca9cd6736eeba1049.jpg"
+        },
+        {
+          "id": 27217,
+          "image": "https://media.rawg.io/media/screenshots/41b/41bab662e69407ebdea4f9c2620ea964.jpg"
+        },
+        {
+          "id": 27219,
+          "image": "https://media.rawg.io/media/screenshots/866/8669e298a904fce58ba84ab0a9205c01.jpg"
+        },
+        {
+          "id": 27220,
+          "image": "https://media.rawg.io/media/screenshots/579/57946b3f520595bf96c77e9c36ea5a9a.jpg"
+        },
+        {
+          "id": 27221,
+          "image": "https://media.rawg.io/media/screenshots/8d8/8d84dcd621ea9cc54ffec9ab6040f799.jpg"
+        },
+        {
+          "id": 27223,
+          "image": "https://media.rawg.io/media/screenshots/bd2/bd2b4586b6acabf7ee39400d3ad5fa66.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-san-andreas",
+      "name": "Grand Theft Auto: San Andreas",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 80,
+            "name": "Xbox",
+            "slug": "xbox-old"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2004-10-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/1bb/1bb86c35ffa3eb0d299b01a7c65bf908.jpg",
+      "rating": 4.44,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 441,
+          "percent": 55.61
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 280,
+          "percent": 35.31
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 60,
+          "percent": 7.57
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 12,
+          "percent": 1.51
+        }
+      ],
+      "ratings_count": 791,
+      "reviews_text_count": 2,
+      "added": 3231,
+      "added_by_status": {
+        "yet": 63,
+        "owned": 2171,
+        "beaten": 771,
+        "toplay": 29,
+        "dropped": 165,
+        "playing": 32
+      },
+      "metacritic": 93,
+      "charts": {
+        "year": {
+          "year": 2004,
+          "change": "equal",
+          "position": 4
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 490,
+      "id": 416,
+      "score": "7.615043",
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/3d0/3d0f771fd1c11a0e1e3ba62d95d916ae.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/36f/36fd6c8acb3e8dcb33658490de83af4d.mp4",
+          "640": "https://media.rawg.io/media/stories-640/3d0/3d0f771fd1c11a0e1e3ba62d95d916ae.mp4",
+          "full": "https://media.rawg.io/media/stories/e04/e0444b86b513a1b7b8162b7bb5062335.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/1d0/1d01321bc0f86a1c576e2329bdf13f8f.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 793,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/1bb/1bb86c35ffa3eb0d299b01a7c65bf908.jpg"
+        },
+        {
+          "id": 91290,
+          "image": "https://media.rawg.io/media/screenshots/679/679c267107151f01696d3c8ea71ac650.jpg"
+        },
+        {
+          "id": 91291,
+          "image": "https://media.rawg.io/media/screenshots/560/560610b498ef079e1f45ec83b039cbc7.jpg"
+        },
+        {
+          "id": 91292,
+          "image": "https://media.rawg.io/media/screenshots/c8c/c8cf7ea395e6aa2e46abee36d9d2d699.jpg"
+        },
+        {
+          "id": 91293,
+          "image": "https://media.rawg.io/media/screenshots/191/191445072d9e85b6ad7ffed5152fc17a.jpg"
+        },
+        {
+          "id": 91294,
+          "image": "https://media.rawg.io/media/screenshots/bfe/bfe3c652960e2b6869c608a58d69d327.jpg"
+        },
+        {
+          "id": 91295,
+          "image": "https://media.rawg.io/media/screenshots/436/436134f55bd10cfd7a6fd1ded7487355.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-2-1999",
+      "name": "Grand Theft Auto 2 (1999)",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 27,
+            "name": "PlayStation",
+            "slug": "playstation1"
+          }
+        },
+        {
+          "platform": {
+            "id": 43,
+            "name": "Game Boy Color",
+            "slug": "game-boy-color"
+          }
+        },
+        {
+          "platform": {
+            "id": 106,
+            "name": "Dreamcast",
+            "slug": "dreamcast"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "1999-09-30",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/764/7643d4a66e5c37cd578a208a515902f9.jpg",
+      "rating": 4.1,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 63,
+          "percent": 53.85
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 36,
+          "percent": 30.77
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 15,
+          "percent": 12.82
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 3,
+          "percent": 2.56
+        }
+      ],
+      "ratings_count": 117,
+      "reviews_text_count": 0,
+      "added": 731,
+      "added_by_status": {
+        "yet": 19,
+        "owned": 556,
+        "beaten": 86,
+        "toplay": 7,
+        "dropped": 60,
+        "playing": 3
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 1999,
+          "change": "equal",
+          "position": 8
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 334,
+      "id": 52997,
+      "score": "7.302898",
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/424/424701a355309bd4fbe1ddcc5e04373e.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/cb5/cb57ebdd7d0eac22df3c7ed6681f42df.mp4",
+          "640": "https://media.rawg.io/media/stories-640/424/424701a355309bd4fbe1ddcc5e04373e.mp4",
+          "full": "https://media.rawg.io/media/stories/140/14052f99eebc070d39d725615f5f43cc.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/934/934ccc9da1c459956fe7f90188f9538c.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 117,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/764/7643d4a66e5c37cd578a208a515902f9.jpg"
+        },
+        {
+          "id": 803965,
+          "image": "https://media.rawg.io/media/screenshots/989/98958b3ea7aa183dc9f3963bf2ac59b2.jpg"
+        },
+        {
+          "id": 803966,
+          "image": "https://media.rawg.io/media/screenshots/1f4/1f4e9f489f28cea260f5a6ee29982ea3.jpg"
+        },
+        {
+          "id": 803967,
+          "image": "https://media.rawg.io/media/screenshots/25d/25dc34015c215885c9056a55bb770912.jpg"
+        },
+        {
+          "id": 803968,
+          "image": "https://media.rawg.io/media/screenshots/703/7030e1bd0458c509682631df7bc22821.jpg"
+        },
+        {
+          "id": 803969,
+          "image": "https://media.rawg.io/media/screenshots/906/90637bc5d974c120167683c9912a20ca.jpg"
+        },
+        {
+          "id": 803970,
+          "image": "https://media.rawg.io/media/screenshots/35e/35e469f0cea01e82fd5dc9b8935d3ee0.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "platform": {
+            "id": 11,
+            "name": "SEGA",
+            "slug": "sega"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-chinatown-wars",
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "promo": "",
+      "playtime": 0,
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 9,
+            "name": "Nintendo DS",
+            "slug": "nintendo-ds"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        },
+        {
+          "platform": {
+            "id": 17,
+            "name": "PSP",
+            "slug": "psp"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2009-03-17",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/47c/47ca545028407e6f4d4b2ffc6c839075.jpg",
+      "rating": 4.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 26,
+          "percent": 59.09
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 9,
+          "percent": 20.45
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 9,
+          "percent": 20.45
+        }
+      ],
+      "ratings_count": 44,
+      "reviews_text_count": 0,
+      "added": 82,
+      "added_by_status": {
+        "yet": 5,
+        "owned": 13,
+        "beaten": 32,
+        "toplay": 10,
+        "dropped": 18,
+        "playing": 4
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2009,
+          "change": "up",
+          "position": 291
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 172,
+      "id": 5200,
+      "score": "6.330518",
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/30a/30a643b75add22288bf4fb82fe046d37.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/511/511dd8bdda61074520c37676ac873fd1.mp4",
+          "640": "https://media.rawg.io/media/stories-640/30a/30a643b75add22288bf4fb82fe046d37.mp4",
+          "full": "https://media.rawg.io/media/stories/c7e/c7e2075bdc2d84e53e37324d5594b54d.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/f1f/f1f70cb79f31473992e83168db94fcdf.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 44,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/47c/47ca545028407e6f4d4b2ffc6c839075.jpg"
+        },
+        {
+          "id": 909265,
+          "image": "https://media.rawg.io/media/screenshots/77c/77c0664088470b00304b9dc67ce525d6.jpg"
+        },
+        {
+          "id": 909267,
+          "image": "https://media.rawg.io/media/screenshots/adf/adf68db0fecf836fa4c1f96b97d3cf61.jpg"
+        },
+        {
+          "id": 909268,
+          "image": "https://media.rawg.io/media/screenshots/6bc/6bc27f99786a814ea80cbe237ead47dc.jpg"
+        },
+        {
+          "id": 909270,
+          "image": "https://media.rawg.io/media/screenshots/bf2/bf2ce8fe48211a5ccf7890d35fab3e52.jpg"
+        },
+        {
+          "id": 909272,
+          "image": "https://media.rawg.io/media/screenshots/3ea/3eac403fd26dc306300542e81fb6fdb9.jpg"
+        },
+        {
+          "id": 54417,
+          "image": "https://media.rawg.io/media/screenshots/b44/b44ed402ac114d55318e627ba231aa85.jpeg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "gta-liberty-city-stories",
+      "name": "Grand Theft Auto: Liberty City Stories",
+      "promo": "",
+      "playtime": 7,
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        },
+        {
+          "platform": {
+            "id": 17,
+            "name": "PSP",
+            "slug": "psp"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2005-10-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bf3/bf3ff4c284a087794c499f8eef8eee09.jpg",
+      "rating": 4.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 27,
+          "percent": 69.23
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 6,
+          "percent": 15.38
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 6,
+          "percent": 15.38
+        }
+      ],
+      "ratings_count": 39,
+      "reviews_text_count": 3,
+      "added": 85,
+      "added_by_status": {
+        "yet": 7,
+        "owned": 16,
+        "beaten": 34,
+        "toplay": 9,
+        "dropped": 17,
+        "playing": 2
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2005,
+          "change": "equal",
+          "position": 63
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 447,
+      "id": 4058,
+      "score": "6.012806",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 39,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bf3/bf3ff4c284a087794c499f8eef8eee09.jpg"
+        },
+        {
+          "id": 591344,
+          "image": "https://media.rawg.io/media/screenshots/165/165e7fedb40cd860522cd1e05bbfbf5a.jpeg"
+        },
+        {
+          "id": 591345,
+          "image": "https://media.rawg.io/media/screenshots/327/327b9e5218555f721c658a1d4e34566c.jpeg"
+        },
+        {
+          "id": 591346,
+          "image": "https://media.rawg.io/media/screenshots/34a/34a81d52b3310b0473c78575d0586a77.jpeg"
+        },
+        {
+          "id": 591347,
+          "image": "https://media.rawg.io/media/screenshots/1b1/1b190423e48bbf8255175c0de12c7ad8.jpeg"
+        },
+        {
+          "id": 591348,
+          "image": "https://media.rawg.io/media/screenshots/9e4/9e421df2bb4c2c6880c9751251dcb641.jpeg"
+        },
+        {
+          "id": 34386,
+          "image": "https://media.rawg.io/media/screenshots/84c/84c7fe7f6538f5cc50a5d43065b53caf.jpeg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-iv",
+      "name": "Grand Theft Auto IV",
+      "promo": "",
+      "playtime": 9,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        }
+      ],
+      "released": "2008-04-29",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg",
+      "rating": 4.22,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 366,
+          "percent": 46.68
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 316,
+          "percent": 40.31
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 83,
+          "percent": 10.59
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 19,
+          "percent": 2.42
+        }
+      ],
+      "ratings_count": 780,
+      "reviews_text_count": 7,
+      "added": 4612,
+      "added_by_status": {
+        "yet": 65,
+        "owned": 3483,
+        "beaten": 716,
+        "toplay": 49,
+        "dropped": 263,
+        "playing": 36
+      },
+      "metacritic": 90,
+      "charts": {
+        "year": {
+          "year": 2008,
+          "change": "equal",
+          "position": 1
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 498,
+      "id": 4459,
+      "score": "5.640968",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 784,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 139042,
+          "image": "https://media.rawg.io/media/screenshots/07f/07f7cf80741ff306e4eca982c3e64ac8.jpg"
+        },
+        {
+          "id": 139043,
+          "image": "https://media.rawg.io/media/screenshots/fef/fefd51ec13aa33acbd796ef79bcef7cb.jpg"
+        },
+        {
+          "id": 139044,
+          "image": "https://media.rawg.io/media/screenshots/b78/b78ffd258d5793be704c380e572748bc.jpg"
+        },
+        {
+          "id": 139045,
+          "image": "https://media.rawg.io/media/screenshots/17c/17c85ab9dfc4fda8e1e5ba72932ef2bf.jpg"
+        },
+        {
+          "id": 139046,
+          "image": "https://media.rawg.io/media/screenshots/a12/a12ca99cc74c1e7eba7100b0891dd1e0.jpg"
+        },
+        {
+          "id": 139047,
+          "image": "https://media.rawg.io/media/screenshots/b25/b254f9729ae3f36a9ccffccaa01d5cf6.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "grand-theft-auto-vice-city-stories",
+      "name": "Grand Theft Auto: Vice City Stories",
+      "promo": "",
+      "playtime": 42,
+      "platforms": [
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        },
+        {
+          "platform": {
+            "id": 17,
+            "name": "PSP",
+            "slug": "psp"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        }
+      ],
+      "released": "2006-10-31",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/8cd/8cd450e30c58cb103b31662dae7ec75a.jpg",
+      "rating": 3.89,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 24,
+          "percent": 66.67
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 8,
+          "percent": 22.22
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 4,
+          "percent": 11.11
+        }
+      ],
+      "ratings_count": 36,
+      "reviews_text_count": 0,
+      "added": 77,
+      "added_by_status": {
+        "yet": 8,
+        "owned": 10,
+        "beaten": 28,
+        "toplay": 10,
+        "dropped": 20,
+        "playing": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2006,
+          "change": "up",
+          "position": 90
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 121,
+      "id": 4059,
+      "score": "5.1434054",
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 36,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/8cd/8cd450e30c58cb103b31662dae7ec75a.jpg"
+        },
+        {
+          "id": 806853,
+          "image": "https://media.rawg.io/media/screenshots/20b/20b4f4ce92640c41e8e41ceb500cdc07.jpg"
+        },
+        {
+          "id": 806854,
+          "image": "https://media.rawg.io/media/screenshots/53e/53ec1503264ed6ec40add1c34698cbb9.jpg"
+        },
+        {
+          "id": 806855,
+          "image": "https://media.rawg.io/media/screenshots/995/995c2f7204d6ad3ceaaf0acd6f2bacd6.jpg"
+        },
+        {
+          "id": 806856,
+          "image": "https://media.rawg.io/media/screenshots/8cd/8cd450e30c58cb103b31662dae7ec75a.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    }
+  ]
+}
