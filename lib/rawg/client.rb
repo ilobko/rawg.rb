@@ -40,6 +40,10 @@ module RAWG
       request("/api/users/#{id}")
     end
 
+    def user_games(id)
+      request("/api/users/#{id}/games")
+    end
+
     private
 
     def build_user_agent(user_agent)

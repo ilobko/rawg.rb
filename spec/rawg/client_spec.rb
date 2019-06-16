@@ -189,4 +189,19 @@ describe RAWG::Client do
       expect(response[:id]).to be_eql(1)
     end
   end
+
+  describe '#user_games' do
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.user_games(1) },
+                    method: :get,
+                    endpoint: '/api/users/1/games',
+                    successful_response: fixture('user_games_response.json')
+
+    it 'returns results array' do
+      stub_get('/api/users/1/games',
+               fixture: 'user_games_response.json')
+      response = client.user_games(1)
+      expect(response[:results]).to be_an Array
+    end
+  end
 end

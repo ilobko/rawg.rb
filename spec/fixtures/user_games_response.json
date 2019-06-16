@@ -1,0 +1,2883 @@
+{
+  "count": 322,
+  "next": "https://api.rawg.io/api/users/1/games?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 311050,
+      "slug": "twelvesmith",
+      "name": "Twelvesmith",
+      "promo": "",
+      "released": "2019-04-18",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/cd5/cd5c316fced90f420c36d60551c8a99f_htw4I1d.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2019,
+          "change": "down",
+          "position": 462
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 31,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 0,
+      "reviews_count": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2019-04-18"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 312561,
+          "url": "https://geo.itunes.apple.com/us/app/twelvesmith/id1454405829?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/cd5/cd5c316fced90f420c36d60551c8a99f_htw4I1d.jpg"
+        },
+        {
+          "id": 1903515,
+          "image": "https://media.rawg.io/media/screenshots/365/3651f01dced5e6c8f3bdfeeb988b8353_ZjZYJnL.jpg"
+        },
+        {
+          "id": 1903516,
+          "image": "https://media.rawg.io/media/screenshots/c3e/c3eb4234d828536969d2d878c8556b04.jpg"
+        },
+        {
+          "id": 1903517,
+          "image": "https://media.rawg.io/media/screenshots/4d6/4d6d190f23b440bb264bb4ca53d8f805_VMi8Bsj.jpg"
+        },
+        {
+          "id": 1903518,
+          "image": "https://media.rawg.io/media/screenshots/cd5/cd5c316fced90f420c36d60551c8a99f_htw4I1d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 305984,
+      "slug": "rush-rally-3",
+      "name": "Rush Rally 3",
+      "promo": "",
+      "released": "2019-03-27",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/0bb/0bb76fa3aab5359e2564132587b0c0b9.jpg",
+      "rating": 0.0,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 1,
+      "added_by_status": {
+        "playing": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2019,
+          "change": "down",
+          "position": 494
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 326,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 5,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": null
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2019-03-27"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 12974,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 12534,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 322323,
+          "url": "https://play.google.com/store/apps/details?id=brownmonster.app.game.rushrally3&hl=en&gl=us",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 307304,
+          "url": "https://geo.itunes.apple.com/us/app/rush-rally-3/id1437096541?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/0bb/0bb76fa3aab5359e2564132587b0c0b9.jpg"
+        },
+        {
+          "id": 1883965,
+          "image": "https://media.rawg.io/media/screenshots/6ff/6ff91b8cd447c5a776acf22c7988d22c_Vz6h5JH.jpg"
+        },
+        {
+          "id": 1883966,
+          "image": "https://media.rawg.io/media/screenshots/812/8123a39d3247bfcbbaf9b0d48d388b8d_ZTpCCiW.jpg"
+        },
+        {
+          "id": 1883967,
+          "image": "https://media.rawg.io/media/screenshots/6f7/6f783206196ee65ba5e9f77ad8a5d7f9_S9l1GyR.jpg"
+        },
+        {
+          "id": 1883968,
+          "image": "https://media.rawg.io/media/screenshots/778/778f6716cc33eedbf411bd43b8db716c_EiFmilB.jpg"
+        },
+        {
+          "id": 1883969,
+          "image": "https://media.rawg.io/media/screenshots/484/4843ac86e3e51b70c1d0716994d7d81c_oAfo7jE.jpg"
+        },
+        {
+          "id": 1883970,
+          "image": "https://media.rawg.io/media/screenshots/6d9/6d9a72326ef308eb8cb724d6689437a9_gQcuh3h.jpg"
+        }
+      ]
+    },
+    {
+      "id": 264830,
+      "slug": "twinfold",
+      "name": "Twinfold",
+      "promo": "",
+      "released": "2018-12-05",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/5c0/5c0782d29f94df1c637b69ba90f3d049.jpg",
+      "rating": 0.0,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 3333
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 108,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 5,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2018-12-05"
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-12-05"
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2018-12-05"
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 41755,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          },
+          "released_at": "2018-12-05"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 263057,
+          "url": "https://store.steampowered.com/app/980880/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 273761,
+          "url": "https://geo.itunes.apple.com/us/app/twinfold/id1437168510?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/5c0/5c0782d29f94df1c637b69ba90f3d049.jpg"
+        },
+        {
+          "id": 1732808,
+          "image": "https://media.rawg.io/media/screenshots/dd1/dd1b5ba603b1f4234baf313e7de62c59.jpg"
+        },
+        {
+          "id": 1732809,
+          "image": "https://media.rawg.io/media/screenshots/d46/d46888541d89cda0b524964780fe28e1.jpg"
+        },
+        {
+          "id": 1732810,
+          "image": "https://media.rawg.io/media/screenshots/861/861903557480ab97166b8ff12283dc3c.jpg"
+        },
+        {
+          "id": 1732811,
+          "image": "https://media.rawg.io/media/screenshots/bc0/bc09520e9210a7cd0e0ec5c2cd7025a7.jpg"
+        },
+        {
+          "id": 1732812,
+          "image": "https://media.rawg.io/media/screenshots/90e/90ecf32787099f31bfd747f10d8551cc.jpg"
+        },
+        {
+          "id": 1732813,
+          "image": "https://media.rawg.io/media/screenshots/cd7/cd72b5e64b4d5ba4f8379b2e6a131527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 262668,
+      "slug": "seesaw-2",
+      "name": "see/saw",
+      "promo": "",
+      "released": "2018-11-08",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/96d/96d072b006a6cbb7fa1401f12eac3d09_BgD0YAV.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 3342
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 30,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-11-08"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 260861,
+          "url": "https://geo.itunes.apple.com/us/app/see-saw/id1200202714?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/96d/96d072b006a6cbb7fa1401f12eac3d09_BgD0YAV.jpg"
+        },
+        {
+          "id": 1723559,
+          "image": "https://media.rawg.io/media/screenshots/189/1896405b1e1872f49ec34a66d12edbcd_EAPu2X6.jpg"
+        },
+        {
+          "id": 1723560,
+          "image": "https://media.rawg.io/media/screenshots/25d/25dd435b7c7bd1e7583c06450ec61be1.jpg"
+        },
+        {
+          "id": 1723561,
+          "image": "https://media.rawg.io/media/screenshots/9ee/9ee0dba8e475a4284ac1b9c70066c465.jpg"
+        },
+        {
+          "id": 1723562,
+          "image": "https://media.rawg.io/media/screenshots/96d/96d072b006a6cbb7fa1401f12eac3d09_BgD0YAV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 254778,
+      "slug": "f1-mobile-racing",
+      "name": "F1 Mobile Racing",
+      "promo": "",
+      "released": "2018-10-16",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/b61/b613e48ff2854e5f98ff82c5a80d2722.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 3392
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 111,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-10-16"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 12974,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 12534,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 252629,
+          "url": "https://geo.itunes.apple.com/us/app/f1-mobile-racing/id1343820018?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/b61/b613e48ff2854e5f98ff82c5a80d2722.jpg"
+        },
+        {
+          "id": 1688379,
+          "image": "https://media.rawg.io/media/screenshots/b78/b785145217dbfaa5b0f8d73d69623bdf_eiSvdeS.jpg"
+        },
+        {
+          "id": 1688380,
+          "image": "https://media.rawg.io/media/screenshots/55a/55a2cb789b7955f9664e575eeeafb4c2.jpg"
+        },
+        {
+          "id": 1688381,
+          "image": "https://media.rawg.io/media/screenshots/615/6159f654c4fe7415f1eff23d888a9000_1SwoTl6.jpg"
+        },
+        {
+          "id": 1688382,
+          "image": "https://media.rawg.io/media/screenshots/3a2/3a265c00575b0dc7fc33e4fa7a8e7fe3.jpg"
+        },
+        {
+          "id": 1688383,
+          "image": "https://media.rawg.io/media/screenshots/dfc/dfc788c41eace274f2bad2165891f0a1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59052,
+      "slug": "look-your-loot-a-card-crawler",
+      "name": "Look, Your Loot! - A card crawler",
+      "promo": "",
+      "released": "2018-06-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/579/579eeaf546b1007d1a012e597d8533db.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 4325
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 170,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "1900-01-01"
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 17,
+          "name": "Card",
+          "slug": "card",
+          "games_count": 4250,
+          "image_background": "https://media.rawg.io/media/games/abf/abf5f1a2fc64c7d823caae6bd59b5d0b.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 49353,
+          "url": "https://play.google.com/store/apps/details?id=com.dragosha.hamster",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 49589,
+          "url": "https://geo.itunes.apple.com/us/app/look-your-loot/id1339205191",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/579/579eeaf546b1007d1a012e597d8533db.jpg"
+        },
+        {
+          "id": 804675,
+          "image": "https://media.rawg.io/media/screenshots/71f/71fdb5c808e74b286e82c080ecbbddb6.jpg"
+        },
+        {
+          "id": 804676,
+          "image": "https://media.rawg.io/media/screenshots/868/8686b7a4df8885b5a5b52ebc8c15862d.jpg"
+        },
+        {
+          "id": 804677,
+          "image": "https://media.rawg.io/media/screenshots/fed/fed8c362ffbc092bddc07e482feee294.jpg"
+        },
+        {
+          "id": 804678,
+          "image": "https://media.rawg.io/media/screenshots/65e/65e31cd02afa3c8d53d9aadc1c34fa58.jpg"
+        },
+        {
+          "id": 804679,
+          "image": "https://media.rawg.io/media/screenshots/29c/29c4069f5b2f4e73e25b379eb17cffd3.jpg"
+        },
+        {
+          "id": 804680,
+          "image": "https://media.rawg.io/media/screenshots/a45/a45fed85de70102e0b8d2ef57807ef2f.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58940,
+      "slug": "drmeep",
+      "name": "DR.MEEP",
+      "promo": "",
+      "released": "2018-06-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/ef3/ef366b46ca4170fba0801fc240c210b2.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 4336
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 55,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-06-20"
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2018-06-20"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 6801,
+          "image_background": "https://media.rawg.io/media/screenshots/9a7/9a7cabbe024c676261433f0f82354950.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 49130,
+          "url": "https://geo.itunes.apple.com/us/app/dr-meep/id1371624583?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        },
+        {
+          "id": 226912,
+          "url": "https://play.google.com/store/apps/details?id=com.hyperbeard.drmeep&hl=en&gl=us",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/ef3/ef366b46ca4170fba0801fc240c210b2.jpg"
+        },
+        {
+          "id": 802810,
+          "image": "https://media.rawg.io/media/screenshots/a1b/a1b18a86c79e0c7a523f5123bb07478c.jpg"
+        },
+        {
+          "id": 802811,
+          "image": "https://media.rawg.io/media/screenshots/1d3/1d33bf6d4e520a18d5dc75a2fb04fbbb.jpg"
+        },
+        {
+          "id": 802812,
+          "image": "https://media.rawg.io/media/screenshots/899/89963d4d4d44a100a1c53b622063781b.jpg"
+        },
+        {
+          "id": 802813,
+          "image": "https://media.rawg.io/media/screenshots/d09/d09fe2576ede0b74afa15e5eb5d271de.jpg"
+        },
+        {
+          "id": 802814,
+          "image": "https://media.rawg.io/media/screenshots/db1/db174bb35fa8b41024e9d6f76a4390ec.jpg"
+        },
+        {
+          "id": 802815,
+          "image": "https://media.rawg.io/media/screenshots/3a4/3a4bfc56241c75a887e44826494614d2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58443,
+      "slug": "pocket-run-pool",
+      "name": "Pocket-Run Pool",
+      "promo": "",
+      "released": "2018-05-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/7e0/7e0f06828ac997933a1ee87367830d70.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 4356
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 27,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 6801,
+          "image_background": "https://media.rawg.io/media/screenshots/9a7/9a7cabbe024c676261433f0f82354950.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 47449,
+          "url": "https://geo.itunes.apple.com/us/app/pocketrunpool/id949982914?mt=8",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/7e0/7e0f06828ac997933a1ee87367830d70.jpg"
+        },
+        {
+          "id": 769151,
+          "image": "https://media.rawg.io/media/screenshots/690/690291744c8bee4db86d4aa6e99e8723.jpg"
+        },
+        {
+          "id": 769152,
+          "image": "https://media.rawg.io/media/screenshots/d4f/d4f269a110db2db26def1d886508496c.jpg"
+        },
+        {
+          "id": 769153,
+          "image": "https://media.rawg.io/media/screenshots/583/5837860bdb5bb37de8fa6999052d89aa.jpg"
+        },
+        {
+          "id": 769154,
+          "image": "https://media.rawg.io/media/screenshots/4e4/4e4cfb163ddb32d7e17164e140c6a438.jpg"
+        },
+        {
+          "id": 769155,
+          "image": "https://media.rawg.io/media/screenshots/e7f/e7fa28cf548e6967494cc46be592fb1c.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58156,
+      "slug": "skies-of-fury-dx",
+      "name": "Skies of Fury DX",
+      "promo": "",
+      "released": "2018-04-12",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/015/015764c5dfdf17111529d55deeca7244.jpg",
+      "rating": 0.0,
+      "rating_top": 3,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 4381
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 146,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 3,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2214,
+            "image_background": "https://media.rawg.io/media/screenshots/52a/52ab40f9426614a0eafba4ef3f9fd01c.jpg"
+          },
+          "released_at": "2018-04-12"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 20878,
+          "image_background": "https://media.rawg.io/media/screenshots/4a8/4a8e1023cccf92118a21ef45154333ef.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 46877,
+          "url": "https://www.nintendo.com/games/detail/skies-of-fury-dx-switch",
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo",
+            "domain": "nintendo.com",
+            "games_count": 6874,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/015/015764c5dfdf17111529d55deeca7244.jpg"
+        },
+        {
+          "id": 777663,
+          "image": "https://media.rawg.io/media/screenshots/78c/78c635aab59b11c22116508e8840c068.jpg"
+        },
+        {
+          "id": 777664,
+          "image": "https://media.rawg.io/media/screenshots/5d6/5d65565c91c48019a967380799404ff5.jpg"
+        },
+        {
+          "id": 777665,
+          "image": "https://media.rawg.io/media/screenshots/28c/28ce59da26232dd85a53013c109e79ce.jpg"
+        },
+        {
+          "id": 777666,
+          "image": "https://media.rawg.io/media/screenshots/015/015764c5dfdf17111529d55deeca7244.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52095,
+      "slug": "meteorfall-journey",
+      "name": "Meteorfall: Journey",
+      "promo": "",
+      "released": "2018-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/180/180a09c54a53778554c5d3e796b445c3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 4413
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 64,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 0,
+      "reviews_count": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-01-25"
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2018-01-25"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Card",
+          "slug": "card",
+          "games_count": 4250,
+          "image_background": "https://media.rawg.io/media/games/abf/abf5f1a2fc64c7d823caae6bd59b5d0b.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 46047,
+          "url": "https://geo.itunes.apple.com/us/app/meteorfall-journey/id1269922212?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        },
+        {
+          "id": 48881,
+          "url": "https://play.google.com/store/apps/details?id=com.slothwerks.meteorfall&hl=en&gl=us",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/180/180a09c54a53778554c5d3e796b445c3.jpg"
+        },
+        {
+          "id": 719418,
+          "image": "https://media.rawg.io/media/screenshots/333/333894992b7bb942a410d2723cead2e2.jpg"
+        },
+        {
+          "id": 719419,
+          "image": "https://media.rawg.io/media/screenshots/0de/0defa36da5904d18d7341d335c31910e.jpg"
+        },
+        {
+          "id": 719420,
+          "image": "https://media.rawg.io/media/screenshots/ed0/ed01643ebd78cc2df9501232e756e053.jpg"
+        },
+        {
+          "id": 719421,
+          "image": "https://media.rawg.io/media/screenshots/fe7/fe76d3d238a8a38db7b35bb218f5f454.jpg"
+        },
+        {
+          "id": 719422,
+          "image": "https://media.rawg.io/media/screenshots/8a6/8a65ce05b77542983cedfd3db53c0bc3.jpg"
+        },
+        {
+          "id": 954884,
+          "image": "https://media.rawg.io/media/screenshots/7f7/7f7ef5f460e60d6e3d568c65606ba0d3_DIptgXe.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51288,
+      "slug": "cinco-paus",
+      "name": "Cinco Paus",
+      "promo": "",
+      "released": "2017-12-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7f8/7f829865f51d2e64aec7ce63711c2e8b.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2017,
+          "change": "down",
+          "position": 5365
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 33,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 0,
+      "reviews_count": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2017-12-25"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 45125,
+          "url": "https://geo.itunes.apple.com/us/app/cinco-paus/id1249999336?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7f8/7f829865f51d2e64aec7ce63711c2e8b.jpg"
+        },
+        {
+          "id": 713477,
+          "image": "https://media.rawg.io/media/screenshots/f4c/f4c8f40cfc11eabafdfa43e0106c218c.jpg"
+        },
+        {
+          "id": 713478,
+          "image": "https://media.rawg.io/media/screenshots/95a/95a646bbbf79dabe285dbd6c16a2c72c.jpg"
+        },
+        {
+          "id": 713479,
+          "image": "https://media.rawg.io/media/screenshots/6e3/6e3a323d74dcb6715a062ea6644c7791.jpg"
+        },
+        {
+          "id": 980511,
+          "image": "https://media.rawg.io/media/screenshots/691/691db4cdedc8c946cd6b47ab70a9213b.jpg"
+        },
+        {
+          "id": 980515,
+          "image": "https://media.rawg.io/media/screenshots/a90/a900a85400ab861fbd802b6218474afa.jpg"
+        },
+        {
+          "id": 980517,
+          "image": "https://media.rawg.io/media/screenshots/7f8/7f829865f51d2e64aec7ce63711c2e8b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21889,
+      "slug": "desert-fox-the-battle-of-el-alamein",
+      "name": "Desert Fox: The Battle of El Alamein",
+      "promo": "",
+      "released": "2014-06-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/98d/98df9f545d4db4dd5a79cbc387457c82.jpeg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "beaten": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2014,
+          "change": "equal",
+          "position": 2133
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 183,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2014-06-26"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 6801,
+          "image_background": "https://media.rawg.io/media/screenshots/9a7/9a7cabbe024c676261433f0f82354950.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 24613,
+          "url": "https://geo.itunes.apple.com/us/app/desert-fox-the-battle-of-el-alamein/id745555885?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/98d/98df9f545d4db4dd5a79cbc387457c82.jpeg"
+        },
+        {
+          "id": 208918,
+          "image": "https://media.rawg.io/media/screenshots/b44/b449aa96a7cdf95f01fd27c93b87a385.jpeg"
+        },
+        {
+          "id": 208919,
+          "image": "https://media.rawg.io/media/screenshots/712/712e0aa9d68c6b6f4388ddb4da6daaed.jpeg"
+        },
+        {
+          "id": 208920,
+          "image": "https://media.rawg.io/media/screenshots/396/39687fc1bdc3b0594eb3e9c79c45a1a3.jpeg"
+        },
+        {
+          "id": 208921,
+          "image": "https://media.rawg.io/media/screenshots/189/189d2ab035755c4f221056872c55a240.jpeg"
+        },
+        {
+          "id": 208922,
+          "image": "https://media.rawg.io/media/screenshots/98d/98df9f545d4db4dd5a79cbc387457c82.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 6630,
+      "slug": "domino-drop",
+      "name": "Domino Drop",
+      "promo": "",
+      "released": "2015-07-30",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/adb/adb1c2d8445a3a3958a9691dadd854d1.jpg",
+      "rating": 0.0,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "beaten": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2015,
+          "change": "down",
+          "position": 3510
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 76,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 5,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2015-07-30"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 6801,
+          "image_background": "https://media.rawg.io/media/screenshots/9a7/9a7cabbe024c676261433f0f82354950.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 7146,
+          "url": "https://geo.itunes.apple.com/us/app/domino-drop/id955290679?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/adb/adb1c2d8445a3a3958a9691dadd854d1.jpg"
+        },
+        {
+          "id": 42004,
+          "image": "https://media.rawg.io/media/screenshots/120/120bca2aa191b1215efd793d0dfe115a.jpeg"
+        },
+        {
+          "id": 42005,
+          "image": "https://media.rawg.io/media/screenshots/45a/45a6b31035ca24da53b6e1f0b2be58ad.jpeg"
+        },
+        {
+          "id": 42006,
+          "image": "https://media.rawg.io/media/screenshots/6dc/6dc9955f73992b6f94368b9e186416a0.jpeg"
+        },
+        {
+          "id": 42008,
+          "image": "https://media.rawg.io/media/screenshots/5fa/5fac6e870604562801cfff2e1d222ca6.jpeg"
+        },
+        {
+          "id": 42010,
+          "image": "https://media.rawg.io/media/screenshots/fe2/fe2c21d1d8872a529107f083d0ef6080.jpeg"
+        },
+        {
+          "id": 943391,
+          "image": "https://media.rawg.io/media/screenshots/fc9/fc90f2dbd92f3d3bcff4d01d9f704ce5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1972,
+      "slug": "sage-solitaire",
+      "name": "Sage Solitaire",
+      "promo": "",
+      "released": "2015-08-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/1c4/1c4c7b9c29f32b446b05a31a2a0e4b04.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2015,
+          "change": "down",
+          "position": 3549
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 237,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2015-08-26"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 17,
+          "name": "Card",
+          "slug": "card",
+          "games_count": 4250,
+          "image_background": "https://media.rawg.io/media/games/abf/abf5f1a2fc64c7d823caae6bd59b5d0b.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Family",
+          "slug": "family",
+          "games_count": 9180,
+          "image_background": "https://media.rawg.io/media/games/cae/caeb9d0cb154124b132d51861735431e.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 2041,
+          "url": "https://geo.itunes.apple.com/us/app/sage-solitaire/id1004646445?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/1c4/1c4c7b9c29f32b446b05a31a2a0e4b04.jpg"
+        },
+        {
+          "id": 17732,
+          "image": "https://media.rawg.io/media/screenshots/34f/34fd4928e1019a6fea1b8596e4f78f20.jpeg"
+        },
+        {
+          "id": 17733,
+          "image": "https://media.rawg.io/media/screenshots/b60/b60474329a9d8f0c4cbbc836ce059d67.jpeg"
+        },
+        {
+          "id": 17734,
+          "image": "https://media.rawg.io/media/screenshots/ea7/ea7fd949001ffbf52c8b6d73af69414e.jpeg"
+        },
+        {
+          "id": 17735,
+          "image": "https://media.rawg.io/media/screenshots/c4a/c4a73d472002afff9add60ad77e7e9ea.jpeg"
+        },
+        {
+          "id": 17736,
+          "image": "https://media.rawg.io/media/screenshots/79a/79a421d721dee80e45f0ed3477088dbb.jpeg"
+        },
+        {
+          "id": 969352,
+          "image": "https://media.rawg.io/media/screenshots/a28/a284474264ecea17946e8480e43f5002.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1190,
+      "slug": "imbroglio",
+      "name": "Imbroglio",
+      "promo": "",
+      "released": "2016-05-18",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/e19/e1973c3f8a2b98e10e6b21f3c0b11569.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "down",
+          "position": 5313
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 71,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2016-05-18"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 1216,
+          "url": "https://geo.itunes.apple.com/us/app/imbroglio/id969264934?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/e19/e1973c3f8a2b98e10e6b21f3c0b11569.jpg"
+        },
+        {
+          "id": 10432,
+          "image": "https://media.rawg.io/media/screenshots/057/05725fdaf9d377ab2f1d484e800e7b54.jpeg"
+        },
+        {
+          "id": 10433,
+          "image": "https://media.rawg.io/media/screenshots/f5a/f5a8d29d3e550b6874dd19468758e708.jpeg"
+        },
+        {
+          "id": 10434,
+          "image": "https://media.rawg.io/media/screenshots/ae1/ae10632396b4a807f4657793231b4cc8.jpeg"
+        },
+        {
+          "id": 979260,
+          "image": "https://media.rawg.io/media/screenshots/783/78331babb9c4828e11d252f86e65dedd_7l1mXMO.jpg"
+        },
+        {
+          "id": 979262,
+          "image": "https://media.rawg.io/media/screenshots/d32/d3299a10ed15c773985a492416abd640.jpg"
+        },
+        {
+          "id": 979265,
+          "image": "https://media.rawg.io/media/screenshots/e19/e1973c3f8a2b98e10e6b21f3c0b11569.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1175,
+      "slug": "lost-frontier",
+      "name": "Lost Frontier",
+      "promo": "",
+      "released": "2016-06-02",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bd4/bd42503107810ff8defd1fcb2605f005.jpg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "down",
+          "position": 5314
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 237,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2016-06-02"
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2018-10-19"
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 41755,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          },
+          "released_at": "2018-10-19"
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2016-06-02"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 219590,
+          "url": "https://play.google.com/store/apps/details?id=com.MikaMobile.LostFrontier&hl=en&gl=us",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 247489,
+          "url": "https://store.steampowered.com/app/928970/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 1201,
+          "url": "https://geo.itunes.apple.com/us/app/lost-frontier/id1008496061?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bd4/bd42503107810ff8defd1fcb2605f005.jpg"
+        },
+        {
+          "id": 1666784,
+          "image": "https://media.rawg.io/media/screenshots/914/9144523fdc192cdf2f0e57d79a40b1d9.jpg"
+        },
+        {
+          "id": 1666785,
+          "image": "https://media.rawg.io/media/screenshots/e9f/e9f86a866c5b1fb811f918cd967693b1.jpg"
+        },
+        {
+          "id": 1666786,
+          "image": "https://media.rawg.io/media/screenshots/75b/75b0d88df3cc4fc3e9bee10d7da0efbd.jpg"
+        },
+        {
+          "id": 1666787,
+          "image": "https://media.rawg.io/media/screenshots/505/505135b3004f2554697ef989d31c7c3f.jpg"
+        },
+        {
+          "id": 1666788,
+          "image": "https://media.rawg.io/media/screenshots/40f/40f433acc9b22cec3ea8ca3f8d2c7a3f.jpg"
+        },
+        {
+          "id": 1666789,
+          "image": "https://media.rawg.io/media/screenshots/8ac/8acaa6bb659976ed147c5c7fd012f0aa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252219,
+      "slug": "eloh",
+      "name": "ELOH",
+      "promo": "",
+      "released": "2018-10-11",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/6cb/6cb19470b0ea0de088301dbad6527392_Sx3ZJPK.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 7,
+      "added": 2,
+      "added_by_status": {
+        "toplay": 1,
+        "dropped": 1
+      },
+      "metacritic": 89,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "up",
+          "position": 2720
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 111,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 0,
+      "reviews_count": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2018-10-11"
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2018-10-11"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          },
+          "selected": false
+        }
+      ],
+      "genres": [
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 293367,
+          "url": "https://play.google.com/store/apps/details?id=es.brokenrul.eloh",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 250006,
+          "url": "https://geo.itunes.apple.com/us/app/eloh/id1406382064?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/747/7479daba1138b86287749c7d196255bc.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/862/862ab579e815d33f641c9b1acab4ede0.mp4",
+          "640": "https://media.rawg.io/media/stories-640/747/7479daba1138b86287749c7d196255bc.mp4",
+          "full": "https://media.rawg.io/media/stories/d1f/d1f5b74e5a4e1487db065b026e6ea6ae.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/596/596412a42168e4fbd7fd4201c42f5ce0.jpg"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/6cb/6cb19470b0ea0de088301dbad6527392_Sx3ZJPK.jpg"
+        },
+        {
+          "id": 1677856,
+          "image": "https://media.rawg.io/media/screenshots/0f9/0f9c3b467e9298e9135f173b3facca24.jpg"
+        },
+        {
+          "id": 1677857,
+          "image": "https://media.rawg.io/media/screenshots/0b3/0b3ea6c29c8a697f4ba176e57ddfb830_6QV1obK.jpg"
+        },
+        {
+          "id": 1677858,
+          "image": "https://media.rawg.io/media/screenshots/94a/94a7c8542f0307b185ab5dccce7e9309.jpg"
+        },
+        {
+          "id": 1677859,
+          "image": "https://media.rawg.io/media/screenshots/85a/85abd2a7999afc96b7581b55179946ca.jpg"
+        },
+        {
+          "id": 1677860,
+          "image": "https://media.rawg.io/media/screenshots/6cb/6cb19470b0ea0de088301dbad6527392_Sx3ZJPK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7118,
+      "slug": "marathon-1",
+      "name": "Marathon 1",
+      "promo": "",
+      "released": "2011-07-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/19e/19e076f517345e9431fd81a7f006f0d0.jpeg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 2,
+      "added_by_status": {
+        "toplay": 1,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2011,
+          "change": "down",
+          "position": 761
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 82,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2011-07-07"
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 41755,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          },
+          "released_at": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": false
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 7716,
+          "url": "https://geo.itunes.apple.com/us/app/marathon-1/id419805412?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/19e/19e076f517345e9431fd81a7f006f0d0.jpeg"
+        },
+        {
+          "id": 46902,
+          "image": "https://media.rawg.io/media/screenshots/c84/c8434ffca575a3f116a9ba61fc01d9bb.jpeg"
+        },
+        {
+          "id": 46903,
+          "image": "https://media.rawg.io/media/screenshots/c88/c88882377d3e3997693317d0abd01099.jpeg"
+        },
+        {
+          "id": 46904,
+          "image": "https://media.rawg.io/media/screenshots/19e/19e076f517345e9431fd81a7f006f0d0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 6675,
+      "slug": "zipzap",
+      "name": "Zip—Zap",
+      "promo": "",
+      "released": "2016-09-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/42a/42a6e3b48b6f6579fadab8816efdc2bf.jpeg",
+      "rating": 0.0,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 2,
+      "added_by_status": {
+        "dropped": 2
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "down",
+          "position": 4587
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 40,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 4,
+      "reviews_count": 1,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2016-09-26"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 36441,
+          "image_background": "https://media.rawg.io/media/screenshots/d56/d56e1c060dfb34f9d579f9cd648e7f2a.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 7202,
+          "url": "https://geo.itunes.apple.com/us/app/zip-zap/id1146138135?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/42a/42a6e3b48b6f6579fadab8816efdc2bf.jpeg"
+        },
+        {
+          "id": 871868,
+          "image": "https://media.rawg.io/media/screenshots/88f/88f36041df7dee9953fe1f0fa255582b.jpg"
+        },
+        {
+          "id": 871869,
+          "image": "https://media.rawg.io/media/screenshots/c94/c947070e473994e0211a46bae0f0a85f.jpg"
+        },
+        {
+          "id": 871870,
+          "image": "https://media.rawg.io/media/screenshots/87b/87b5dffb9463fa696ddedd0ecd2f856d.jpg"
+        },
+        {
+          "id": 42498,
+          "image": "https://media.rawg.io/media/screenshots/b51/b519587f244f91b5309e8b214756419d.jpeg"
+        },
+        {
+          "id": 42499,
+          "image": "https://media.rawg.io/media/screenshots/f7a/f7aa7b1ebea2dc9c22555a781b19ccfb.jpeg"
+        },
+        {
+          "id": 42500,
+          "image": "https://media.rawg.io/media/screenshots/42a/42a6e3b48b6f6579fadab8816efdc2bf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 1268,
+      "slug": "agricola",
+      "name": "Agricola",
+      "promo": "",
+      "released": "2013-06-13",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/db6/db6895661eb47fee5d03ed5cc0545b2e.jpeg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        
+      ],
+      "ratings_count": 0,
+      "reviews_text_count": 2,
+      "added": 2,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 1094
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 119,
+      "is_new": false,
+      "user_game": null,
+      "community_rating": 0,
+      "user_rating": 0,
+      "reviews_count": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2013-06-13"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          },
+          "selected": true
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 6801,
+          "image_background": "https://media.rawg.io/media/screenshots/9a7/9a7cabbe024c676261433f0f82354950.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 1297,
+          "url": "https://geo.itunes.apple.com/us/app/agricola/id561521557?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/db6/db6895661eb47fee5d03ed5cc0545b2e.jpeg"
+        },
+        {
+          "id": 943138,
+          "image": "https://media.rawg.io/media/screenshots/70a/70a14882e2a006b77124edbd02443358.jpg"
+        },
+        {
+          "id": 943140,
+          "image": "https://media.rawg.io/media/screenshots/3df/3dfe1e8849b35e3a244b3fb3c0b0a6ca.jpg"
+        },
+        {
+          "id": 943141,
+          "image": "https://media.rawg.io/media/screenshots/c8f/c8f64a4d5b3e5c64e69d23bf222134ba.jpg"
+        },
+        {
+          "id": 943142,
+          "image": "https://media.rawg.io/media/screenshots/c8f/c8f15e657e36f54f5d8a3fb49ef9db6e.jpg"
+        },
+        {
+          "id": 943143,
+          "image": "https://media.rawg.io/media/screenshots/f58/f5890c5032903e98dd1e32bd26e1f965.jpg"
+        },
+        {
+          "id": 11176,
+          "image": "https://media.rawg.io/media/screenshots/701/701f5a7ffd4fff1f363afdd5b8c96216.jpeg"
+        }
+      ]
+    }
+  ],
+  "counters": {
+    "owned": 354,
+    "playing": 6,
+    "toplay": 32,
+    "beaten": 84,
+    "dropped": 219,
+    "yet": 12
+  }
+}
