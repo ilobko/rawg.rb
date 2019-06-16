@@ -1,0 +1,2070 @@
+{
+  "count": 453,
+  "next": "https://api.rawg.io/api/games/minecraft/suggested?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 10437,
+      "slug": "project-explore",
+      "name": "Project Explore",
+      "promo": "",
+      "released": "2015-03-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/248/248014f59c9fd809a35451664cb8ba89.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 2,
+      "added": 65,
+      "added_by_status": {
+        "yet": 2,
+        "owned": 63
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2015,
+          "change": "up",
+          "position": 1149
+        }
+      },
+      "playtime": 1,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 116,
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 27545,
+            "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+          },
+          "released_at": "2017-08-10"
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2017-08-10"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 16642,
+          "image_background": "https://media.rawg.io/media/screenshots/376/376c0927f2ff4c5fd38a95d5ff501bba.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 11430,
+          "url": "http://store.steampowered.com/app/357650/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/248/248014f59c9fd809a35451664cb8ba89.jpg"
+        },
+        {
+          "id": 81197,
+          "image": "https://media.rawg.io/media/screenshots/1a9/1a9ffa076bffa46c22ff9bdce091d7d2.jpg"
+        },
+        {
+          "id": 81198,
+          "image": "https://media.rawg.io/media/screenshots/46e/46ea8449a15367e209802668e152fe5b.jpg"
+        },
+        {
+          "id": 81199,
+          "image": "https://media.rawg.io/media/screenshots/b93/b9331288d2020a3ae6b55b461082daab.jpg"
+        },
+        {
+          "id": 81200,
+          "image": "https://media.rawg.io/media/screenshots/f71/f716f50715776a51e4c61ce711f95468.jpg"
+        },
+        {
+          "id": 81201,
+          "image": "https://media.rawg.io/media/screenshots/ee8/ee82d0dc79417e0cf78e7b3f6a0fa34a.jpg"
+        },
+        {
+          "id": 81202,
+          "image": "https://media.rawg.io/media/screenshots/b23/b238a4fefb41948d03426b3b3e616bed.jpg"
+        }
+      ],
+      "short_description": "Project Explore is a casual, action, adventure, and simulation game developed by Seabass and Gazelle Studios. It was originally released in 2015. Seabass and Gazelle Studios published the game. Most rawgers rated the game as \"Meh\". \nYou can play Project Explore on Linux and PC. You can purchase the game on Steam. \n\n"
+    },
+    {
+      "id": 10565,
+      "slug": "planet-nomads",
+      "name": "Planet Nomads",
+      "promo": "",
+      "released": "2017-04-18",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/2b6/2b644b01a7fbe3c92076881566e1809c.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 3,
+          "percent": 75.0
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 25.0
+        }
+      ],
+      "ratings_count": 4,
+      "reviews_text_count": 2,
+      "added": 48,
+      "added_by_status": {
+        "yet": 3,
+        "owned": 39,
+        "toplay": 3,
+        "dropped": 3
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2017,
+          "change": "up",
+          "position": 857
+        }
+      },
+      "playtime": 2,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 394,
+      "user_game": null,
+      "reviews_count": 4,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 27545,
+            "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+          },
+          "released_at": "2017-05-25"
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 41755,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          },
+          "released_at": "2017-05-25"
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2017-05-25"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 11574,
+          "url": "http://store.steampowered.com/app/504050/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 25487,
+          "url": "http://www.gog.com/game/planet_nomads",
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog",
+            "domain": "gog.com",
+            "games_count": 2192,
+            "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/2b6/2b644b01a7fbe3c92076881566e1809c.jpg"
+        },
+        {
+          "id": 82724,
+          "image": "https://media.rawg.io/media/screenshots/3cc/3cc3640b0cf57aa9cd54e7cf0e792e17.jpg"
+        },
+        {
+          "id": 82725,
+          "image": "https://media.rawg.io/media/screenshots/fd9/fd9d984d618b025ee18626c7f2c77e6f.jpg"
+        },
+        {
+          "id": 82726,
+          "image": "https://media.rawg.io/media/screenshots/ab8/ab8ced92ac33f46e2e9cde7578dccc62.jpg"
+        },
+        {
+          "id": 82727,
+          "image": "https://media.rawg.io/media/screenshots/95f/95f70e87475395db933656c277206c55.jpg"
+        },
+        {
+          "id": 82728,
+          "image": "https://media.rawg.io/media/screenshots/ee3/ee3806741176fbf9fe1532be8aeca9b9.jpg"
+        },
+        {
+          "id": 82729,
+          "image": "https://media.rawg.io/media/screenshots/020/020529f5a307b2d82f7497d533720262.jpg"
+        }
+      ],
+      "short_description": "Planet Nomads is an indie, action, adventure, and simulation game developed by Craneballs. It was originally released in 2017. Craneballs published the game. Most rawgers rated the game as \"Meh\". \nYou can play Planet Nomads on Linux, macOS, and PC. You can purchase the game on Steam and GOG. \n\n"
+    },
+    {
+      "id": 10888,
+      "slug": "custom-town",
+      "name": "Custom Town",
+      "promo": "",
+      "released": "2016-08-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/b93/b933a6cbc793de378fdd53fb5620363e.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 17,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 16
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "down",
+          "position": 2688
+        }
+      },
+      "playtime": 4,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 313,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2016-08-24"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 12534,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 16642,
+          "image_background": "https://media.rawg.io/media/screenshots/376/376c0927f2ff4c5fd38a95d5ff501bba.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 11934,
+          "url": "http://store.steampowered.com/app/517700/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/b93/b933a6cbc793de378fdd53fb5620363e.jpg"
+        },
+        {
+          "id": 86571,
+          "image": "https://media.rawg.io/media/screenshots/d86/d86fd50c52f301ec6d174b785bae78b8.jpg"
+        },
+        {
+          "id": 86572,
+          "image": "https://media.rawg.io/media/screenshots/4e3/4e37e39959ccc2661aa449fe36e61fa0.jpg"
+        },
+        {
+          "id": 86573,
+          "image": "https://media.rawg.io/media/screenshots/b3d/b3d5923f4f54afaca3652e9041b9f4d4.jpg"
+        },
+        {
+          "id": 86574,
+          "image": "https://media.rawg.io/media/screenshots/f06/f063355b90c616084800e27f86094c06.jpg"
+        },
+        {
+          "id": 86575,
+          "image": "https://media.rawg.io/media/screenshots/baa/baa39d4a8517757abf9a04deacf114f4.jpg"
+        },
+        {
+          "id": 86576,
+          "image": "https://media.rawg.io/media/screenshots/df0/df0e807968b5f7541a758f4720518c10.jpg"
+        }
+      ],
+      "short_description": "Custom Town is an indie, action, adventure, and RPG game developed by CFM Games. It came out on August 24, 2016. It was published by CFM Games. \nCustom Town is available on PC. You can purchase the game on Steam. \n\n"
+    },
+    {
+      "id": 3505,
+      "slug": "rollers-of-the-realm",
+      "name": "Rollers of the Realm",
+      "promo": "",
+      "released": "2014-11-18",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/777/77707b4ec145b1e46fc477d77479ce61.jpg",
+      "rating": 3.25,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 4,
+          "percent": 50.0
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 3,
+          "percent": 37.5
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 12.5
+        }
+      ],
+      "ratings_count": 8,
+      "reviews_text_count": 1,
+      "added": 251,
+      "added_by_status": {
+        "yet": 5,
+        "owned": 239,
+        "beaten": 3,
+        "dropped": 3,
+        "playing": 1
+      },
+      "metacritic": 68,
+      "charts": {
+        "year": {
+          "year": 2014,
+          "change": "up",
+          "position": 415
+        }
+      },
+      "playtime": 5,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 433,
+      "user_game": null,
+      "reviews_count": 8,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2014-11-18"
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3614,
+            "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+          },
+          "released_at": null
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 1554,
+            "image_background": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"
+          },
+          "released_at": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 20878,
+          "image_background": "https://media.rawg.io/media/screenshots/4a8/4a8e1023cccf92118a21ef45154333ef.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 16642,
+          "image_background": "https://media.rawg.io/media/screenshots/376/376c0927f2ff4c5fd38a95d5ff501bba.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 19682,
+          "url": "http://store.steampowered.com/app/262470/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 3778,
+          "url": "https://store.playstation.com/#!/en-us/games//cid=UP0005-CUSA01060_00-REALMROLLERSXPS4",
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store",
+            "domain": "store.playstation.com",
+            "games_count": 5717,
+            "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/777/77707b4ec145b1e46fc477d77479ce61.jpg"
+        },
+        {
+          "id": 31487,
+          "image": "https://media.rawg.io/media/screenshots/abe/abe7c7136c3db77bb122b20d00fda335.jpg"
+        },
+        {
+          "id": 31488,
+          "image": "https://media.rawg.io/media/screenshots/a74/a748d0ed8c4951dbda482fbd46797f29.jpg"
+        },
+        {
+          "id": 31489,
+          "image": "https://media.rawg.io/media/screenshots/c01/c0120198f335a33bacd95f185b87170e.jpg"
+        },
+        {
+          "id": 31490,
+          "image": "https://media.rawg.io/media/screenshots/0ac/0ac13c623f6151109f8bf5d6da665fab.jpg"
+        },
+        {
+          "id": 31491,
+          "image": "https://media.rawg.io/media/screenshots/cc5/cc5dd8caf72bce9edb6bcd4807caf80a.jpg"
+        },
+        {
+          "id": 31492,
+          "image": "https://media.rawg.io/media/screenshots/67f/67f075224b9406885bd8bca88e2ead5c.jpg"
+        }
+      ],
+      "short_description": "Rollers of the Realm is an indie, action, adventure, and RPG game developed by Atlus U.S.A., Inc. and Phantom Compass. It was originally released in 2014. It was published by Atlus USA. Rollers of the Realm has a Metascore of 68, based on professional reviews. The game is rated as \"Recommended\" on RAWG. \nRollers of the Realm is available on PC, PlayStation 4, and PS Vita. You can purchase the game on Steam and PlayStation Store. \n\n"
+    },
+    {
+      "id": 798,
+      "slug": "downwell",
+      "name": "Downwell",
+      "promo": "",
+      "released": "2015-10-14",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/e9c/e9ce72a3e2c1ac344e8876d6bb0dcf50.jpeg",
+      "rating": 3.89,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 85,
+          "percent": 55.19
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 33,
+          "percent": 21.43
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 29,
+          "percent": 18.83
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 7,
+          "percent": 4.55
+        }
+      ],
+      "ratings_count": 154,
+      "reviews_text_count": 2,
+      "added": 915,
+      "added_by_status": {
+        "yet": 37,
+        "owned": 749,
+        "beaten": 37,
+        "toplay": 5,
+        "dropped": 75,
+        "playing": 12
+      },
+      "metacritic": 81,
+      "charts": {
+        "year": {
+          "year": 2015,
+          "change": "equal",
+          "position": 82
+        }
+      },
+      "playtime": 2,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 186,
+      "user_game": null,
+      "reviews_count": 154,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2214,
+            "image_background": "https://media.rawg.io/media/screenshots/52a/52ab40f9426614a0eafba4ef3f9fd01c.jpg"
+          },
+          "released_at": "2019-01-31"
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2015-10-15"
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2015-10-15"
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 1554,
+            "image_background": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"
+          },
+          "released_at": null
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3614,
+            "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+          },
+          "released_at": null
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 28975,
+            "image_background": "https://media.rawg.io/media/screenshots/124/124dd314f9effb6cc153589db7975e9a.jpg"
+          },
+          "released_at": "2015-10-14"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 20878,
+          "image_background": "https://media.rawg.io/media/screenshots/4a8/4a8e1023cccf92118a21ef45154333ef.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 25291,
+          "image_background": "https://media.rawg.io/media/games/e46/e462e92b46e8df13e78a806191610d47.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 284039,
+          "url": "https://www.nintendo.com/games/detail/downwell-switch",
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo",
+            "domain": "nintendo.com",
+            "games_count": 6874,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 2520,
+          "url": "https://store.playstation.com/#!/en-us/games//cid=UP3643-PCSE00873_00-DOWNWELLUSPV0001",
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store",
+            "domain": "store.playstation.com",
+            "games_count": 5717,
+            "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg"
+          }
+        },
+        {
+          "id": 12447,
+          "url": "http://store.steampowered.com/app/360740/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 26857,
+          "url": "http://www.gog.com/game/downwell",
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog",
+            "domain": "gog.com",
+            "games_count": 2192,
+            "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+          }
+        },
+        {
+          "id": 225056,
+          "url": "https://play.google.com/store/apps/details?id=com.devolver.downwell&hl=en&gl=us",
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 20438,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 812,
+          "url": "https://geo.itunes.apple.com/us/app/downwell/id1032708262?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/fe1/fe1d8cad4bf867644fb49d622146a483.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/0bf/0bf9f027079d1edf0ce48e8eedbed910.mp4",
+          "640": "https://media.rawg.io/media/stories-640/fe1/fe1d8cad4bf867644fb49d622146a483.mp4",
+          "full": "https://media.rawg.io/media/stories/560/5609d4d79b5b547eb508a2977424bfe7.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/e23/e239b542cd4c50b6e09fd5fcd7171958.jpg"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/e9c/e9ce72a3e2c1ac344e8876d6bb0dcf50.jpeg"
+        },
+        {
+          "id": 21992,
+          "image": "https://media.rawg.io/media/screenshots/d8d/d8dc0a468f4e83f8d1da58000b79ea73.jpg"
+        },
+        {
+          "id": 21993,
+          "image": "https://media.rawg.io/media/screenshots/a8c/a8c525118953165570550486daf8f215.jpg"
+        },
+        {
+          "id": 21995,
+          "image": "https://media.rawg.io/media/screenshots/3bf/3bf09998d5468e483b3ff3cda848bc21.jpg"
+        },
+        {
+          "id": 21998,
+          "image": "https://media.rawg.io/media/screenshots/f69/f69cbf9255ae65fb9bce2ac1891305d7.jpg"
+        },
+        {
+          "id": 21999,
+          "image": "https://media.rawg.io/media/screenshots/84c/84c2e8e6ab046e325e1f01fa323bfdd8.jpg"
+        },
+        {
+          "id": 22002,
+          "image": "https://media.rawg.io/media/screenshots/378/378457f5303e8d04400359664bdb05bd.jpg"
+        }
+      ],
+      "short_description": "Downwell is an indie, action, adventure, and arcade game developed by Devolver Digital and Moppin. It was originally released in 2015. It was published by GHI Media. Downwell has a Metascore of 81, based on professional reviews. Most rawgers rated the game as \"Recommended\". \nYou can play Downwell on Nintendo Switch, PC, iOS, and PS Vita. You can purchase the game on Nintendo eShop, PlayStation Store, Steam, and GOG. \nEirik Suhrke scored the game. \n"
+    },
+    {
+      "id": 892,
+      "slug": "dust-an-elysian-tail",
+      "name": "Dust: An Elysian Tail",
+      "promo": "",
+      "released": "2012-08-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/c40/c40f9f0a3d1b4601a7a44d230c95f126.jpg",
+      "rating": 3.63,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 124,
+          "percent": 52.54
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 48,
+          "percent": 20.34
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 38,
+          "percent": 16.1
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 26,
+          "percent": 11.02
+        }
+      ],
+      "ratings_count": 235,
+      "reviews_text_count": 6,
+      "added": 2162,
+      "added_by_status": {
+        "yet": 76,
+        "owned": 1850,
+        "beaten": 120,
+        "toplay": 15,
+        "dropped": 93,
+        "playing": 8
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2012,
+          "change": "equal",
+          "position": 29
+        }
+      },
+      "playtime": 4,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 517,
+      "user_game": null,
+      "reviews_count": 236,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 27545,
+            "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 63401,
+            "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 41755,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3614,
+            "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2119,
+            "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+          },
+          "released_at": "2012-08-15"
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2214,
+            "image_background": "https://media.rawg.io/media/screenshots/52a/52ab40f9426614a0eafba4ef3f9fd01c.jpg"
+          },
+          "released_at": "2012-08-15"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 25291,
+          "image_background": "https://media.rawg.io/media/games/e46/e462e92b46e8df13e78a806191610d47.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 50207,
+          "url": "https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch",
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo",
+            "domain": "nintendo.com",
+            "games_count": 6874,
+            "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+          }
+        },
+        {
+          "id": 3841,
+          "url": "https://store.playstation.com/#!/en-us/games//cid=UP4526-CUSA01326_00-DUSTAETPS4000000",
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store",
+            "domain": "store.playstation.com",
+            "games_count": 5717,
+            "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg"
+          }
+        },
+        {
+          "id": 26108,
+          "url": "http://www.gog.com/game/dust_an_elysian_tail",
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog",
+            "domain": "gog.com",
+            "games_count": 2192,
+            "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+          }
+        },
+        {
+          "id": 22335,
+          "url": "http://store.steampowered.com/app/236090/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        },
+        {
+          "id": 33399,
+          "url": "https://marketplace.xbox.com/en-US/Product/Dust-An-Elysian-Tail/66acd000-77fe-1000-9115-d80258410a67",
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360",
+            "domain": "marketplace.xbox.com",
+            "games_count": 1793,
+            "image_background": "https://media.rawg.io/media/screenshots/aca/aca407fb9c2a85b9207fee499cce1ff3.jpg"
+          }
+        },
+        {
+          "id": 909,
+          "url": "https://geo.itunes.apple.com/us/app/dust-an-elysian-tail/id1020962158?mt=8&uo=4",
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "itunes.apple.com",
+            "games_count": 64445,
+            "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+          }
+        }
+      ],
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/841/841967dd8c78c0c1e275538acac318e6.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/7bb/7bb8050da8b5499bf2b6521c78a6988f.mp4",
+          "640": "https://media.rawg.io/media/stories-640/841/841967dd8c78c0c1e275538acac318e6.mp4",
+          "full": "https://media.rawg.io/media/stories/0c6/0c69681eb8b906d0882f97468d22757a.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/1fe/1fe68361b52731980c99681c069cb5c3.jpg"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/c40/c40f9f0a3d1b4601a7a44d230c95f126.jpg"
+        },
+        {
+          "id": 31825,
+          "image": "https://media.rawg.io/media/screenshots/f58/f589a0931b7398d79664190af9080732.jpg"
+        },
+        {
+          "id": 31826,
+          "image": "https://media.rawg.io/media/screenshots/a2d/a2d0dd076c443a9106f154987ea61f15.jpg"
+        },
+        {
+          "id": 31827,
+          "image": "https://media.rawg.io/media/screenshots/326/326593beda80a34cd038a5a0d786803f.jpg"
+        },
+        {
+          "id": 31828,
+          "image": "https://media.rawg.io/media/screenshots/2dc/2dc0cff3f5b6caf748a6deebb0729364.jpg"
+        },
+        {
+          "id": 31829,
+          "image": "https://media.rawg.io/media/screenshots/c75/c75cd46a3d251a005dd46de652ca2f5e.jpg"
+        },
+        {
+          "id": 31830,
+          "image": "https://media.rawg.io/media/screenshots/2af/2afc81dacea6947b6cefe2da437ec937.jpg"
+        }
+      ],
+      "short_description": "Dust: An Elysian Tail is an indie, action, adventure, and RPG game developed by Humble Hearts LLC. It came out on August 15, 2012. It was published by Humble Hearts LLC. The game is rated as \"Recommended\" on RAWG. \nDust: An Elysian Tail is available on Linux, PC, iOS, and macOS. The game is sold via Nintendo eShop, PlayStation Store, GOG, and Steam. \nAlexander Brandon and Hyperduck Soundworks scored the game. \n"
+    },
+    {
+      "id": 12819,
+      "slug": "bot-colony",
+      "name": "Bot Colony",
+      "promo": "",
+      "released": "2014-06-16",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7fe/7fea8a6ef24f765cfd75f9da30a15b6c.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 16,
+      "added_by_status": {
+        "owned": 14,
+        "beaten": 1,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2014,
+          "change": "down",
+          "position": 1519
+        }
+      },
+      "playtime": 3,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 478,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2014-06-16"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 16642,
+          "image_background": "https://media.rawg.io/media/screenshots/376/376c0927f2ff4c5fd38a95d5ff501bba.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 14108,
+          "url": "http://store.steampowered.com/app/263040/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7fe/7fea8a6ef24f765cfd75f9da30a15b6c.jpg"
+        },
+        {
+          "id": 108509,
+          "image": "https://media.rawg.io/media/screenshots/00c/00c6099946a5c1ba382c3fb352862167.jpg"
+        },
+        {
+          "id": 108510,
+          "image": "https://media.rawg.io/media/screenshots/6bf/6bfbf5ad2a47d8d5a9e732af46924b40.jpg"
+        },
+        {
+          "id": 108511,
+          "image": "https://media.rawg.io/media/screenshots/42d/42dbca75774de75e7751bf3c41b77e29.jpg"
+        },
+        {
+          "id": 108512,
+          "image": "https://media.rawg.io/media/screenshots/f03/f03a9de191bb28ea7eb42fddca833679.jpg"
+        },
+        {
+          "id": 108513,
+          "image": "https://media.rawg.io/media/screenshots/a2d/a2d6c4943c986407270fe0478d67736d.jpg"
+        },
+        {
+          "id": 108514,
+          "image": "https://media.rawg.io/media/screenshots/c78/c78ba9891f407cc02c6a31c7bd2f2154.jpg"
+        }
+      ],
+      "short_description": "Bot Colony is a casual, adventure, RPG, and strategy game developed by North Side. It came out on June 16, 2014. North Side published the game. \nBot Colony is available on PC. The game is sold via Steam. \n\n"
+    },
+    {
+      "id": 60574,
+      "slug": "darco-reign-of-elements",
+      "name": "DARCO - Reign of Elements",
+      "promo": "",
+      "released": "2018-05-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/ff5/ff57399ab699b8b9259573d78df355c3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 1,
+      "added": 2,
+      "added_by_status": {
+        "owned": 2
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2018,
+          "change": "down",
+          "position": 3034
+        }
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 442,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2018-05-04"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 51337,
+          "url": "https://store.steampowered.com/app/789960/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/ff5/ff57399ab699b8b9259573d78df355c3.jpg"
+        },
+        {
+          "id": 831245,
+          "image": "https://media.rawg.io/media/screenshots/385/385b4d101059729d19c2f7e0b07ed2df.jpg"
+        },
+        {
+          "id": 831246,
+          "image": "https://media.rawg.io/media/screenshots/149/14984aaae0e17aff39c3bab7de52042f.jpg"
+        },
+        {
+          "id": 831247,
+          "image": "https://media.rawg.io/media/screenshots/400/400c40cfbda25e3200946a16f9ea6f4f.jpg"
+        },
+        {
+          "id": 831248,
+          "image": "https://media.rawg.io/media/screenshots/30b/30b5af51b3913774d63d5fc606adec65.jpg"
+        },
+        {
+          "id": 831249,
+          "image": "https://media.rawg.io/media/screenshots/f00/f001ed5d20bf0234366e8219da868ba2.jpg"
+        },
+        {
+          "id": 831250,
+          "image": "https://media.rawg.io/media/screenshots/622/622fd4184b287637e5aaad790e9e7deb.jpg"
+        }
+      ],
+      "short_description": "DARCO - Reign of Elements is an indie, action, adventure, and simulation game developed by TP-STUDIOS. It was originally released in 2018. It was published by TP-STUDIOS. \nYou can play DARCO - Reign of Elements on PC. The game is sold via Steam. \n\n"
+    },
+    {
+      "id": 61186,
+      "slug": "backtonormal",
+      "name": "BackToNormal",
+      "promo": "",
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bbc/bbcc9c022baf7aad50626344c78c0ee2.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "toplay": 1
+      },
+      "metacritic": null,
+      "charts": {
+        "year": null
+      },
+      "playtime": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 217,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 22623,
+          "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 12974,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 12534,
+          "image_background": "https://media.rawg.io/media/screenshots/20e/20e8dad9d3c452e3f3db0fecd61bb4ea.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 16642,
+          "image_background": "https://media.rawg.io/media/screenshots/376/376c0927f2ff4c5fd38a95d5ff501bba.jpg"
+        },
+        {
+          "id": 59,
+          "name": "Massively Multiplayer",
+          "slug": "massively-multiplayer",
+          "games_count": 1731,
+          "image_background": "https://media.rawg.io/media/screenshots/71c/71c015df012029897e87ac00b7a8de4c.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 52007,
+          "url": "https://store.steampowered.com/app/672990/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bbc/bbcc9c022baf7aad50626344c78c0ee2.jpg"
+        },
+        {
+          "id": 836462,
+          "image": "https://media.rawg.io/media/screenshots/407/407a8f8d6730ddab11ea117c64de336a.jpg"
+        },
+        {
+          "id": 836463,
+          "image": "https://media.rawg.io/media/screenshots/4c5/4c56d49ac723a67d774e6bb516decba3.jpg"
+        },
+        {
+          "id": 836464,
+          "image": "https://media.rawg.io/media/screenshots/553/553912655d4d6f58abf52f412c2f22dc.jpg"
+        },
+        {
+          "id": 836465,
+          "image": "https://media.rawg.io/media/screenshots/bbc/bbcc9c022baf7aad50626344c78c0ee2.jpg"
+        }
+      ],
+      "short_description": "BackToNormal is a casual, massively multiplayer, action, and adventure game developed by BackToNormal Studio SRL. \nBackToNormal is available on PC. The game is sold via Steam. \n\n"
+    },
+    {
+      "id": 10984,
+      "slug": "lost-in-woods-2",
+      "name": "Lost In Woods 2",
+      "promo": "",
+      "released": "2016-09-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7a0/7a0683c9647fa4e5c11c1460e653328f.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 2,
+          "percent": 66.67
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 33.33
+        }
+      ],
+      "ratings_count": 3,
+      "reviews_text_count": 2,
+      "added": 140,
+      "added_by_status": {
+        "yet": 4,
+        "owned": 136
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "equal",
+          "position": 663
+        }
+      },
+      "playtime": 4,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 249,
+      "user_game": null,
+      "reviews_count": 3,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 169195,
+            "image_background": "https://media.rawg.io/media/games/8e0/8e032ac4faf1136e7d708bb3ac61af23.jpg"
+          },
+          "released_at": "2016-09-26"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 67527,
+          "image_background": "https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 45814,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 23758,
+          "image_background": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 29890,
+          "image_background": "https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 24972,
+          "image_background": "https://media.rawg.io/media/screenshots/b52/b52f7792c9fdd8b662008ec6542b8f00.jpeg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 12042,
+          "url": "http://store.steampowered.com/app/528090/",
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 35345,
+            "image_background": "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7a0/7a0683c9647fa4e5c11c1460e653328f.jpg"
+        },
+        {
+          "id": 87668,
+          "image": "https://media.rawg.io/media/screenshots/30b/30b82a075cc8033b006c0ba4f40c2b9b.jpg"
+        },
+        {
+          "id": 87669,
+          "image": "https://media.rawg.io/media/screenshots/8cd/8cd849a1f96db7c2d817585a5e136374.jpg"
+        },
+        {
+          "id": 87670,
+          "image": "https://media.rawg.io/media/screenshots/218/218737f3f4157aa1c2fc47292b3690b2.jpg"
+        },
+        {
+          "id": 87671,
+          "image": "https://media.rawg.io/media/screenshots/7d4/7d40537fb5ab0cb45a365eb70f438f67.jpg"
+        },
+        {
+          "id": 87672,
+          "image": "https://media.rawg.io/media/screenshots/85a/85a18b94a927d7cdc3c433cb6e0010bc.jpg"
+        },
+        {
+          "id": 87673,
+          "image": "https://media.rawg.io/media/screenshots/098/0984dc5a49884a6bd05aeb2e03af47bf.jpg"
+        }
+      ],
+      "short_description": "Lost In Woods 2 is an indie, action, adventure, and strategy game developed by Crouching Fox. It was originally released in 2016. It was published by Dagestan Technology. Most rawgers rated the game as \"Meh\". \nYou can play Lost In Woods 2 on PC. The game is sold via Steam. \n\n"
+    }
+  ],
+  "seo_title": "Minecraft - release date, videos, screenshots, reviews on RAWG",
+  "seo_description": "One of the most popular games of the 2010s, Minecraft allows you to rebuild the environment around you. The…",
+  "seo_h1": "Minecraft",
+  "seo_descriptions": {
+    "screenshots": "Minecraft screenshots on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "imgur": "Minecraft images on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "twitch": "Minecraft streams on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "youtube": "Minecraft videos on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "reviews": "Minecraft reviews on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "posts": "Minecraft comments on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "collections": "Minecraft in collections on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "suggestions": "Games similar to Minecraft on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "achievements": "Minecraft achievements on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "reddit": "Minecraft Posts from Reddit on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "team": "Minecraft team on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "events": "Updates to Minecraft on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences"
+  },
+  "updated": "2019-05-01T00:44:07",
+  "seo_text": "Are you searching for games like Minecraft? Look no further! Here's a list of games similar to Minecraft either in the gameplay or in the visual style. If you like Minecraft, be sure to check some of these games as well."
+}

@@ -119,6 +119,21 @@ describe RAWG::Client do
     end
   end
 
+  describe '#game_suggest' do
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.game_suggest(22_509) },
+                    method: :get,
+                    endpoint: '/api/games/22509/suggested',
+                    successful_response: fixture('game_suggest_response.json')
+
+    it 'returns results array' do
+      stub_get('/api/games/22509/suggested',
+               fixture: 'game_suggest_response.json')
+      response = client.game_suggest(22_509)
+      expect(response[:results]).to be_an Array
+    end
+  end
+
   describe '#user_info' do
     it_behaves_like 'a request',
                     subject: -> { described_class.new.user_info(1) },

@@ -21,6 +21,10 @@ module RAWG
       request("/api/games/#{id}")
     end
 
+    def game_suggest(id)
+      request("/api/games/#{id}/suggested")
+    end
+
     def user_info(id)
       request("/api/users/#{id}")
     end
