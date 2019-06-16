@@ -203,5 +203,17 @@ describe RAWG::Client do
       response = client.user_games(1)
       expect(response[:results]).to be_an Array
     end
+
+    it 'returns games using single status' do
+      stub_get('/api/users/1/games?statuses=owned').to_return(status: :ok)
+      client.user_games(1, statuses: 'owned')
+      expect(a_get('/api/users/1/games?statuses=owned')).to have_been_made
+    end
+
+    it 'returns games using multiple statuses' do
+      stub_get('/api/users/1/games?statuses=owned,playing').to_return(status: :ok)
+      client.user_games(1, statuses: ['owned', 'playing'])
+      expect(a_get('/api/users/1/games?statuses=owned,playing')).to have_been_made
+    end
   end
 end

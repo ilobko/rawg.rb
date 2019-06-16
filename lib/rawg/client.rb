@@ -40,8 +40,10 @@ module RAWG
       request("/api/users/#{id}")
     end
 
-    def user_games(id)
-      request("/api/users/#{id}/games")
+    def user_games(id, statuses: nil)
+      request("/api/users/#{id}/games", {
+        statuses: statuses.is_a?(Array) ? statuses.join(',') : statuses
+      }.compact)
     end
 
     private
