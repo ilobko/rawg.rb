@@ -16,22 +16,22 @@ shared_examples 'a request' do |options|
   not_found_response  = options[:not_found_response]
 
   it 'sends correct User-Agent header' do
-    stub_request(method, url).to_return(status: 200)
+    stub_request(:any, /.*/).to_return(status: 200)
     subject.call
-    expect(a_request(:any, url)
+    expect(a_request(:any, /.*/)
       .with(headers: { 'User-Agent': client.user_agent }))
       .to have_been_made
   end
 
   it 'requests correct endpoint' do
-    stub_request(method, url).to_return(status: 200)
+    stub_request(:any, /.*/).to_return(status: 200)
     subject.call
     expect(a_request(method, url)).to have_been_made.once
   end
 
   context 'when found', if: successful_response do
     before do
-      stub_request(method, url).to_return(
+      stub_request(:any, /.*/).to_return(
         body: successful_response,
         headers: { content_type: 'application/json' }
       )
@@ -50,7 +50,7 @@ shared_examples 'a request' do |options|
 
   context 'when not found', if: not_found_response do
     before do
-      stub_request(method, url).to_return(
+      stub_request(:any, /.*/).to_return(
         body: not_found_response,
         headers: { content_type: 'application/json' }
       )
@@ -64,7 +64,7 @@ shared_examples 'a request' do |options|
 
   context 'when unexpected response' do
     before do
-      stub_request(method, url).to_return(
+      stub_request(:any, /.*/).to_return(
         body: 'gibberish',
         headers: { content_type: 'text/plain' }
       )
