@@ -104,6 +104,47 @@ describe RAWG::Client do
     end
   end
 
+  describe '#search_games' do
+    before { stub_request(:any, /.*/).to_return(status: :ok) }
+
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.search_games('gta') },
+                    method: :get,
+                    endpoint: '/api/games?search=gta',
+                    successful_response: fixture('search_games_response.json')
+
+    it 'searches games without parameters' do
+      client.search_games('gta')
+      expect(a_get('/api/games?search=gta')).to have_been_made
+    end
+
+    it 'searches games using single genre' do
+      client.search_games('tank', genres: 'strategy')
+      expect(a_get('/api/games?search=tank&genres=strategy')).to have_been_made
+    end
+
+    it 'searches games using multiple genres' do
+      client.search_games('zombie', genres: %w[racing sports])
+      expect(a_get('/api/games?search=zombie&genres=racing,sports'))
+        .to have_been_made
+    end
+  end
+
+  describe '#search_users' do
+    before { stub_request(:any, /.*/).to_return(status: :ok) }
+
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.search_users('Alexey Gornostaev') },
+                    method: :get,
+                    endpoint: '/api/users?search=Alexey%20Gornostaev',
+                    successful_response: fixture('search_users_response.json')
+
+    it 'searches users' do
+      client.search_users('Alexey Gornostaev')
+      expect(a_get('/api/users?search=Alexey%20Gornostaev')).to have_been_made
+    end
+  end
+
   describe '#game_info' do
     it_behaves_like 'a request',
                     subject: -> { described_class.new.game_info(22_509) },
@@ -131,30 +172,6 @@ describe RAWG::Client do
                fixture: 'game_suggest_response.json')
       response = client.game_suggest(22_509)
       expect(response[:results]).to be_an Array
-    end
-  end
-
-  describe '#search_games' do
-    it_behaves_like 'a request',
-                    subject: -> { described_class.new.search_games('gta') },
-                    method: :get,
-                    endpoint: '/api/games?search=gta',
-                    successful_response: fixture('search_games_response.json')
-
-    it 'searches games without parameters' do
-      stub_get('/api/games?search=gta').to_return(status: :ok)
-      client.search_games('gta')
-    end
-
-    it 'searches games using single genre' do
-      stub_get('/api/games?search=tank&genres=strategy').to_return(status: :ok)
-      client.search_games('tank', genres: 'strategy')
-    end
-
-    it 'searches games using multiple genres' do
-      stub_get('/api/games?search=zombie&genres=racing,sports')
-        .to_return(status: :ok)
-      client.search_games('zombie', genres: %w[racing sports])
     end
   end
 

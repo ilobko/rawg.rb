@@ -1,0 +1,117 @@
+{
+  "count": 146,
+  "next": "https://api.rawg.io/api/users?page=2&search=Alexey+Gornostaev",
+  "previous": null,
+  "results": [
+    {
+      "username": "accujazz",
+      "full_name": "Alexey Gornostaev",
+      "slug": "accujazz",
+      "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+      "games_count": 354,
+      "collections_count": 14,
+      "image_background": "https://media.rawg.io/media/games/0be/0bea0a08a4d954337305391b778a7f37.jpg",
+      "id": 1,
+      "score": "50.28129"
+    },
+    {
+      "username": "alexey",
+      "full_name": "Alexey Lutokhin",
+      "slug": "alexey",
+      "avatar": "https://media.rawg.io/media/avatars/ef3/ef31e1406ef665ea1cd8ea2889e3215d.jpg",
+      "games_count": 0,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 2104,
+      "score": "27.087044"
+    },
+    {
+      "username": "alex_ey",
+      "full_name": "Alexey Sheremetyev",
+      "slug": "alex_ey",
+      "avatar": "https://media.rawg.io/media/avatars/650/6503d1965456a03cd67b471454dfcfae.jpg",
+      "games_count": 66,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 4858,
+      "score": "23.992605"
+    },
+    {
+      "username": "alexey36",
+      "full_name": "Alexey Yashin",
+      "slug": "alexey36",
+      "avatar": "https://media.rawg.io/media/avatars/b31/b311bff55199ea73882f7f04324e1eca.jpg",
+      "games_count": 0,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 19273,
+      "score": "21.601019"
+    },
+    {
+      "username": "alexey85",
+      "full_name": "Alexey Sikorskii",
+      "slug": "alexey85",
+      "avatar": "https://media.rawg.io/media/avatars/969/96975243a767da2a27a5541a95568bc9.jpg",
+      "games_count": 16,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 24526,
+      "score": "21.601019"
+    },
+    {
+      "username": "alexey97",
+      "full_name": "Alexey Simonenko",
+      "slug": "alexey97",
+      "avatar": null,
+      "games_count": 78,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 409,
+      "score": "21.601019"
+    },
+    {
+      "username": "alexey99",
+      "full_name": "Alexey Stepanov",
+      "slug": "alexey99",
+      "avatar": null,
+      "games_count": 0,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 1112,
+      "score": "21.324192"
+    },
+    {
+      "username": "alexey53",
+      "full_name": "Alexey Prokopev",
+      "slug": "alexey53",
+      "avatar": null,
+      "games_count": 7,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 100,
+      "score": "21.324192"
+    },
+    {
+      "username": "alexey60",
+      "full_name": "Alexey Rumyantsev",
+      "slug": "alexey60",
+      "avatar": null,
+      "games_count": 93,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 399,
+      "score": "21.324192"
+    },
+    {
+      "username": "alexey61",
+      "full_name": "Alexey Sekachov",
+      "slug": "alexey61",
+      "avatar": "https://media.rawg.io/media/avatars/b94/b9412f68255bf16be8247c56d4da0f40.jpg",
+      "games_count": 28,
+      "collections_count": 0,
+      "image_background": null,
+      "id": 3759,
+      "score": "21.324192"
+    }
+  ]
+}
