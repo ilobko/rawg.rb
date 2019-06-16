@@ -2,58 +2,76 @@
 
 require 'spec_helper'
 
-shared_examples 'a request' do |request|
+# These examples verify that provided mehod:
+# - uses provided endpoint
+# - uses provided http method
+# - sends User-Agent header
+# - parses response into Hash with symbolized keys
+# - handles unexpected response body
+shared_examples 'a request' do |options|
+  url                 = RAWG::Client::BASE_URL + options[:endpoint]
+  method              = options[:method]
+  subject             = options[:subject]
+  successful_response = options[:successful_response]
+  not_found_response  = options[:not_found_response]
+
   it 'sends correct User-Agent header' do
-    stub_request(:any, /.*/).to_return(status: 200)
-    request.call
-    expect(a_request(:any, /.*/)
+    stub_request(method, url).to_return(status: 200)
+    subject.call
+    expect(a_request(:any, url)
       .with(headers: { 'User-Agent': client.user_agent }))
       .to have_been_made
   end
 
-  context 'when found' do
+  it 'requests correct endpoint' do
+    stub_request(method, url).to_return(status: 200)
+    subject.call
+    expect(a_request(method, url)).to have_been_made.once
+  end
+
+  context 'when found', if: successful_response do
     before do
-      stub_request(:any, /.*/).to_return(
-        body: fixture('user_info_response.json'),
+      stub_request(method, url).to_return(
+        body: successful_response,
         headers: { content_type: 'application/json' }
       )
     end
 
     it 'returns hash' do
-      response = request.call
+      response = subject.call
       expect(response).to be_a(Hash)
     end
 
     it 'returns hash with symbolized keys' do
-      response = request.call
+      response = subject.call
       expect(response.keys).to all be_a(Symbol)
     end
   end
 
-  context 'when not found' do
+  context 'when not found', if: not_found_response do
     before do
-      stub_request(:any, /.*/).to_return(
-        body: fixture('not_found_response.json'),
+      stub_request(method, url).to_return(
+        body: not_found_response,
         headers: { content_type: 'application/json' }
       )
     end
 
     it 'returns nil' do
-      response = request.call
+      response = subject.call
       expect(response).to be_nil
     end
   end
 
   context 'when unexpected response' do
     before do
-      stub_request(:any, /.*/).to_return(
+      stub_request(method, url).to_return(
         body: 'gibberish',
         headers: { content_type: 'text/plain' }
       )
     end
 
     it 'returns nil' do
-      response = request.call
+      response = subject.call
       expect(response).to be_nil
     end
   end
@@ -87,13 +105,12 @@ describe RAWG::Client do
   end
 
   describe '#game_info' do
-    it_behaves_like 'a request', -> { described_class.new.game_info(22_509) }
-
-    it 'requests correct endpoint' do
-      stub_get('/api/games/22509').to_return(status: 200)
-      client.game_info(22_509)
-      expect(a_get('/api/games/22509')).to have_been_made.once
-    end
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.game_info(22_509) },
+                    method: :get,
+                    endpoint: '/api/games/22509',
+                    successful_response: fixture('game_info_response.json'),
+                    not_found_response: fixture('not_found_response.json')
 
     it 'returns requested game' do
       stub_get('/api/games/22509', fixture: 'game_info_response.json')
@@ -103,12 +120,13 @@ describe RAWG::Client do
   end
 
   describe '#user_info' do
-    it_behaves_like 'a request', -> { described_class.new.user_info(1) }
-    it 'requests correct endpoint' do
-      stub_get('/api/users/1').to_return(status: 200)
-      client.user_info(1)
-      expect(a_get('/api/users/1')).to have_been_made.once
-    end
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.user_info(1) },
+                    method: :get,
+                    endpoint: '/api/users/1',
+                    successful_response: fixture('user_info_response.json'),
+                    not_found_response: fixture('not_found_response.json')
+
     it 'returns requested user' do
       stub_get('/api/users/1', fixture: 'user_info_response.json')
       response = client.user_info(1)
