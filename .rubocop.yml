@@ -1,0 +1,9 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - demo.rb
+    - examples/**/*
+
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context', 'shared_examples']

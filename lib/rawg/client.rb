@@ -18,17 +18,11 @@ module RAWG
     end
 
     def game_info(id)
-      response = http_client.get("/api/games/#{id}").body
-      return nil if !response.is_a?(Hash) || response[:detail] == 'Not found.'
-
-      response
+      request("/api/games/#{id}")
     end
 
     def user_info(id)
-      response = http_client.get("/api/users/#{id}").body
-      return nil if !response.is_a?(Hash) || response[:detail] == 'Not found.'
-
-      response
+      request("/api/users/#{id}")
     end
 
     private
@@ -50,6 +44,14 @@ module RAWG
                       parser_options: { symbolize_names: true }
         conn.adapter Faraday.default_adapter
       end
+    end
+
+    def request(path, query = {})
+      response = http_client.get(path, query).body
+      return nil unless response.is_a?(Hash)
+      return nil if response[:detail] == 'Not found.'
+
+      response
     end
   end
 end

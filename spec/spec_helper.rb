@@ -7,8 +7,14 @@ def a_get(path)
   a_request(:get, RAWG::Client::BASE_URL + path)
 end
 
-def stub_get(path)
+def stub_get(path, fixture: nil)
+  return stub_request(:get, RAWG::Client::BASE_URL + path) unless fixture
+
   stub_request(:get, RAWG::Client::BASE_URL + path)
+    .to_return(
+      body: fixture(fixture),
+      headers: { content_type: 'application/json' }
+    )
 end
 
 def fixture_path
