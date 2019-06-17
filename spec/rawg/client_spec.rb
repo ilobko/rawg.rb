@@ -175,6 +175,21 @@ describe RAWG::Client do
     end
   end
 
+  describe '#game_reviews' do
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.game_reviews('factorio') },
+                    method: :get,
+                    endpoint: '/api/games/factorio/reviews',
+                    successful_response: fixture('game_reviews_response.json')
+
+    it 'returns results array' do
+      stub_get('/api/games/factorio/reviews',
+               fixture: 'game_reviews_response.json')
+      response = client.game_reviews('factorio')
+      expect(response[:results]).to be_an Array
+    end
+  end
+
   describe '#user_info' do
     it_behaves_like 'a request',
                     subject: -> { described_class.new.user_info(1) },
@@ -212,7 +227,7 @@ describe RAWG::Client do
 
     it 'returns games using multiple statuses' do
       stub_get('/api/users/1/games?statuses=owned,playing').to_return(status: :ok)
-      client.user_games(1, statuses: ['owned', 'playing'])
+      client.user_games(1, statuses: %w[owned playing])
       expect(a_get('/api/users/1/games?statuses=owned,playing')).to have_been_made
     end
   end
