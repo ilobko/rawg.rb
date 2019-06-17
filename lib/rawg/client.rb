@@ -49,6 +49,10 @@ module RAWG
       }.compact)
     end
 
+    def user_reviews(user)
+      request("/api/users/#{user}/reviews")
+    end
+
     private
 
     def build_user_agent(user_agent)

@@ -1,0 +1,727 @@
+{
+  "count": 200,
+  "next": "https://api.rawg.io/api/users/1/reviews?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 457804,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 1616,
+        "slug": "the-battle-of-polytopia",
+        "name": "The Battle of Polytopia",
+        "promo": "",
+        "released": "2016-02-09",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/screenshots/a32/a324a4a6497c9c73a15bf33eb4da98e3.jpeg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 4,
+            "percent": 44.44
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 4,
+            "percent": 44.44
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 1,
+            "percent": 11.11
+          }
+        ],
+        "added": 9,
+        "user_game": null,
+        "reviews_count": 9,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-06-07T16:10:15.107632Z",
+      "edited": "2019-06-07T16:10:15.107658Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 457803,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 15002,
+        "slug": "the-stanley-parable",
+        "name": "The Stanley Parable",
+        "promo": "",
+        "released": "2013-10-17",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/screenshots/8f0/8f0b94922ad5e59968852649697b2643.jpg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 322,
+            "percent": 54.03
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 206,
+            "percent": 34.56
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 46,
+            "percent": 7.72
+          },
+          {
+            "id": 1,
+            "title": "skip",
+            "count": 22,
+            "percent": 3.69
+          }
+        ],
+        "added": 2674,
+        "user_game": null,
+        "reviews_count": 596,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-06-07T16:09:01.145426Z",
+      "edited": "2019-06-07T16:09:01.145455Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 457802,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 59197,
+        "slug": "f1-2018",
+        "name": "F1 2018",
+        "promo": "",
+        "released": "2018-08-23",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/a1c/a1cea552040aecf9414548e209f9c0d8.jpg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 13,
+            "percent": 43.33
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 12,
+            "percent": 40.0
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 3,
+            "percent": 10.0
+          },
+          {
+            "id": 1,
+            "title": "skip",
+            "count": 2,
+            "percent": 6.67
+          }
+        ],
+        "added": 161,
+        "user_game": null,
+        "reviews_count": 30,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-06-07T16:08:40.192886Z",
+      "edited": "2019-06-07T16:08:40.192913Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 441939,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 1515,
+        "slug": "panzer-corps",
+        "name": "Panzer Corps",
+        "promo": "",
+        "released": "2010-07-09",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/screenshots/bcb/bcbd5c48672981716878cf419cbf3f96.jpeg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 2,
+            "percent": 40.0
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 2,
+            "percent": 40.0
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 1,
+            "percent": 20.0
+          }
+        ],
+        "added": 136,
+        "user_game": null,
+        "reviews_count": 5,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-05-28T07:28:48.650252Z",
+      "edited": "2019-05-28T07:28:48.650287Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 321298,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 305984,
+        "slug": "rush-rally-3",
+        "name": "Rush Rally 3",
+        "promo": "",
+        "released": "2019-03-27",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/screenshots/0bb/0bb76fa3aab5359e2564132587b0c0b9.jpg",
+        "rating_top": 0,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 1,
+            "percent": 100.0
+          }
+        ],
+        "added": 1,
+        "user_game": null,
+        "reviews_count": 1,
+        "community_rating": 0,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "Colin McRae Rally but for mobile!",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 5,
+      "reactions": [],
+      "created": "2019-04-02T10:10:36.011551Z",
+      "edited": "2019-05-28T07:37:11.941233Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": true,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 292107,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 50839,
+        "slug": "baba-is-you",
+        "name": "Baba Is You",
+        "promo": "",
+        "released": "2019-03-13",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/2f9/2f9daccd45b511c97584bcb5a82404a5.jpg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 23,
+            "percent": 51.11
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 14,
+            "percent": 31.11
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 5,
+            "percent": 11.11
+          },
+          {
+            "id": 1,
+            "title": "skip",
+            "count": 3,
+            "percent": 6.67
+          }
+        ],
+        "added": 171,
+        "user_game": null,
+        "reviews_count": 45,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 5,
+      "reactions": [],
+      "created": "2019-03-15T11:27:17.969090Z",
+      "edited": "2019-03-15T11:27:17.969116Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 210730,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 1822,
+        "slug": "f1-2016",
+        "name": "F1 2016",
+        "promo": "",
+        "released": "2016-08-18",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/a5f/a5fbe1e7d04c8dca71fca651bea65d44.jpg",
+        "rating_top": 4,
+        "ratings": [
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 17,
+            "percent": 70.83
+          },
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 4,
+            "percent": 16.67
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 3,
+            "percent": 12.5
+          }
+        ],
+        "added": 184,
+        "user_game": null,
+        "reviews_count": 24,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-01-28T17:09:47.509766Z",
+      "edited": "2019-01-28T17:09:47.509801Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 202227,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 39,
+        "slug": "prey",
+        "name": "Prey (2017)",
+        "promo": "",
+        "released": "2017-05-05",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/278/2783e31b00d7b87905e5346a1df1ccfb.jpg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 281,
+            "percent": 50.54
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 200,
+            "percent": 35.97
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 62,
+            "percent": 11.15
+          },
+          {
+            "id": 1,
+            "title": "skip",
+            "count": 13,
+            "percent": 2.34
+          }
+        ],
+        "added": 2579,
+        "user_game": null,
+        "reviews_count": 556,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [],
+      "created": "2019-01-22T07:43:37.603013Z",
+      "edited": "2019-01-22T07:43:37.603042Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 202226,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 3636,
+        "slug": "the-last-of-us-remastered",
+        "name": "The Last Of Us Remastered",
+        "promo": "",
+        "released": "2014-07-29",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/364/3642d850efb217c58feab80b8affaa89.jpg",
+        "rating_top": 5,
+        "ratings": [
+          {
+            "id": 5,
+            "title": "exceptional",
+            "count": 684,
+            "percent": 75.66
+          },
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 165,
+            "percent": 18.25
+          },
+          {
+            "id": 3,
+            "title": "meh",
+            "count": 37,
+            "percent": 4.09
+          },
+          {
+            "id": 1,
+            "title": "skip",
+            "count": 18,
+            "percent": 1.99
+          }
+        ],
+        "added": 3034,
+        "user_game": null,
+        "reviews_count": 904,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 5,
+      "reactions": [],
+      "created": "2019-01-22T07:43:32.186143Z",
+      "edited": "2019-01-22T07:43:32.186169Z",
+      "likes_count": 0,
+      "likes_positive": 0,
+      "likes_rating": 0,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": false,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    },
+    {
+      "id": 189804,
+      "user": {
+        "id": 1,
+        "username": "accujazz",
+        "slug": "accujazz",
+        "full_name": "Alexey Gornostaev",
+        "avatar": "https://media.rawg.io/media/avatars/7fa/7fabb2f6f9693d336ead69a8252d68ab.jpg",
+        "games_count": 354,
+        "collections_count": 14,
+        "followers_count": 117
+      },
+      "game": {
+        "id": 58940,
+        "slug": "drmeep",
+        "name": "DR.MEEP",
+        "promo": "",
+        "released": "2018-06-20",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/screenshots/ef3/ef366b46ca4170fba0801fc240c210b2.jpg",
+        "rating_top": 0,
+        "ratings": [
+          {
+            "id": 4,
+            "title": "recommended",
+            "count": 1,
+            "percent": 100.0
+          }
+        ],
+        "added": 1,
+        "user_game": null,
+        "reviews_count": 1,
+        "community_rating": 0,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f"
+      },
+      "text": "It's a match-3 game but don't skip it if you are already tired of the genre. Dr.Meep is a game with cute authentic visual style, it's more slow-paced and strategic than your typical match-3 game where everything happens fast and you perform the same set of actions in semi-automatic mode. <br/><br/>The rules and pieces to match change here with every character (and there are 9 of them). For example, the sculls must not be matched or it's a game over, for the dog character only the 3-bones matches count or another character's board consists of eggs, small, grownup and cooked chickens. Guess what happens when you tap on egg? Rrright, it becomes a small chicken. <br/><br/>Nice and rightly done mobile game. Recommended!",
+      "text_preview": "",
+      "text_previews": [],
+      "text_attachments": 0,
+      "rating": 4,
+      "reactions": [
+        {
+          "id": 2,
+          "title": "Just one more turn",
+          "positive": true
+        },
+        {
+          "id": 9,
+          "title": "Underrated",
+          "positive": true
+        }
+      ],
+      "created": "2019-01-15T16:50:06.099842Z",
+      "edited": "2019-01-16T14:14:10.733933Z",
+      "likes_count": 2,
+      "likes_positive": 2,
+      "likes_rating": 2,
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "posts_count": 0,
+      "is_text": true,
+      "comments": {
+        "count": 0,
+        "results": []
+      },
+      "can_delete": false
+    }
+  ],
+  "ratings": {
+    "count": 3,
+    "results": [
+      {
+        "count": 116,
+        "id": 4,
+        "title": "recommended"
+      },
+      {
+        "count": 59,
+        "id": 5,
+        "title": "exceptional"
+      },
+      {
+        "count": 25,
+        "id": 3,
+        "title": "meh"
+      }
+    ],
+    "total": 200
+  }
+}

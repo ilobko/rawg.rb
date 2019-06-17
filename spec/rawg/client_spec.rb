@@ -231,4 +231,19 @@ describe RAWG::Client do
       expect(a_get('/api/users/1/games?statuses=owned,playing')).to have_been_made
     end
   end
+
+  describe '#user_reviews' do
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.user_reviews(1) },
+                    method: :get,
+                    endpoint: '/api/users/1/reviews',
+                    successful_response: fixture('user_reviews_response.json')
+
+    it 'returns results array' do
+      stub_get('/api/users/1/reviews',
+               fixture: 'user_reviews_response.json')
+      response = client.user_reviews(1)
+      expect(response[:results]).to be_an Array
+    end
+  end
 end
