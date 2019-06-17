@@ -16,6 +16,10 @@ module RAWG
       @user_agent = build_user_agent(user_agent)
     end
 
+    def all_games(**options)
+      request('/api/games', **options)
+    end
+
     def search_games(query, **options)
       request('/api/games', search: query, **options)
     end

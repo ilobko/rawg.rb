@@ -1,0 +1,4693 @@
+{
+  "count": 24972,
+  "next": "https://api.rawg.io/api/games?genres=indie&page=2",
+  "previous": null,
+  "results": [
+    {
+      "slug": "limbo",
+      "name": "Limbo",
+      "promo": "",
+      "playtime": 2,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        },
+        {
+          "store": {
+            "id": 12,
+            "name": "Discord Store",
+            "slug": "discord"
+          }
+        }
+      ],
+      "released": "2010-08-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg",
+      "rating": 4.14,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 527,
+          "percent": 53.07
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 335,
+          "percent": 33.74
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 99,
+          "percent": 9.97
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 32,
+          "percent": 3.22
+        }
+      ],
+      "ratings_count": 984,
+      "reviews_text_count": 9,
+      "added": 5156,
+      "added_by_status": {
+        "yet": 149,
+        "owned": 3741,
+        "beaten": 973,
+        "toplay": 81,
+        "dropped": 182,
+        "playing": 30
+      },
+      "metacritic": 88,
+      "charts": {
+        "year": {
+          "year": 2010,
+          "change": "equal",
+          "position": 1
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 261,
+      "id": 1030,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/8b0/8b0b7285424bc9ace90187a5dd9b909b.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/bc5/bc5fa222c4737edf739459fd7b4d2439.mp4",
+          "640": "https://media.rawg.io/media/stories-640/8b0/8b0b7285424bc9ace90187a5dd9b909b.mp4",
+          "full": "https://media.rawg.io/media/stories/7e1/7e121b3198f343b14ad98d2454a194f5.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/3c1/3c170f1df7acc0202aabf45cb6b33bd7.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 993,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"
+        },
+        {
+          "id": 30985,
+          "image": "https://media.rawg.io/media/screenshots/512/512f4bc2092016478ddcb9e7e60aeec0.jpg"
+        },
+        {
+          "id": 30986,
+          "image": "https://media.rawg.io/media/screenshots/63d/63d30699e8fcab9c808e6714d9d3fd59.jpg"
+        },
+        {
+          "id": 30987,
+          "image": "https://media.rawg.io/media/screenshots/de0/de04bbc0fd9904071ef25bf23113c8c4.jpg"
+        },
+        {
+          "id": 30988,
+          "image": "https://media.rawg.io/media/screenshots/eed/eedbbca4ae2debf2d4e23e55d1f6cff7.jpg"
+        },
+        {
+          "id": 30989,
+          "image": "https://media.rawg.io/media/screenshots/59f/59f472b3ed7b414777a29213d70b4d17.jpg"
+        },
+        {
+          "id": 30990,
+          "image": "https://media.rawg.io/media/screenshots/4a8/4a8c625374918e96e74948189e90c20b.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer"
+        }
+      ]
+    },
+    {
+      "slug": "rocket-league",
+      "name": "Rocket League",
+      "promo": "",
+      "playtime": 17,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "released": "2015-07-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg",
+      "rating": 4.06,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 430,
+          "percent": 54.5
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 232,
+          "percent": 29.4
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 97,
+          "percent": 12.29
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 30,
+          "percent": 3.8
+        }
+      ],
+      "ratings_count": 784,
+      "reviews_text_count": 5,
+      "added": 4314,
+      "added_by_status": {
+        "yet": 47,
+        "owned": 3573,
+        "beaten": 223,
+        "toplay": 47,
+        "dropped": 246,
+        "playing": 178
+      },
+      "metacritic": 86,
+      "charts": {
+        "year": {
+          "year": 2015,
+          "change": "equal",
+          "position": 3
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 569,
+      "id": 3272,
+      "score": null,
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 789,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg"
+        },
+        {
+          "id": 29880,
+          "image": "https://media.rawg.io/media/screenshots/6a0/6a0745d9dcd0f7a368d372260baf91aa.jpg"
+        },
+        {
+          "id": 29881,
+          "image": "https://media.rawg.io/media/screenshots/5ea/5ea8ab6a35f189489b2ec8713d4f1619.jpg"
+        },
+        {
+          "id": 29882,
+          "image": "https://media.rawg.io/media/screenshots/508/5083fd170bf10606afd12afc7d17db04.jpg"
+        },
+        {
+          "id": 29883,
+          "image": "https://media.rawg.io/media/screenshots/02d/02d36e8e01a9f1063c6431ce09324e24.jpg"
+        },
+        {
+          "id": 29884,
+          "image": "https://media.rawg.io/media/screenshots/036/036ddade8156ac52ecf8de593123d12c.jpg"
+        },
+        {
+          "id": 29885,
+          "image": "https://media.rawg.io/media/screenshots/861/8615727f6e52f1632ae38d71e9e4c800.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports"
+        }
+      ]
+    },
+    {
+      "slug": "amnesia-the-dark-descent",
+      "name": "Amnesia: The Dark Descent",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 12,
+            "name": "Discord Store",
+            "slug": "discord"
+          }
+        }
+      ],
+      "released": "2010-09-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/ed5/ed5b7d01dd68fd8d598c91ad61f153af.jpg",
+      "rating": 3.54,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 169,
+          "percent": 50.6
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 64,
+          "percent": 19.16
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 53,
+          "percent": 15.87
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 48,
+          "percent": 14.37
+        }
+      ],
+      "ratings_count": 331,
+      "reviews_text_count": 3,
+      "added": 3987,
+      "added_by_status": {
+        "yet": 221,
+        "owned": 3410,
+        "beaten": 193,
+        "toplay": 31,
+        "dropped": 119,
+        "playing": 13
+      },
+      "metacritic": 85,
+      "charts": {
+        "year": {
+          "year": 2010,
+          "change": "equal",
+          "position": 3
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 475,
+      "id": 13668,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/eb5/eb5f3fc1b6dfd0e00833e49a5371d2bb.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/c31/c31abd7d886170e614d27e3218bd6666.mp4",
+          "640": "https://media.rawg.io/media/stories-640/eb5/eb5f3fc1b6dfd0e00833e49a5371d2bb.mp4",
+          "full": "https://media.rawg.io/media/stories/ac7/ac729727f0182f5b6790a4101458d67f.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/c2c/c2c7c33f1a64a527358634c39751bb24.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 334,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/ed5/ed5b7d01dd68fd8d598c91ad61f153af.jpg"
+        },
+        {
+          "id": 117208,
+          "image": "https://media.rawg.io/media/screenshots/32b/32bde7545dff888358a7ce620c7b3063.jpg"
+        },
+        {
+          "id": 117209,
+          "image": "https://media.rawg.io/media/screenshots/f59/f597e6857aab3b1ba098d713524d1690.jpg"
+        },
+        {
+          "id": 117210,
+          "image": "https://media.rawg.io/media/screenshots/5fc/5fce282fa41e7d73d0e8b0c35da74391.jpg"
+        },
+        {
+          "id": 117211,
+          "image": "https://media.rawg.io/media/screenshots/8f8/8f88209c1fdc529c3af746c08a44ba6c.jpg"
+        },
+        {
+          "id": 117212,
+          "image": "https://media.rawg.io/media/screenshots/ff7/ff776252fbd6de18cfd197b57d6e6aac.jpg"
+        },
+        {
+          "id": 117213,
+          "image": "https://media.rawg.io/media/screenshots/42d/42d3c11b04e589565e5a9d2feae5023c.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "super-meat-boy",
+      "name": "Super Meat Boy",
+      "promo": "",
+      "playtime": 3,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        },
+        {
+          "platform": {
+            "id": 10,
+            "name": "Wii U",
+            "slug": "wii-u"
+          }
+        },
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        },
+        {
+          "store": {
+            "id": 11,
+            "name": "Epic Games",
+            "slug": "epic-games"
+          }
+        },
+        {
+          "store": {
+            "id": 12,
+            "name": "Discord Store",
+            "slug": "discord"
+          }
+        }
+      ],
+      "released": "2010-10-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg",
+      "rating": 3.95,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 300,
+          "percent": 52.45
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 158,
+          "percent": 27.62
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 77,
+          "percent": 13.46
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 37,
+          "percent": 6.47
+        }
+      ],
+      "ratings_count": 569,
+      "reviews_text_count": 5,
+      "added": 3808,
+      "added_by_status": {
+        "yet": 94,
+        "owned": 3118,
+        "beaten": 210,
+        "toplay": 30,
+        "dropped": 321,
+        "playing": 35
+      },
+      "metacritic": 87,
+      "charts": {
+        "year": {
+          "year": 2010,
+          "change": "equal",
+          "position": 5
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 345,
+      "id": 3144,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/d89/d894d28324a2baea66cf3b08fd32112a.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/46e/46eabc6810ea1af4ee16c292005044fd.mp4",
+          "640": "https://media.rawg.io/media/stories-640/d89/d894d28324a2baea66cf3b08fd32112a.mp4",
+          "full": "https://media.rawg.io/media/stories/e2a/e2a4e1f5d443d8b1e06392ad3f98793c.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/41c/41c51c4e66c6aa615481bb4d7b28803d.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 572,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        },
+        {
+          "id": 28594,
+          "image": "https://media.rawg.io/media/screenshots/b1e/b1e6c4d530035326da66fb85ae57519b.jpg"
+        },
+        {
+          "id": 28595,
+          "image": "https://media.rawg.io/media/screenshots/09f/09f743bc5acc26aba844b3a092cdcddf.jpg"
+        },
+        {
+          "id": 28596,
+          "image": "https://media.rawg.io/media/screenshots/995/9951726156ed69933ec1eff9a65c0e60.jpg"
+        },
+        {
+          "id": 28597,
+          "image": "https://media.rawg.io/media/screenshots/db4/db4747c3913bd81e3e6754bb51a34838.jpg"
+        },
+        {
+          "id": 28598,
+          "image": "https://media.rawg.io/media/screenshots/e1d/e1d4006f82564f0d654f2959042a3acc.jpg"
+        },
+        {
+          "id": 28599,
+          "image": "https://media.rawg.io/media/screenshots/14c/14c8b551343374231fa07987e5a2d9e3.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "terraria",
+      "name": "Terraria",
+      "promo": "",
+      "playtime": 12,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Nintendo 3DS",
+            "slug": "nintendo-3ds"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        },
+        {
+          "platform": {
+            "id": 10,
+            "name": "Wii U",
+            "slug": "wii-u"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2011-05-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/91c/91c4f377c1e09755b60a0102c5252843.jpg",
+      "rating": 3.93,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 256,
+          "percent": 46.72
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 163,
+          "percent": 29.74
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 92,
+          "percent": 16.79
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 37,
+          "percent": 6.75
+        }
+      ],
+      "ratings_count": 545,
+      "reviews_text_count": 3,
+      "added": 3792,
+      "added_by_status": {
+        "yet": 79,
+        "owned": 3168,
+        "beaten": 220,
+        "toplay": 36,
+        "dropped": 255,
+        "playing": 34
+      },
+      "metacritic": 83,
+      "charts": {
+        "year": {
+          "year": 2011,
+          "change": "equal",
+          "position": 3
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 388,
+      "id": 422,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/d39/d39067a8fed203812d917d857115b295.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/c42/c4264e72b79f450106756a538dfd8738.mp4",
+          "640": "https://media.rawg.io/media/stories-640/d39/d39067a8fed203812d917d857115b295.mp4",
+          "full": "https://media.rawg.io/media/stories/744/744a3814fc5aa9c54d112ffa597d9cfe.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/383/383898e0c249fb974bdb1c32be173753.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 548,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/91c/91c4f377c1e09755b60a0102c5252843.jpg"
+        },
+        {
+          "id": 59698,
+          "image": "https://media.rawg.io/media/screenshots/3af/3afd69426804e7162edbe03cd9f8d0f4.jpg"
+        },
+        {
+          "id": 59703,
+          "image": "https://media.rawg.io/media/screenshots/48c/48c7e3e1268467b91b24c7da7c6539df.jpg"
+        },
+        {
+          "id": 59705,
+          "image": "https://media.rawg.io/media/screenshots/84b/84b447d4df99d42ffe479c7feb438171.jpg"
+        },
+        {
+          "id": 59711,
+          "image": "https://media.rawg.io/media/screenshots/de0/de053efd6104719567d23fb0dad58b92.jpg"
+        },
+        {
+          "id": 59714,
+          "image": "https://media.rawg.io/media/screenshots/490/4907be07a7771c8a7f0eb30c3a1fadc0.jpg"
+        },
+        {
+          "id": 59718,
+          "image": "https://media.rawg.io/media/screenshots/485/485ce1d6c733357664be153777097af1.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer"
+        }
+      ]
+    },
+    {
+      "slug": "outlast",
+      "name": "Outlast",
+      "promo": "",
+      "playtime": 3,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        }
+      ],
+      "released": "2013-09-03",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg",
+      "rating": 3.62,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 234,
+          "percent": 52.82
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 101,
+          "percent": 22.8
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 64,
+          "percent": 14.45
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 44,
+          "percent": 9.93
+        }
+      ],
+      "ratings_count": 439,
+      "reviews_text_count": 4,
+      "added": 3777,
+      "added_by_status": {
+        "yet": 175,
+        "owned": 3115,
+        "beaten": 291,
+        "toplay": 28,
+        "dropped": 152,
+        "playing": 16
+      },
+      "metacritic": 80,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 7
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 529,
+      "id": 3790,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/a53/a5320bfc1a051c6b83e750bf3a571d4c.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/6ac/6ac5d64c57317618bd70fda084e04aa1.mp4",
+          "640": "https://media.rawg.io/media/stories-640/a53/a5320bfc1a051c6b83e750bf3a571d4c.mp4",
+          "full": "https://media.rawg.io/media/stories/d9c/d9c9729f48e035f15efef5b7a911004a.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/048/0484b53659e8e01aab8bd03ccd2a7a82.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 443,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        },
+        {
+          "id": 32637,
+          "image": "https://media.rawg.io/media/screenshots/83f/83ff600f8e2dd8507e7961d3e9f32126.jpg"
+        },
+        {
+          "id": 32638,
+          "image": "https://media.rawg.io/media/screenshots/283/283c90039e31e07f99979ccb445cf7b7.jpg"
+        },
+        {
+          "id": 32639,
+          "image": "https://media.rawg.io/media/screenshots/03f/03f4171763bda5824da07fc087cec609.jpg"
+        },
+        {
+          "id": 32640,
+          "image": "https://media.rawg.io/media/screenshots/37a/37acd5ef186c8e018cbd64751b21f064.jpg"
+        },
+        {
+          "id": 32641,
+          "image": "https://media.rawg.io/media/screenshots/242/2426226b9eb1a7de43b8bf01ecb2c291.jpg"
+        },
+        {
+          "id": 32642,
+          "image": "https://media.rawg.io/media/screenshots/d06/d06d3baecb6da0ac9e53b40ade32d5f2.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "hotline-miami",
+      "name": "Hotline Miami",
+      "promo": "",
+      "playtime": 5,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2012-10-22",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg",
+      "rating": 4.32,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 414,
+          "percent": 52.6
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 286,
+          "percent": 36.34
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 51,
+          "percent": 6.48
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 36,
+          "percent": 4.57
+        }
+      ],
+      "ratings_count": 784,
+      "reviews_text_count": 3,
+      "added": 3773,
+      "added_by_status": {
+        "yet": 89,
+        "owned": 2875,
+        "beaten": 598,
+        "toplay": 36,
+        "dropped": 149,
+        "playing": 26
+      },
+      "metacritic": 85,
+      "charts": {
+        "year": {
+          "year": 2012,
+          "change": "equal",
+          "position": 4
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 353,
+      "id": 3612,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/fd4/fd4db6129938f35dfea2ef5d167e256d.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/b23/b234460be303c5e20ad48de2ba77285c.mp4",
+          "640": "https://media.rawg.io/media/stories-640/fd4/fd4db6129938f35dfea2ef5d167e256d.mp4",
+          "full": "https://media.rawg.io/media/stories/37d/37d77d70c0633292ca312cf6522d549e.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/608/608a6737de0e73622dd1a8685961178a.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 787,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+        },
+        {
+          "id": 32084,
+          "image": "https://media.rawg.io/media/screenshots/38b/38b9bb0de0a380434b78587e132b2e21.jpg"
+        },
+        {
+          "id": 32085,
+          "image": "https://media.rawg.io/media/screenshots/e7a/e7a11a669aa609b9b3b0c7aeab2dc804.jpg"
+        },
+        {
+          "id": 32086,
+          "image": "https://media.rawg.io/media/screenshots/88b/88b907144995e57c45ee043c59dd6810.jpg"
+        },
+        {
+          "id": 32087,
+          "image": "https://media.rawg.io/media/screenshots/53f/53fd44fd759bc571b1445898c50b418e.jpg"
+        },
+        {
+          "id": 32088,
+          "image": "https://media.rawg.io/media/screenshots/ddd/dddc7151559716c7c0dddb05874496da.jpg"
+        },
+        {
+          "id": 32089,
+          "image": "https://media.rawg.io/media/screenshots/b2a/b2a25c20510e3111a13d56a9751cadd7.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "bastion",
+      "name": "Bastion",
+      "promo": "",
+      "playtime": 4,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        }
+      ],
+      "released": "2011-07-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg",
+      "rating": 4.3,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 261,
+          "percent": 44.54
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 253,
+          "percent": 43.17
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 66,
+          "percent": 11.26
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 6,
+          "percent": 1.02
+        }
+      ],
+      "ratings_count": 581,
+      "reviews_text_count": 5,
+      "added": 3425,
+      "added_by_status": {
+        "yet": 116,
+        "owned": 2610,
+        "beaten": 451,
+        "toplay": 58,
+        "dropped": 165,
+        "playing": 25
+      },
+      "metacritic": 86,
+      "charts": {
+        "year": {
+          "year": 2011,
+          "change": "equal",
+          "position": 6
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 477,
+      "id": 613,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/94d/94dd3995790a2d0aea0009d4243b2aa4.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/564/564889bc6cb5876cf98369acc15ca1fd.mp4",
+          "640": "https://media.rawg.io/media/stories-640/94d/94dd3995790a2d0aea0009d4243b2aa4.mp4",
+          "full": "https://media.rawg.io/media/stories/01e/01ea217ab33e9e0600122b8b46d7bcb4.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/98d/98d6bf1f7a461cab0d93a30cf802fbdd.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 586,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+        },
+        {
+          "id": 27120,
+          "image": "https://media.rawg.io/media/screenshots/24c/24c8d0fb4059edb73e8ee2157a17b1c1.jpg"
+        },
+        {
+          "id": 27122,
+          "image": "https://media.rawg.io/media/screenshots/2f1/2f18e80782d107945b11b6d02a16ab8d.jpg"
+        },
+        {
+          "id": 27124,
+          "image": "https://media.rawg.io/media/screenshots/7de/7ded4f413b6670b37b8047a0565b5a6c.jpg"
+        },
+        {
+          "id": 27126,
+          "image": "https://media.rawg.io/media/screenshots/d36/d36f5867baf7af7506765702b9ff7c84.jpg"
+        },
+        {
+          "id": 27128,
+          "image": "https://media.rawg.io/media/screenshots/c0b/c0b36461930db0284a10635c9776daf7.jpg"
+        },
+        {
+          "id": 27130,
+          "image": "https://media.rawg.io/media/screenshots/4c5/4c5996a474a68ae141a2fb9247a2cdac.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg"
+        }
+      ]
+    },
+    {
+      "slug": "garrys-mod",
+      "name": "Garry's Mod",
+      "promo": "",
+      "playtime": 10,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "2004-12-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg",
+      "rating": 3.67,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 188,
+          "percent": 48.96
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 84,
+          "percent": 21.88
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 73,
+          "percent": 19.01
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 39,
+          "percent": 10.16
+        }
+      ],
+      "ratings_count": 380,
+      "reviews_text_count": 6,
+      "added": 3233,
+      "added_by_status": {
+        "yet": 60,
+        "owned": 2858,
+        "beaten": 125,
+        "toplay": 11,
+        "dropped": 163,
+        "playing": 16
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2004,
+          "change": "down",
+          "position": 4
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 414,
+      "id": 9721,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/d34/d342b3c41cfc29cc33a6410e4cd051c3.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/02f/02f7b156601f7a13a2921b4f38612204.mp4",
+          "640": "https://media.rawg.io/media/stories-640/d34/d342b3c41cfc29cc33a6410e4cd051c3.mp4",
+          "full": "https://media.rawg.io/media/stories/684/68480db9ad833847c6c52dac06f150a5.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/d0e/d0e0a76d9ba23e1fefbfbc3006399157.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 384,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+        },
+        {
+          "id": 72010,
+          "image": "https://media.rawg.io/media/screenshots/cbf/cbf0e5c6fa2b8a8c653074b9258884df.jpg"
+        },
+        {
+          "id": 72011,
+          "image": "https://media.rawg.io/media/screenshots/01b/01b5cb2ad3f6fa69b70790094bfd3372.jpg"
+        },
+        {
+          "id": 72012,
+          "image": "https://media.rawg.io/media/screenshots/b31/b3141dbd80cd27a1d7b335e3b5956f89.jpg"
+        },
+        {
+          "id": 72013,
+          "image": "https://media.rawg.io/media/screenshots/40b/40bcfff9760f368d158e92d05f4a0d9b.jpg"
+        },
+        {
+          "id": 72014,
+          "image": "https://media.rawg.io/media/screenshots/6eb/6ebc3896184e94ebe617d2cb224eee2a.jpg"
+        },
+        {
+          "id": 72015,
+          "image": "https://media.rawg.io/media/screenshots/e68/e6800252d7fc63fcb794af70ec28c8fc.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        }
+      ]
+    },
+    {
+      "slug": "path-of-exile",
+      "name": "Path of Exile",
+      "promo": "",
+      "playtime": 5,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        }
+      ],
+      "released": "2013-10-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg",
+      "rating": 3.72,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 198,
+          "percent": 48.41
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 87,
+          "percent": 21.27
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 85,
+          "percent": 20.78
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 39,
+          "percent": 9.54
+        }
+      ],
+      "ratings_count": 407,
+      "reviews_text_count": 3,
+      "added": 3187,
+      "added_by_status": {
+        "yet": 61,
+        "owned": 2796,
+        "beaten": 65,
+        "toplay": 18,
+        "dropped": 203,
+        "playing": 44
+      },
+      "metacritic": 86,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 8
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 637,
+      "id": 10533,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/410/4105b0f158199b753220cc827bcb75ce.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/7f8/7f84968050531d8415486e6f0eb59dd0.mp4",
+          "640": "https://media.rawg.io/media/stories-640/410/4105b0f158199b753220cc827bcb75ce.mp4",
+          "full": "https://media.rawg.io/media/stories/961/9611895ade7f3b34000837eb7278d2b6.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/0ec/0ec38a99a17756c7a3dab2da7198051c.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 409,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg"
+        },
+        {
+          "id": 82273,
+          "image": "https://media.rawg.io/media/screenshots/a5d/a5d0fcbe81728387c396d1643480c8b9.jpg"
+        },
+        {
+          "id": 82274,
+          "image": "https://media.rawg.io/media/screenshots/756/7567039877f95cf47333503925c62aa2.jpg"
+        },
+        {
+          "id": 82275,
+          "image": "https://media.rawg.io/media/screenshots/4db/4dbb68a20d12cc5667a88430b3e47bdf.jpg"
+        },
+        {
+          "id": 82276,
+          "image": "https://media.rawg.io/media/screenshots/77a/77af4e7670499a9d637e4cb8a0312d09.jpg"
+        },
+        {
+          "id": 82277,
+          "image": "https://media.rawg.io/media/screenshots/c95/c958615c946d6c865bf697afdf7cd995.jpg"
+        },
+        {
+          "id": 82278,
+          "image": "https://media.rawg.io/media/screenshots/e87/e87093d3b9d8866c9b3d759ee5435f0c.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 59,
+          "name": "Massively Multiplayer",
+          "slug": "massively-multiplayer"
+        }
+      ]
+    },
+    {
+      "slug": "trine-2-complete-story",
+      "name": "Trine 2: Complete Story",
+      "promo": "",
+      "playtime": 4,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 12,
+            "name": "Discord Store",
+            "slug": "discord"
+          }
+        }
+      ],
+      "released": "2013-06-05",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/c97/c97b943741f5fbc936fe054d9d58851d.jpg",
+      "rating": 3.72,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 210,
+          "percent": 61.05
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 66,
+          "percent": 19.19
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 43,
+          "percent": 12.5
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 25,
+          "percent": 7.27
+        }
+      ],
+      "ratings_count": 343,
+      "reviews_text_count": 3,
+      "added": 3065,
+      "added_by_status": {
+        "yet": 112,
+        "owned": 2683,
+        "beaten": 169,
+        "toplay": 12,
+        "dropped": 81,
+        "playing": 8
+      },
+      "metacritic": 84,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 9
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 570,
+      "id": 3853,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/8d0/8d0476282ece52e9140870155365be94.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/ad9/ad9297a29b314ddbc3c6605c05a4e772.mp4",
+          "640": "https://media.rawg.io/media/stories-640/8d0/8d0476282ece52e9140870155365be94.mp4",
+          "full": "https://media.rawg.io/media/stories/1c6/1c60f5a85ab5a507ab617adda03593ca.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/3d3/3d38b6c4ab723bcef02daa6d1d21915e.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 344,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/c97/c97b943741f5fbc936fe054d9d58851d.jpg"
+        },
+        {
+          "id": 32768,
+          "image": "https://media.rawg.io/media/screenshots/53f/53fa1f6c3c22cbf8b634562bc64bc5da.jpg"
+        },
+        {
+          "id": 32769,
+          "image": "https://media.rawg.io/media/screenshots/3d7/3d7e3c5d3ffc76f9f1b9c838b1f76f80.jpg"
+        },
+        {
+          "id": 32770,
+          "image": "https://media.rawg.io/media/screenshots/5b1/5b1855e5692c14ab600f45817d8b9331.jpg"
+        },
+        {
+          "id": 32771,
+          "image": "https://media.rawg.io/media/screenshots/b10/b105738e3208e8ca17707576acf36100.jpg"
+        },
+        {
+          "id": 32772,
+          "image": "https://media.rawg.io/media/screenshots/f64/f64412d0dcbbd50aabcc7f5ee6c66fa7.jpg"
+        },
+        {
+          "id": 32773,
+          "image": "https://media.rawg.io/media/screenshots/0ba/0ba9b6a2d5aa4247850c028fb2c85107.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle"
+        }
+      ]
+    },
+    {
+      "slug": "brothers-a-tale-of-two-sons-2",
+      "name": "Brothers - A Tale of Two Sons",
+      "promo": "",
+      "playtime": 3,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play"
+          }
+        }
+      ],
+      "released": "2013-09-02",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg",
+      "rating": 4.18,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 238,
+          "percent": 43.99
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 216,
+          "percent": 39.93
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 60,
+          "percent": 11.09
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 27,
+          "percent": 4.99
+        }
+      ],
+      "ratings_count": 538,
+      "reviews_text_count": 7,
+      "added": 3058,
+      "added_by_status": {
+        "yet": 129,
+        "owned": 2267,
+        "beaten": 516,
+        "toplay": 62,
+        "dropped": 72,
+        "playing": 12
+      },
+      "metacritic": 90,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 10
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 634,
+      "id": 18240,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/db5/db57704d391a0dc0def31ea610e32789.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/cc8/cc84dabf9cf1f3c4f9783286e78ca2f1.mp4",
+          "640": "https://media.rawg.io/media/stories-640/db5/db57704d391a0dc0def31ea610e32789.mp4",
+          "full": "https://media.rawg.io/media/stories/71d/71d9325c4fdd1bcbe8b6b3ed0c0b872a.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/873/8736b359789e83fcb8f883e441465c53.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 541,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 169510,
+          "image": "https://media.rawg.io/media/screenshots/14d/14dcdb86ae346a69022ab5837016fdc1.jpg"
+        },
+        {
+          "id": 169511,
+          "image": "https://media.rawg.io/media/screenshots/5e7/5e71a4ccee940eb51a6110535f79d4ed.jpg"
+        },
+        {
+          "id": 169512,
+          "image": "https://media.rawg.io/media/screenshots/709/70954b4dac5e2a4966293ce0c7dbc6c4.jpg"
+        },
+        {
+          "id": 169513,
+          "image": "https://media.rawg.io/media/screenshots/08f/08fd4301c46d14aed67c9d7f98b12ec0.jpg"
+        },
+        {
+          "id": 169514,
+          "image": "https://media.rawg.io/media/screenshots/5bd/5bd04279767fc7febc37e460da236b28.jpg"
+        },
+        {
+          "id": 169515,
+          "image": "https://media.rawg.io/media/screenshots/900/900738abfbca21ada3170e5f9dc7a333.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle"
+        }
+      ]
+    },
+    {
+      "slug": "viscera-cleanup-detail-shadow-warrior",
+      "name": "Viscera Cleanup Detail: Shadow Warrior",
+      "promo": "",
+      "playtime": 1,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "2013-09-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/f2f/f2f3c93d6153da7aee590f3ab8ccd803.jpg",
+      "rating": 2.57,
+      "rating_top": 3,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 90,
+          "percent": 41.67
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 75,
+          "percent": 34.72
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 45,
+          "percent": 20.83
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 6,
+          "percent": 2.78
+        }
+      ],
+      "ratings_count": 216,
+      "reviews_text_count": 0,
+      "added": 3041,
+      "added_by_status": {
+        "yet": 152,
+        "owned": 2775,
+        "beaten": 54,
+        "toplay": 7,
+        "dropped": 53
+      },
+      "metacritic": null,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 11
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 511,
+      "id": 11435,
+      "score": null,
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 216,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/f2f/f2f3c93d6153da7aee590f3ab8ccd803.jpg"
+        },
+        {
+          "id": 93087,
+          "image": "https://media.rawg.io/media/screenshots/181/181bba9474b13903a4f15cdca305e57e.jpg"
+        },
+        {
+          "id": 93088,
+          "image": "https://media.rawg.io/media/screenshots/6a7/6a73b800a67bc595adeaeed2ca62f6e6.jpg"
+        },
+        {
+          "id": 93089,
+          "image": "https://media.rawg.io/media/screenshots/681/6817ea54c56ea5e51822abdc65d8089c.jpg"
+        },
+        {
+          "id": 93090,
+          "image": "https://media.rawg.io/media/screenshots/d8d/d8d35af224bd8a95f01403da03030d57.jpg"
+        },
+        {
+          "id": 93091,
+          "image": "https://media.rawg.io/media/screenshots/654/6547ebbac9c7b971c914d26f54ca6594.jpg"
+        },
+        {
+          "id": 93092,
+          "image": "https://media.rawg.io/media/screenshots/8b0/8b011fbc533d8ffd6419880e491d4d38.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation"
+        }
+      ]
+    },
+    {
+      "slug": "transistor",
+      "name": "Transistor",
+      "promo": "",
+      "playtime": 4,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo"
+          }
+        },
+        {
+          "store": {
+            "id": 11,
+            "name": "Epic Games",
+            "slug": "epic-games"
+          }
+        }
+      ],
+      "released": "2014-05-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/d1f/d1f872a48286b6b751670817d5c1e1be.jpg",
+      "rating": 4.17,
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 231,
+          "percent": 43.83
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 198,
+          "percent": 37.57
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 75,
+          "percent": 14.23
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 23,
+          "percent": 4.36
+        }
+      ],
+      "ratings_count": 525,
+      "reviews_text_count": 2,
+      "added": 2982,
+      "added_by_status": {
+        "yet": 140,
+        "owned": 2226,
+        "beaten": 332,
+        "toplay": 77,
+        "dropped": 164,
+        "playing": 43
+      },
+      "metacritic": 83,
+      "charts": {
+        "year": {
+          "year": 2014,
+          "change": "equal",
+          "position": 5
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 508,
+      "id": 1010,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/aa4/aa4d0d1bb679db5f48fe62f5556b360d.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/f14/f1443abc8da09384b804a93394365f1f.mp4",
+          "640": "https://media.rawg.io/media/stories-640/aa4/aa4d0d1bb679db5f48fe62f5556b360d.mp4",
+          "full": "https://media.rawg.io/media/stories/d1a/d1ab07d85ea6550dec2e951fa5939adb.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/155/155312df3d90cd34753e40bc3e415c8f.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 527,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/d1f/d1f872a48286b6b751670817d5c1e1be.jpg"
+        },
+        {
+          "id": 32361,
+          "image": "https://media.rawg.io/media/screenshots/f0a/f0a310733a1dfb627cb644500bc93b92.jpg"
+        },
+        {
+          "id": 32363,
+          "image": "https://media.rawg.io/media/screenshots/bde/bde16c903e447143a15b033e243fcbc9.jpg"
+        },
+        {
+          "id": 32364,
+          "image": "https://media.rawg.io/media/screenshots/fdb/fdb05fd470393914ba8e7fe0bddeb4c3.jpg"
+        },
+        {
+          "id": 32366,
+          "image": "https://media.rawg.io/media/screenshots/e5a/e5af082ef1e00959cdf38f943dbbdc82.jpg"
+        },
+        {
+          "id": 32368,
+          "image": "https://media.rawg.io/media/screenshots/7dd/7ddfa5a4ca3c9f9017db1924272a0c89.jpg"
+        },
+        {
+          "id": 32369,
+          "image": "https://media.rawg.io/media/screenshots/725/725cc23324af2629f046ec82aa6e2ca0.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg"
+        }
+      ]
+    },
+    {
+      "slug": "dont-starve-together",
+      "name": "Don't Starve Together",
+      "promo": "",
+      "playtime": 6,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "2016-04-21",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/dd5/dd50d4266915d56dd5b63ae1bf72606a.jpg",
+      "rating": 3.86,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 188,
+          "percent": 57.14
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 63,
+          "percent": 19.15
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 63,
+          "percent": 19.15
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 15,
+          "percent": 4.56
+        }
+      ],
+      "ratings_count": 329,
+      "reviews_text_count": 0,
+      "added": 2976,
+      "added_by_status": {
+        "yet": 73,
+        "owned": 2582,
+        "beaten": 68,
+        "toplay": 21,
+        "dropped": 194,
+        "playing": 38
+      },
+      "metacritic": 83,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "equal",
+          "position": 5
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 497,
+      "id": 9882,
+      "score": null,
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 329,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/dd5/dd50d4266915d56dd5b63ae1bf72606a.jpg"
+        },
+        {
+          "id": 74149,
+          "image": "https://media.rawg.io/media/screenshots/9c4/9c4cdf7b06094566881d343c286d8d30.jpg"
+        },
+        {
+          "id": 74150,
+          "image": "https://media.rawg.io/media/screenshots/33e/33ef93d155298edf4045540529b30eb3.jpg"
+        },
+        {
+          "id": 74151,
+          "image": "https://media.rawg.io/media/screenshots/340/3409a9ab93c4c69873909f62e4ab6519.jpg"
+        },
+        {
+          "id": 74152,
+          "image": "https://media.rawg.io/media/screenshots/c70/c707c04d79f5e0441dac2eb7b85554fb.jpg"
+        },
+        {
+          "id": 74153,
+          "image": "https://media.rawg.io/media/screenshots/78c/78c0b0a90a4c5d18ac36dbc2623f12e4.jpg"
+        },
+        {
+          "id": 74154,
+          "image": "https://media.rawg.io/media/screenshots/dc5/dc5965a2a6b94d8d129492287f7206c7.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation"
+        }
+      ]
+    },
+    {
+      "slug": "fez",
+      "name": "FEZ",
+      "promo": "",
+      "playtime": 2,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        },
+        {
+          "platform": {
+            "id": 19,
+            "name": "PS Vita",
+            "slug": "ps-vita"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch"
+          }
+        }
+      ],
+      "released": "2012-04-13",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/4cb/4cb855e8ef1578415a928e53c9f51867.png",
+      "rating": 4.03,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 169,
+          "percent": 40.05
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 163,
+          "percent": 38.63
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 59,
+          "percent": 13.98
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 31,
+          "percent": 7.35
+        }
+      ],
+      "ratings_count": 419,
+      "reviews_text_count": 3,
+      "added": 2963,
+      "added_by_status": {
+        "yet": 109,
+        "owned": 2329,
+        "beaten": 229,
+        "toplay": 48,
+        "dropped": 210,
+        "playing": 38
+      },
+      "metacritic": 91,
+      "charts": {
+        "year": {
+          "year": 2012,
+          "change": "equal",
+          "position": 12
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 232,
+      "id": 3740,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/850/8507c1ad02ae4404fe40bbd6d91e0163.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/057/0570c9449893a54f6e061505ce536423.mp4",
+          "640": "https://media.rawg.io/media/stories-640/850/8507c1ad02ae4404fe40bbd6d91e0163.mp4",
+          "full": "https://media.rawg.io/media/stories/cca/cca8e6ab402675ee348cdfb883e8fc55.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/2d6/2d6e9f23a4fc85588abd77af6ad8075b.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 422,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/4cb/4cb855e8ef1578415a928e53c9f51867.png"
+        },
+        {
+          "id": 32546,
+          "image": "https://media.rawg.io/media/screenshots/f08/f083ed9be5ed890834ef0815f001d577.jpg"
+        },
+        {
+          "id": 32547,
+          "image": "https://media.rawg.io/media/screenshots/88c/88cb946b60c3d5d884607e38f20272b7.jpg"
+        },
+        {
+          "id": 32548,
+          "image": "https://media.rawg.io/media/screenshots/abf/abf6ece1162a4776d043ef3eb90dec80.jpg"
+        },
+        {
+          "id": 32549,
+          "image": "https://media.rawg.io/media/screenshots/e0c/e0cdab50bf9d971c3151324afdd3898c.jpg"
+        },
+        {
+          "id": 32550,
+          "image": "https://media.rawg.io/media/screenshots/e47/e47af843e11dd4640d55fe099f6acf15.jpg"
+        },
+        {
+          "id": 32551,
+          "image": "https://media.rawg.io/media/screenshots/f49/f49f3b47f9fff5ca5643d64ef81a4dbb.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer"
+        }
+      ]
+    },
+    {
+      "slug": "layers-of-fear",
+      "name": "Layers of Fear",
+      "promo": "",
+      "playtime": 3,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        }
+      ],
+      "released": "2016-02-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/6a2/6a2e48933245e2cd3c92248c75c925e1.jpg",
+      "rating": 3.49,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 148,
+          "percent": 48.68
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 62,
+          "percent": 20.39
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 47,
+          "percent": 15.46
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 47,
+          "percent": 15.46
+        }
+      ],
+      "ratings_count": 303,
+      "reviews_text_count": 1,
+      "added": 2937,
+      "added_by_status": {
+        "yet": 216,
+        "owned": 2471,
+        "beaten": 159,
+        "toplay": 34,
+        "dropped": 45,
+        "playing": 12
+      },
+      "metacritic": 72,
+      "charts": {
+        "year": {
+          "year": 2016,
+          "change": "equal",
+          "position": 6
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 564,
+      "id": 2792,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/b93/b936c4dcd87d1056197232f5e196e835.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/c74/c7446ef59570da866f7e10297fbf2c2f.mp4",
+          "640": "https://media.rawg.io/media/stories-640/b93/b936c4dcd87d1056197232f5e196e835.mp4",
+          "full": "https://media.rawg.io/media/stories/fbf/fbff81de48cfb65291267ed3f06659ec.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/44b/44b9604eb70b4a0cf0addf0006ae8def.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 304,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/6a2/6a2e48933245e2cd3c92248c75c925e1.jpg"
+        },
+        {
+          "id": 25499,
+          "image": "https://media.rawg.io/media/screenshots/f49/f4994fea6a84b578a92abd51b20da5f9.jpg"
+        },
+        {
+          "id": 25502,
+          "image": "https://media.rawg.io/media/screenshots/b2f/b2f0f53e5fdeb1c2da275a24a1f86baa.jpg"
+        },
+        {
+          "id": 25505,
+          "image": "https://media.rawg.io/media/screenshots/3c5/3c55efc4e3b008840dd2747fd8abbd72.jpg"
+        },
+        {
+          "id": 25509,
+          "image": "https://media.rawg.io/media/screenshots/e69/e695b7a3e93ac142d6f7a6c142f4dfad.jpg"
+        },
+        {
+          "id": 25512,
+          "image": "https://media.rawg.io/media/screenshots/fe5/fe54e15f23a2f9cffa9a8d113de874db.jpg"
+        },
+        {
+          "id": 25514,
+          "image": "https://media.rawg.io/media/screenshots/16c/16cae54a4aff2bc41a4a90221e00309f.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation"
+        }
+      ]
+    },
+    {
+      "slug": "insurgency",
+      "name": "Insurgency",
+      "promo": "",
+      "playtime": 4,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        }
+      ],
+      "released": "2014-01-22",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/1a1/1a17e9b6286edb7e1f1e510110ccb0c0.jpg",
+      "rating": 3.42,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 151,
+          "percent": 47.34
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 92,
+          "percent": 28.84
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 42,
+          "percent": 13.17
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 34,
+          "percent": 10.66
+        }
+      ],
+      "ratings_count": 316,
+      "reviews_text_count": 5,
+      "added": 2863,
+      "added_by_status": {
+        "yet": 99,
+        "owned": 2582,
+        "beaten": 56,
+        "toplay": 6,
+        "dropped": 105,
+        "playing": 15
+      },
+      "metacritic": 74,
+      "charts": {
+        "year": {
+          "year": 2014,
+          "change": "equal",
+          "position": 6
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 573,
+      "id": 12024,
+      "score": null,
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 319,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/1a1/1a17e9b6286edb7e1f1e510110ccb0c0.jpg"
+        },
+        {
+          "id": 99803,
+          "image": "https://media.rawg.io/media/screenshots/922/922e471de5fe1486b0fc54b260b2e2a2.jpg"
+        },
+        {
+          "id": 99804,
+          "image": "https://media.rawg.io/media/screenshots/ac2/ac24fe8735ad0738ae7a4beaf293135f.jpg"
+        },
+        {
+          "id": 99805,
+          "image": "https://media.rawg.io/media/screenshots/c28/c28dc60beeb0b40e0c17470216d2ad07.jpg"
+        },
+        {
+          "id": 99806,
+          "image": "https://media.rawg.io/media/screenshots/fad/fad7a2fd1c84d7af4f9dd547ec5d2a3e.jpg"
+        },
+        {
+          "id": 99807,
+          "image": "https://media.rawg.io/media/screenshots/f15/f15776ddb8d0dce97bf659f16d714d00.jpg"
+        },
+        {
+          "id": 99808,
+          "image": "https://media.rawg.io/media/screenshots/8e1/8e1fc59e237432a1126d315fee628b80.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "chivalry-medieval-warfare",
+      "name": "Chivalry: Medieval Warfare",
+      "promo": "",
+      "playtime": 4,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360"
+          }
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store"
+          }
+        },
+        {
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store"
+          }
+        },
+        {
+          "store": {
+            "id": 7,
+            "name": "Xbox 360 Store",
+            "slug": "xbox360"
+          }
+        }
+      ],
+      "released": "2012-10-16",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/29c/29ccb3d344cf9d3f5b81b7a85361a178.jpg",
+      "rating": 3.42,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 135,
+          "percent": 48.74
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 84,
+          "percent": 30.32
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 34,
+          "percent": 12.27
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 24,
+          "percent": 8.66
+        }
+      ],
+      "ratings_count": 276,
+      "reviews_text_count": 3,
+      "added": 2763,
+      "added_by_status": {
+        "yet": 79,
+        "owned": 2485,
+        "beaten": 50,
+        "toplay": 11,
+        "dropped": 131,
+        "playing": 7
+      },
+      "metacritic": 79,
+      "charts": {
+        "year": {
+          "year": 2012,
+          "change": "equal",
+          "position": 15
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 655,
+      "id": 3015,
+      "score": null,
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/c8a/c8adbef8d3a574fec3d39068ee062b2e.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/d1c/d1c2a482589b4ce834f3d0c71d6f46c5.mp4",
+          "640": "https://media.rawg.io/media/stories-640/c8a/c8adbef8d3a574fec3d39068ee062b2e.mp4",
+          "full": "https://media.rawg.io/media/stories/b51/b51b7c4b2fceb31dfedc6f85fcddc27a.mp4"
+        },
+        "preview": "https://media.rawg.io/media/stories-previews/f0a/f0aa25a43999225ea0cea1bff5a1edba.jpg"
+      },
+      "user_game": null,
+      "reviews_count": 277,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/29c/29ccb3d344cf9d3f5b81b7a85361a178.jpg"
+        },
+        {
+          "id": 27460,
+          "image": "https://media.rawg.io/media/screenshots/771/7718c95f4adf78ad5cb630dd48c0c68d.jpg"
+        },
+        {
+          "id": 27463,
+          "image": "https://media.rawg.io/media/screenshots/860/8609640aa9967106d538b9fe8b1d87ae.jpg"
+        },
+        {
+          "id": 27464,
+          "image": "https://media.rawg.io/media/screenshots/1f8/1f8efec2b068d6e3251c25ed6b63f841.jpg"
+        },
+        {
+          "id": 27466,
+          "image": "https://media.rawg.io/media/screenshots/9d5/9d5c92475ab7a93aa44c8025d57aa44f.jpg"
+        },
+        {
+          "id": 27467,
+          "image": "https://media.rawg.io/media/screenshots/0d9/0d910febf6100642d5c1ed6e6c0f3454.jpg"
+        },
+        {
+          "id": 27468,
+          "image": "https://media.rawg.io/media/screenshots/a25/a25ae182ffd75adb025c14582a9d30cb.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    },
+    {
+      "slug": "amnesia-a-machine-for-pigs",
+      "name": "Amnesia: A Machine for Pigs",
+      "promo": "",
+      "playtime": 2,
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "stores": [
+        {
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam"
+          }
+        },
+        {
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog"
+          }
+        }
+      ],
+      "released": "2013-09-09",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/810/810470973732a8deec761637b36de567.jpg",
+      "rating": 3.13,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 74,
+          "percent": 37.56
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 61,
+          "percent": 30.96
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 43,
+          "percent": 21.83
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 19,
+          "percent": 9.64
+        }
+      ],
+      "ratings_count": 197,
+      "reviews_text_count": 0,
+      "added": 2735,
+      "added_by_status": {
+        "yet": 203,
+        "owned": 2386,
+        "beaten": 82,
+        "toplay": 16,
+        "dropped": 45,
+        "playing": 3
+      },
+      "metacritic": 72,
+      "charts": {
+        "year": {
+          "year": 2013,
+          "change": "equal",
+          "position": 18
+        }
+      },
+      "comments_count": 0,
+      "comments_parent_count": 0,
+      "suggestions_count": 406,
+      "id": 13268,
+      "score": null,
+      "clip": null,
+      "user_game": null,
+      "reviews_count": 197,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/810/810470973732a8deec761637b36de567.jpg"
+        },
+        {
+          "id": 112928,
+          "image": "https://media.rawg.io/media/screenshots/082/082d4e88394d6b1d4905a4583c8034f8.jpg"
+        },
+        {
+          "id": 112929,
+          "image": "https://media.rawg.io/media/screenshots/a28/a286bc5199fbc9f30a167037650fabc6.jpg"
+        },
+        {
+          "id": 112930,
+          "image": "https://media.rawg.io/media/screenshots/ff1/ff1155c15b92e30833dfacffb8fa5fa3.jpg"
+        },
+        {
+          "id": 112931,
+          "image": "https://media.rawg.io/media/screenshots/b73/b73f332ac30b4b5ae93a461fdded98a1.jpg"
+        },
+        {
+          "id": 112932,
+          "image": "https://media.rawg.io/media/screenshots/7a7/7a79ab092b3db5aafe822d164c80c718.jpg"
+        },
+        {
+          "id": 112933,
+          "image": "https://media.rawg.io/media/screenshots/407/407e2d685e79cce6786c3baf58057ad2.jpg"
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure"
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action"
+        }
+      ]
+    }
+  ]
+}

@@ -132,6 +132,32 @@ describe RAWG::Client do
     end
   end
 
+  describe '#all_games' do
+    before { stub_request(:any, /.*/).to_return(status: :ok) }
+
+    it_behaves_like 'a request',
+                    subject: -> { described_class.new.all_games(genres: 'indie') },
+                    method: :get,
+                    endpoint: '/api/games?genres=indie',
+                    successful_response: fixture('all_games_response.json')
+
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :all_games,
+                    method_options: { genres: 'indie' },
+                    endpoint: '/api/games?genres=indie'
+
+    it 'returns games using single genre' do
+      client.all_games(genres: 'strategy')
+      expect(a_get('/api/games?genres=strategy')).to have_been_made
+    end
+
+    it 'returns games using multiple genres' do
+      client.all_games(genres: %w[racing sports])
+      expect(a_get('/api/games?genres=racing,sports')).to have_been_made
+    end
+  end
+
   describe '#search_games' do
     before { stub_request(:any, /.*/).to_return(status: :ok) }
 
