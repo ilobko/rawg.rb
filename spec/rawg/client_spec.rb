@@ -77,6 +77,34 @@ shared_examples 'a request' do |options|
   end
 end
 
+# These examples verify that provided mehod:
+# - appends page=<number> to query
+# - appends page_size=<size> to query
+shared_examples 'a paginator' do |options|
+  subject        = options[:subject]
+  method_name    = options[:method_name]
+  method_args    = options[:method_args]
+  method_options = options[:method_options] || {}
+  url            = RAWG::Client::BASE_URL + options[:endpoint]
+  http_method    = options[:http_method] || :get
+
+  before { stub_request(:any, /.*/).to_return(status: 200) }
+
+  it 'sends page size' do
+    subject.public_send(method_name, *method_args, page_size: 40, **method_options)
+    expect(a_request(http_method, url)
+      .with(query: { page_size: 40 }))
+      .to have_been_made
+  end
+
+  it 'sends page number' do
+    subject.public_send(method_name, *method_args, page: 2, **method_options)
+    expect(a_request(http_method, url)
+      .with(query: { page: 2 }))
+      .to have_been_made
+  end
+end
+
 describe RAWG::Client do
   subject(:client) { described_class.new }
 
@@ -113,6 +141,12 @@ describe RAWG::Client do
                     endpoint: '/api/games?search=gta',
                     successful_response: fixture('search_games_response.json')
 
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :search_games,
+                    method_args: 'gta',
+                    endpoint: '/api/games?search=gta'
+
     it 'searches games without parameters' do
       client.search_games('gta')
       expect(a_get('/api/games?search=gta')).to have_been_made
@@ -138,6 +172,12 @@ describe RAWG::Client do
                     method: :get,
                     endpoint: '/api/users?search=Alexey%20Gornostaev',
                     successful_response: fixture('search_users_response.json')
+
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :search_users,
+                    method_args: 'Alexey Gornostaev',
+                    endpoint: '/api/users?search=Alexey%20Gornostaev'
 
     it 'searches users' do
       client.search_users('Alexey Gornostaev')
@@ -167,6 +207,12 @@ describe RAWG::Client do
                     endpoint: '/api/games/22509/suggested',
                     successful_response: fixture('game_suggest_response.json')
 
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :game_suggest,
+                    method_args: 22_509,
+                    endpoint: '/api/games/22509/suggested'
+
     it 'returns results array' do
       stub_get('/api/games/22509/suggested',
                fixture: 'game_suggest_response.json')
@@ -181,6 +227,12 @@ describe RAWG::Client do
                     method: :get,
                     endpoint: '/api/games/factorio/reviews',
                     successful_response: fixture('game_reviews_response.json')
+
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :game_reviews,
+                    method_args: 'factorio',
+                    endpoint: '/api/games/factorio/reviews'
 
     it 'returns results array' do
       stub_get('/api/games/factorio/reviews',
@@ -212,6 +264,13 @@ describe RAWG::Client do
                     endpoint: '/api/users/1/games',
                     successful_response: fixture('user_games_response.json')
 
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :user_games,
+                    method_args: 1,
+                    method_options: { statuses: 'owned' },
+                    endpoint: '/api/users/1/games?statuses=owned'
+
     it 'returns results array' do
       stub_get('/api/users/1/games',
                fixture: 'user_games_response.json')
@@ -238,6 +297,12 @@ describe RAWG::Client do
                     method: :get,
                     endpoint: '/api/users/1/reviews',
                     successful_response: fixture('user_reviews_response.json')
+
+    it_behaves_like 'a paginator',
+                    subject: described_class.new,
+                    method_name: :user_reviews,
+                    method_args: 1,
+                    endpoint: '/api/users/1/reviews'
 
     it 'returns results array' do
       stub_get('/api/users/1/reviews',
