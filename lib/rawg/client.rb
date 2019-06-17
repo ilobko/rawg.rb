@@ -16,41 +16,36 @@ module RAWG
       @user_agent = build_user_agent(user_agent)
     end
 
-    def search_games(query, genres: nil)
-      request('/api/games', {
-        search: query,
-        genres: genres.is_a?(Array) ? genres.join(',') : genres
-      }.compact)
+    def search_games(query, **options)
+      request('/api/games', search: query, **options)
     end
 
-    def search_users(query)
-      request('/api/users', search: query)
+    def search_users(query, **options)
+      request('/api/users', search: query, **options)
     end
 
     def game_info(game)
       request("/api/games/#{game}")
     end
 
-    def game_suggest(game)
-      request("/api/games/#{game}/suggested")
+    def game_suggest(game, **options)
+      request("/api/games/#{game}/suggested", options)
     end
 
-    def game_reviews(game)
-      request("/api/games/#{game}/reviews")
+    def game_reviews(game, **options)
+      request("/api/games/#{game}/reviews", options)
     end
 
     def user_info(user)
       request("/api/users/#{user}")
     end
 
-    def user_games(user, statuses: nil)
-      request("/api/users/#{user}/games", {
-        statuses: statuses.is_a?(Array) ? statuses.join(',') : statuses
-      }.compact)
+    def user_games(user, **options)
+      request("/api/users/#{user}/games", options)
     end
 
-    def user_reviews(user)
-      request("/api/users/#{user}/reviews")
+    def user_reviews(user, **options)
+      request("/api/users/#{user}/reviews", options)
     end
 
     private
@@ -74,12 +69,26 @@ module RAWG
       end
     end
 
-    def request(path, query = {})
+    def request(path, **options)
+      query = format_query(options)
       response = http_client.get(path, query).body
       return nil unless response.is_a?(Hash)
       return nil if response[:detail] == 'Not found.'
 
       response
+    end
+
+    def format_query(options)
+      options
+        .map { |k, v| [k, serialize_query_value(v)] }
+        .to_h
+        .compact
+    end
+
+    def serialize_query_value(value)
+      return value unless value.is_a? Array
+
+      value.join(',')
     end
   end
 end
