@@ -6,10 +6,9 @@ require 'pry'
 
 module RAWG
   class Client
-    GEM_NAME        = 'rawg-rb'
-    GEM_VERSION     = '0.1'
-    GEM_USER_AGENT  = "#{GEM_NAME}/#{GEM_VERSION}"
-    BASE_URL        = 'https://api.rawg.io'
+    VERSION             = '0.1'
+    DEFAULT_USER_AGENT  = "rawg-rb/#{VERSION}"
+    BASE_URL            = 'https://api.rawg.io'
 
     attr_reader :user_agent
 
@@ -17,31 +16,31 @@ module RAWG
       @user_agent = build_user_agent(user_agent)
     end
 
-    def search_games(search, genres: nil)
+    def search_games(query, genres: nil)
       request('/api/games', {
-        search: search,
+        search: query,
         genres: genres.is_a?(Array) ? genres.join(',') : genres
       }.compact)
     end
 
-    def search_users(search)
-      request('/api/users', search: search)
+    def search_users(query)
+      request('/api/users', search: query)
     end
 
-    def game_info(id)
-      request("/api/games/#{id}")
+    def game_info(game)
+      request("/api/games/#{game}")
     end
 
-    def game_suggest(id)
-      request("/api/games/#{id}/suggested")
+    def game_suggest(game)
+      request("/api/games/#{game}/suggested")
     end
 
-    def user_info(id)
-      request("/api/users/#{id}")
+    def user_info(user)
+      request("/api/users/#{user}")
     end
 
-    def user_games(id, statuses: nil)
-      request("/api/users/#{id}/games", {
+    def user_games(user, statuses: nil)
+      request("/api/users/#{user}/games", {
         statuses: statuses.is_a?(Array) ? statuses.join(',') : statuses
       }.compact)
     end
@@ -50,9 +49,9 @@ module RAWG
 
     def build_user_agent(user_agent)
       ua = user_agent&.to_s&.strip
-      return GEM_USER_AGENT if ua.nil? || ua.empty?
+      return DEFAULT_USER_AGENT if ua.nil? || ua.empty?
 
-      [ua, GEM_USER_AGENT].join(' ')
+      [ua, DEFAULT_USER_AGENT].join(' ')
     end
 
     def http_client
