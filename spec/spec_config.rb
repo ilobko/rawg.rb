@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require 'rspec'
-require 'rawg'
 require 'factory_bot'
 require 'webmock/rspec'
+require 'rawg'
 
 WebMock.disable_net_connect!
 

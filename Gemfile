@@ -2,16 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'faraday'
-gem 'faraday_middleware'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-group :development do
-  gem 'pry'
-end
-
-group :test do
-  gem 'factory_bot'
-  gem 'faker'
-  gem 'rspec'
-  gem 'webmock'
-end
+gemspec

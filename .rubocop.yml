@@ -2,3 +2,11 @@ AllCops:
   Exclude:
     - demo.rb
     - examples/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+
+Metrics/LineLength:
+  Exclude:
+    - '*.gemspec'

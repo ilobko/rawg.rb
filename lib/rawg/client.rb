@@ -2,12 +2,10 @@
 
 require 'faraday'
 require 'faraday_middleware'
-require 'pry'
 
 module RAWG
   class Client
-    VERSION             = '0.1'
-    DEFAULT_USER_AGENT  = "rawg-rb/#{VERSION}"
+    DEFAULT_USER_AGENT  = "rawg-rb/#{RAWG::VERSION}"
     BASE_URL            = 'https://api.rawg.io'
 
     attr_reader :user_agent
@@ -16,27 +14,35 @@ module RAWG
       @user_agent = build_user_agent(user_agent)
     end
 
-    def all_games(**options)
-      request('/api/games', **options)
+    def get(*args)
+      @http_client.get(*args).body
     end
 
-    def search_games(query, **options)
-      request('/api/games', search: query, **options)
+    def all_games(options = {})
+      request('/api/games', options)
     end
 
-    def search_users(query, **options)
-      request('/api/users', search: query, **options)
+    def all_users(options = {})
+      request('/api/users', options)
+    end
+
+    def search_games(query, options = {})
+      all_games(search: query, **options)
+    end
+
+    def search_users(query, options = {})
+      all_users(search: query, **options)
     end
 
     def game_info(game)
       request("/api/games/#{game}")
     end
 
-    def game_suggest(game, **options)
+    def game_suggest(game, options = {})
       request("/api/games/#{game}/suggested", options)
     end
 
-    def game_reviews(game, **options)
+    def game_reviews(game, options = {})
       request("/api/games/#{game}/reviews", options)
     end
 
@@ -44,12 +50,32 @@ module RAWG
       request("/api/users/#{user}")
     end
 
-    def user_games(user, **options)
+    def user_games(user, options = {})
       request("/api/users/#{user}/games", options)
     end
 
-    def user_reviews(user, **options)
+    def user_reviews(user, options = {})
       request("/api/users/#{user}/reviews", options)
+    end
+
+    def game(game)
+      response = game_info(game)
+      RAWG::Game.new(client: self).from_response(response)
+    end
+
+    def games(options = {})
+      response = all_games(options)
+      RAWG::Collection.new(RAWG::Game, client: self).from_response(response)
+    end
+
+    def users(options = {})
+      response = all_users(options)
+      RAWG::Collection.new(RAWG::User, client: self).from_response(response)
+    end
+
+    def reviews(options = {})
+      response = all_reviews(options)
+      RAWG::Collection.new(RAWG::Review, client: self).from_response(response)
     end
 
     private
@@ -73,7 +99,7 @@ module RAWG
       end
     end
 
-    def request(path, **options)
+    def request(path, options = {})
       query = format_query(options)
       response = http_client.get(path, query).body
       return nil unless response.is_a?(Hash)
