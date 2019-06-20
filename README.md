@@ -1,6 +1,8 @@
-# RAWG.rb
+# 💎 RAWG.rb
 
-This is an unofficial Ruby client for [RAWG.io](https://rawg.io) API. RAWG is the largest video game database and game discovery service. See rules and more information at [rawg.io/apidocs](https://rawg.io/apidocs).
+This is a Ruby client for RAWG API.
+
+[RAWG.io](https://rawg.io) is the largest video game database and game discovery service. See [rawg.io/apidocs](https://rawg.io/apidocs) for rules and additional information about the API.
 
 
 ## Installation
@@ -27,7 +29,7 @@ zombie_racing_games = rawg.games(search: 'zombie', genres: 'racing')
 
 ## Contributing
 
-Feel free to create GitHub issues at https://github.com/ivanlobko/rawg.rb.
+Feel free to submit GitHub issues at https://github.com/ivanlobko/rawg.rb/issues.
 
 
 ## License
