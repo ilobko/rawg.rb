@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rawg/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rawg'
+  spec.name          = 'rawg_rb'
   spec.version       = RAWG::VERSION
   spec.authors       = ['Ivan Lobko']
-  spec.email         = ['i.lobko@rambler-co.ru']
+  spec.email         = ['ivan@lobko.com']
 
   spec.summary       = 'A Ruby client for RAWG.io API'
   # spec.description   = 'TODO: Write a longer description or delete this line.'
-  spec.homepage      = 'https://github.com/ivanlobko/rawg-rb'
+  spec.homepage      = 'https://github.com/ivanlobko/rawg.rb'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
     # spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/ivanlobko/rawg-rb'
+    spec.metadata['source_code_uri'] = 'https://github.com/ivanlobko/rawg.rb'
     # spec.metadata['changelog_uri'] = "TODO: Put your gem's CHANGELOG.md URL here."
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \

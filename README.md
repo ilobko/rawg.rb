@@ -10,12 +10,12 @@ This is a Ruby client for RAWG API.
 Add this line to your Gemfile:
 
 ```ruby
-gem 'rawg'
+gem 'rawg_rb'
 ```    
 
 Or install manually:
 
-    $ gem install rawg
+    $ gem install rawg_rb
 
 
 ## Usage
