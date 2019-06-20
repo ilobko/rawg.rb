@@ -29,7 +29,7 @@ zombie_racing_games = rawg.games(search: 'zombie', genres: 'racing')
 
 ## Contributing
 
-Feel free to submit GitHub issues at https://github.com/ivanlobko/rawg.rb/issues.
+Feel free to submit new issues at [github.com/ivanlobko/rawg.rb/issues](https://github.com/ivanlobko/rawg.rb/issues).
 
 
 ## License
