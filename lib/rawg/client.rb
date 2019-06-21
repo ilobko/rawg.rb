@@ -5,17 +5,22 @@ require 'faraday_middleware'
 
 module RAWG
   class Client
-    DEFAULT_USER_AGENT  = "rawg-rb/#{RAWG::VERSION}"
+    DEFAULT_USER_AGENT  = "rawg.rb/#{RAWG::VERSION}"
     BASE_URL            = 'https://api.rawg.io'
 
     attr_reader :user_agent
 
     def initialize(user_agent: nil)
-      @user_agent = build_user_agent(user_agent)
+      @user_agent =
+        if user_agent
+          user_agent.strip.concat(' ', DEFAULT_USER_AGENT)
+        else
+          DEFAULT_USER_AGENT
+        end
     end
 
     def get(*args)
-      @http_client.get(*args).body
+      http_client.get(*args).body
     end
 
     def all_games(options = {})
@@ -79,13 +84,6 @@ module RAWG
     end
 
     private
-
-    def build_user_agent(user_agent)
-      ua = user_agent&.to_s&.strip
-      return DEFAULT_USER_AGENT if ua.nil? || ua.empty?
-
-      [ua, DEFAULT_USER_AGENT].join(' ')
-    end
 
     def http_client
       @http_client ||= Faraday.new(
