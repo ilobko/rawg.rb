@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rawg (0.0.0)
+    rawg_rb (0.0.0)
       faraday (~> 0.15.4)
       faraday_middleware (~> 0.13.1)
 
@@ -67,7 +67,7 @@ DEPENDENCIES
   factory_bot (~> 5.0, >= 5.0.2)
   pry (~> 0.12.2)
   rake (~> 10.0)
-  rawg!
+  rawg_rb!
   rspec (~> 3.8)
   webmock (~> 3.6)
 

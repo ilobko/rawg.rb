@@ -9,9 +9,7 @@ Gem::Specification.new do |spec|
   spec.version       = RAWG::VERSION
   spec.authors       = ['Ivan Lobko']
   spec.email         = ['ivan@lobko.com']
-
   spec.summary       = 'A Ruby client for RAWG.io API'
-  # spec.description   = 'TODO: Write a longer description or delete this line.'
   spec.homepage      = 'https://github.com/ivanlobko/rawg.rb'
   spec.license       = 'MIT'
 
