@@ -8,7 +8,7 @@ module RAWG
 
     lazy_attr_accessor :id, :slug, :name, :description,
                        :released, :website, :rating,
-                       init: :load_game_info
+                       init: ->(_) { load_game_info }
 
     def initialize(options = {})
       @client = options[:client]

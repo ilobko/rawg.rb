@@ -13,7 +13,7 @@ module RAWG
             instance_variable_set("@#{attr}", value)
           end
           define_method(attr) do
-            send(init) if init && !instance_variable_get("@#{attr}")
+            init.call(attr) if init && !instance_variable_get("@#{attr}")
             instance_variable_get("@#{attr}")
           end
         end
