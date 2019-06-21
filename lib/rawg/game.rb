@@ -6,8 +6,9 @@ module RAWG
   class Game
     include RAWG::Utils
 
-    attr_accessor :id, :slug, :name, :description,
-                  :released, :website, :rating
+    lazy_attr_accessor :id, :slug, :name, :description,
+                       :released, :website, :rating,
+                       init: :load_game_info
 
     def initialize(options = {})
       @client = options[:client]
@@ -30,8 +31,14 @@ module RAWG
       RAWG::Collection.new(RAWG::Review, client: client).from_response(response)
     end
 
+    private
+
     def client
       @client ||= RAWG::Client.new
+    end
+
+    def load_game_info
+      client.game_info(@id)
     end
   end
 end
