@@ -15,6 +15,11 @@ module RAWG
       yield self if block_given?
     end
 
+    def from_response(response)
+      assign_attributes(response)
+      self
+    end
+
     def suggested(options)
       response = client.game_suggest(@id, options)
       RAWG::Collection.new(RAWG::Game, client: client).from_response(response)

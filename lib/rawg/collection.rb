@@ -15,7 +15,7 @@ module RAWG
       @next_page_url = response[:next]
       @count = response[:count]
       @items = response[:results].map do |attrs|
-        items_class.new(client: @client, **attrs)
+        items_class.new(client: @client).from_response(attrs)
       end
       self
     end
@@ -30,9 +30,13 @@ module RAWG
       @count
     end
 
+    private
+
     def fetch_next_page
-      response = client.get(next_page_url)
-      games << response[:results].map { |params| Game.new(params) }
+      response = client.get(@next_page_url)
+      @items << response[:results].map do |item|
+        items_class.new(client: @client).from_response(item)
+      end
     end
 
     def client
