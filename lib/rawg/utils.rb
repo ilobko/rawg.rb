@@ -7,14 +7,18 @@ module RAWG
     end
 
     module ClassMethods
-      def lazy_attr_accessor(*attrs, init: nil)
+      def lazy_attr_accessor(*attrs, init:)
+        attr_writer(*attrs)
+        lazy_attr_reader(*attrs, init: init)
+      end
+
+      def lazy_attr_reader(*attrs, init:)
         attrs.each do |attr|
-          define_method("#{attr}=") do |value|
-            instance_variable_set("@#{attr}", value)
-          end
           define_method(attr) do
-            init.call(attr) if init && !instance_variable_get("@#{attr}")
-            instance_variable_get("@#{attr}")
+            instance_variable_get("@#{attr}") || begin
+              init.call(attr)
+              instance_variable_get("@#{attr}")
+            end
           end
         end
       end
@@ -23,8 +27,8 @@ module RAWG
     def assign_attributes(attrs)
       return unless attrs.is_a?(Hash)
 
-      attrs.each do |k, v|
-        send("#{k}=", v) if respond_to?("#{k}=")
+      attrs.each do |attr, value|
+        send("#{attr}=", value) if respond_to?("#{attr}=")
       end
     end
   end

@@ -4,11 +4,14 @@ module RAWG
   class Collection
     include Enumerable
 
-    attr_reader :items_class
+    attr_reader :items_class, :items
 
-    def initialize(klass, options)
+    def initialize(klass, client: RAWG::Client.new)
       @items_class = klass
-      @client = options[:client]
+      @client = client
+      @count = 0
+      @items = []
+      @next_page_url = nil
     end
 
     def from_response(response)

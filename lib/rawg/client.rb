@@ -5,30 +5,30 @@ require 'faraday_middleware'
 
 module RAWG
   class Client
-    DEFAULT_USER_AGENT  = "rawg.rb/#{RAWG::VERSION}"
-    BASE_URL            = 'https://api.rawg.io'
+    DEFAULT_USER_AGENT = "rawg.rb/#{RAWG::VERSION}"
+    BASE_URL           = 'https://api.rawg.io'
 
     attr_reader :user_agent
 
     def initialize(user_agent: nil)
-      @user_agent =
-        if user_agent
-          user_agent.strip.concat(' ', DEFAULT_USER_AGENT)
-        else
-          DEFAULT_USER_AGENT
-        end
+      @user_agent = combine_user_agents(user_agent, DEFAULT_USER_AGENT)
+      @http_client = default_http_client
     end
 
-    def get(*args)
-      http_client.get(*args).body
+    def get(path, query = {})
+      response = @http_client.get(path, format_query(query)).body
+      return nil unless response.is_a?(Hash)
+      return nil if response[:detail] == 'Not found.'
+
+      response
     end
 
     def all_games(options = {})
-      request('/api/games', options)
+      get('/api/games', options)
     end
 
     def all_users(options = {})
-      request('/api/users', options)
+      get('/api/users', options)
     end
 
     def search_games(query, options = {})
@@ -40,27 +40,27 @@ module RAWG
     end
 
     def game_info(game)
-      request("/api/games/#{game}")
+      get("/api/games/#{game}")
     end
 
     def game_suggest(game, options = {})
-      request("/api/games/#{game}/suggested", options)
+      get("/api/games/#{game}/suggested", options)
     end
 
     def game_reviews(game, options = {})
-      request("/api/games/#{game}/reviews", options)
+      get("/api/games/#{game}/reviews", options)
     end
 
     def user_info(user)
-      request("/api/users/#{user}")
+      get("/api/users/#{user}")
     end
 
     def user_games(user, options = {})
-      request("/api/users/#{user}/games", options)
+      get("/api/users/#{user}/games", options)
     end
 
     def user_reviews(user, options = {})
-      request("/api/users/#{user}/reviews", options)
+      get("/api/users/#{user}/reviews", options)
     end
 
     def game(game)
@@ -85,30 +85,24 @@ module RAWG
 
     private
 
-    def http_client
-      @http_client ||= Faraday.new(
+    def combine_user_agents(*user_agents)
+      user_agents.join(' ').squeeze(' ').strip
+    end
+
+    def default_http_client
+      Faraday.new(
         url: BASE_URL,
         headers: { user_agent: @user_agent, content_type: 'application/json' }
       ) do |conn|
-        conn.response :json,
-                      content_type: /\bjson$/,
-                      parser_options: { symbolize_names: true }
+        conn.response :json, content_type: /\bjson$/,
+                             parser_options: { symbolize_names: true }
         conn.adapter Faraday.default_adapter
       end
     end
 
-    def request(path, options = {})
-      query = format_query(options)
-      response = http_client.get(path, query).body
-      return nil unless response.is_a?(Hash)
-      return nil if response[:detail] == 'Not found.'
-
-      response
-    end
-
-    def format_query(options)
-      options
-        .map { |k, v| [k, serialize_query_value(v)] }
+    def format_query(query)
+      query
+        .map { |field, value| [field, serialize_query_value(value)] }
         .to_h
         .compact
     end
