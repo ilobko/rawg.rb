@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 # These examples verify that provided mehod:
 # - uses provided endpoint
 # - uses provided http method
@@ -108,7 +106,7 @@ end
 describe RAWG::Client do
   subject(:client) { described_class.new }
 
-  it 'has correct BASE_URL' do
+  it 'has BASE_URL = \'https://api.rawg.io\'' do
     expect(described_class::BASE_URL).to eq('https://api.rawg.io')
   end
 
