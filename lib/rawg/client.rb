@@ -65,22 +65,12 @@ module RAWG
 
     def game(game)
       response = game_info(game)
-      RAWG::Game.new(client: self).from_response(response)
+      RAWG::Game.new(client: self).from_api_response(response)
     end
 
     def games(options = {})
       response = all_games(options)
-      RAWG::Collection.new(RAWG::Game, client: self).from_response(response)
-    end
-
-    def users(options = {})
-      response = all_users(options)
-      RAWG::Collection.new(RAWG::User, client: self).from_response(response)
-    end
-
-    def reviews(options = {})
-      response = all_reviews(options)
-      RAWG::Collection.new(RAWG::Review, client: self).from_response(response)
+      RAWG::Collection.new(RAWG::Game, client: self).from_api_response(response)
     end
 
     private

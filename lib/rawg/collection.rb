@@ -4,7 +4,7 @@ module RAWG
   class Collection
     include Enumerable
 
-    attr_reader :items_class, :items
+    attr_reader :items_class, :client
 
     def initialize(klass, client: RAWG::Client.new)
       @items_class = klass
@@ -14,11 +14,12 @@ module RAWG
       @next_page_url = nil
     end
 
-    def from_response(response)
+    def from_api_response(response)
       @next_page_url = response[:next]
       @count = response[:count]
-      @items = response[:results].map do |attrs|
-        items_class.new(client: @client).from_response(attrs)
+      response[:results].each do |attrs|
+        new_item = @items_class.new(client: @client).from_api_response(attrs)
+        @items.push(new_item)
       end
       self
     end
@@ -36,14 +37,11 @@ module RAWG
     private
 
     def fetch_next_page
-      response = client.get(@next_page_url)
-      @items << response[:results].map do |item|
-        items_class.new(client: @client).from_response(item)
-      end
-    end
-
-    def client
-      @client ||= RAWG::Client.new
+      # response = @client.get(@next_page_url)
+      # fetched_items = response[:results].map do |item|
+      #   @items_class.new(client: @client).from_api_response(item)
+      # end
+      # @items.push(*fetched_items)
     end
   end
 end

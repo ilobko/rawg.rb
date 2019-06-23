@@ -16,19 +16,16 @@ module RAWG
       yield self if block_given?
     end
 
-    def from_response(response)
+    def from_api_response(response)
       assign_attributes(response)
       self
     end
 
     def suggested(options)
       response = client.game_suggest(@id, options)
-      RAWG::Collection.new(RAWG::Game, client: client).from_response(response)
-    end
-
-    def reviews(options)
-      response = client.game_reviews(@id, options)
-      RAWG::Collection.new(RAWG::Review, client: client).from_response(response)
+      RAWG::Collection
+        .new(RAWG::Game, client: client)
+        .from_api_response(response)
     end
   end
 end
