@@ -20,10 +20,73 @@ Or install manually:
 
 ## Usage
 
+### Client
+
+You should provide a user agent to identify your app.
+
 ```ruby
 rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/1.0')
+```
 
-zombie_racing_games = rawg.games(search: 'zombie', genres: 'racing')
+**Search games**
+
+```ruby
+rawg.games(search: 'gta')                       # => <RAWG::Collection>
+rawg.games(search: 'zombie', genres: 'racing')  # => <RAWG::Collection>
+```
+
+**Fetch a game by slug of ID**
+
+```ruby
+rawg.game('fallout')
+rawg.game(132026)
+```
+
+### Game
+
+```ruby
+minecraft = rawg.game('minecraft')
+```
+
+**Attributes**
+
+```ruby
+minecraft.id            # => 22509
+minecraft.slug          # => "minecraft"
+minecraft.name          # => "Minecraft"
+minecraft.description   # => "<p>One of the most popular games of the 2010s...
+minecraft.website       # => "https://minecraft.net"
+minecraft.rating        # => 4.32
+```
+
+**Suggested games**
+
+```ruby
+minecraft.suggested
+# => <RAWG::Collection>
+```
+
+
+### Simple Requests
+
+These methods return API response as a hash. No pagination.
+
+**All games**
+
+```ruby
+rawg.all_games(genres: 'indie')
+```
+
+**Search games**
+
+```ruby
+rawg.search_games('zombie', genres: 'racing')
+```
+
+**Search users**
+
+```ruby
+rawg.search_games(genres: 'indie')
 ```
 
 
