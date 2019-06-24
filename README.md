@@ -31,8 +31,8 @@ rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/1.0')
 **Search games**
 
 ```ruby
-rawg.games(search: 'gta')                       # => <RAWG::Collection>
-rawg.games(search: 'zombie', genres: 'racing')  # => <RAWG::Collection>
+rawg.games(search: 'gta')
+rawg.games(search: 'zombie', genres: 'racing')
 ```
 
 **Fetch a game by slug of ID**
@@ -45,25 +45,24 @@ rawg.game(132026)
 ### Game
 
 ```ruby
-minecraft = rawg.game('minecraft')
-```
+minecraft = rawg.game('minecraft') # => <RAWG::Game>
 
-**Attributes**
 
-```ruby
+# Attributes
 minecraft.id            # => 22509
 minecraft.slug          # => "minecraft"
 minecraft.name          # => "Minecraft"
 minecraft.description   # => "<p>One of the most popular games of the 2010s...
 minecraft.website       # => "https://minecraft.net"
 minecraft.rating        # => 4.32
-```
 
-**Suggested games**
 
-```ruby
+# Suggested games
 minecraft.suggested
 # => <RAWG::Collection>
+
+minecraft.suggested.first(3).map { |g| g.name }
+# => ['Project Explore', 'Planet Nomads', 'Custom Town']
 ```
 
 
