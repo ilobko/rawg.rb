@@ -18,51 +18,42 @@ Or install manually:
     $ gem install rawg_rb
 
 
-## Usage
-
-### Client
-
-You should provide a user agent to identify your app.
+## Quick Start
 
 ```ruby
 rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/1.0')
+
 ```
 
-**Search games**
+
+## Usage
 
 ```ruby
-rawg.games(search: 'gta')
-rawg.games(search: 'zombie', genres: 'racing')
-```
+# You should provide a user agent to identify your app.
+rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/1.0')
 
-**Fetch a game by slug of ID**
-
-```ruby
+# Fetch a game by slug or id
 rawg.game('fallout')
 rawg.game(132026)
-```
 
-### Game
-
-```ruby
 minecraft = rawg.game('minecraft') # => <RAWG::Game>
+minecraft.id           # => 22509
+minecraft.slug         # => "minecraft"
+minecraft.name         # => "Minecraft"
+minecraft.description  # => "<p>One of the most popular games of the 2010s...
+minecraft.website      # => "https://minecraft.net"
+minecraft.rating       # => 4.32
 
+# Find similar games
+games_like_minecraft = minecraft.suggested     # => <RAWG::Collection>
 
-# Attributes
-minecraft.id            # => 22509
-minecraft.slug          # => "minecraft"
-minecraft.name          # => "Minecraft"
-minecraft.description   # => "<p>One of the most popular games of the 2010s...
-minecraft.website       # => "https://minecraft.net"
-minecraft.rating        # => 4.32
+# Search games
+rawg.games(search: 'gta')                      # => <RAWG::Collection>
+rawg.games(search: 'zombie', genres: 'racing') # => <RAWG::Collection>
 
+# Collection is Enumerable
+games_like_minecraft.first(2).map { |g| g.name }  # => ['Project Explore', 'Planet Nomads']
 
-# Suggested games
-minecraft.suggested
-# => <RAWG::Collection>
-
-minecraft.suggested.first(3).map { |g| g.name }
-# => ['Project Explore', 'Planet Nomads', 'Custom Town']
 ```
 
 
@@ -70,22 +61,12 @@ minecraft.suggested.first(3).map { |g| g.name }
 
 These methods return API response as a hash. No pagination.
 
-**All games**
-
 ```ruby
 rawg.all_games(genres: 'indie')
-```
-
-**Search games**
-
-```ruby
 rawg.search_games('zombie', genres: 'racing')
-```
-
-**Search users**
-
-```ruby
 rawg.search_games(genres: 'indie')
+rawg.game_info(132026)
+rawg.game_suggest('minecraft')
 ```
 
 
