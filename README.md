@@ -18,14 +18,6 @@ Or install manually:
     $ gem install rawg_rb
 
 
-## Quick Start
-
-```ruby
-rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/1.0')
-
-```
-
-
 ## Usage
 
 ```ruby
@@ -59,7 +51,7 @@ games_like_minecraft.first(2).map { |g| g.name }  # => ['Project Explore', 'Plan
 
 ### Simple Requests
 
-These methods return API response as a hash. No pagination.
+These methods return a hash containing API response as it is.
 
 ```ruby
 rawg.all_games(genres: 'indie')
