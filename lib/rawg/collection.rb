@@ -24,8 +24,19 @@ module RAWG
       self
     end
 
-    def each(&block)
-      @items.each(&block)
+    def each
+      i = 0
+      loop do
+        raise StopIteration if i == @count - 1
+
+        if !@items[i] && @next_page_url
+          response = @client.get(@next_page_url)
+          from_api_response(response)
+        end
+
+        yield @items[i]
+        i += 1
+      end
     end
 
     def count(*args)
