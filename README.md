@@ -39,12 +39,13 @@ minecraft.rating       # => 4.32
 # Find similar games
 games_like_minecraft = minecraft.suggested     # => <RAWG::Collection>
 
+# Collection is Enumerable.
+# If the result contains multiple pages, additional pages will be requested if needed.
+games_like_minecraft.first(2).map(&:name)  # => ['Project Explore', 'Planet Nomads']
+
 # Search games
 rawg.games(search: 'gta')                      # => <RAWG::Collection>
 rawg.games(search: 'zombie', genres: 'racing') # => <RAWG::Collection>
-
-# Collection is Enumerable
-games_like_minecraft.first(2).map { |g| g.name }  # => ['Project Explore', 'Planet Nomads']
 
 ```
 
