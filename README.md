@@ -1,5 +1,6 @@
 # 💎 RAWG.rb
 
+[![Gem Version](https://badge.fury.io/rb/rawg_rb.svg)](https://badge.fury.io/rb/rawg_rb)
 [![Build Status](https://travis-ci.org/ivanlobko/rawg.rb.svg?branch=master)](https://travis-ci.org/ivanlobko/rawg.rb)
 [![codecov](https://codecov.io/gh/ivanlobko/rawg.rb/branch/master/graph/badge.svg)](https://codecov.io/gh/ivanlobko/rawg.rb)
 
