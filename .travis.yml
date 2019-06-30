@@ -8,3 +8,8 @@ before_install:
   - gem install bundler
 
 cache: bundler
+
+script: bundle exec rspec
+
+after_success:
+  - codecov

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rspec'
+require 'faker'
 require 'factory_bot'
 require 'webmock/rspec'
 require 'rawg'
