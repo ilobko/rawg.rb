@@ -21,10 +21,10 @@ module RAWG
       self
     end
 
-    def suggested(options)
-      response = client.game_suggest(@id, options)
+    def suggested(options = {})
+      response = @client.game_suggest(@id, options)
       RAWG::Collection
-        .new(RAWG::Game, client: client)
+        .new(RAWG::Game, client: @client)
         .from_api_response(response)
     end
   end
