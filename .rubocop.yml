@@ -1,7 +1,9 @@
 AllCops:
   Exclude:
-    - demo.rb
     - examples/**/*
+
+Style/Documentation:
+  Enabled: false
 
 Metrics/BlockLength:
   Exclude:
