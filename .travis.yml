@@ -10,6 +10,3 @@ before_install:
 cache: bundler
 
 script: bundle exec rspec
-
-after_success:
-  - codecov
