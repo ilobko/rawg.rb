@@ -10,16 +10,16 @@ describe RAWG::Game do
   it { is_expected.to have_attr_accessor(:released) }
   it { is_expected.to have_attr_accessor(:website) }
   it { is_expected.to have_attr_accessor(:rating) }
-  
+
   describe '#initialize' do
     context 'when client is specified' do
       it 'uses that client'
     end
-    
+
     context 'when client is not specified' do
       it 'uses RAWG::Client.new'
     end
-    
+
     context 'when block given' do
       it 'yields itself' do
         yielded_instance = nil
@@ -35,7 +35,24 @@ describe RAWG::Game do
   end
 
   describe '#suggested' do
-    it 'makes a request to /games/%{id}/suggested'
-    it 'returns a collection of games'
+    subject(:game) do
+      described_class.new(id: 22_509)
+    end
+
+    before do
+      stub_get('/api/games/22509/suggested',
+               fixture: 'game_suggest_response.json')
+    end
+
+    it 'makes a single request to /games/<id>/suggested' do
+      game.suggested
+      expect(a_get('/api/games/22509/suggested'))
+        .to have_been_made.once
+    end
+
+    it 'returns a collection of games' do
+      result = game.suggested
+      expect(result).to be_a RAWG::Collection
+    end
   end
 end
