@@ -44,15 +44,5 @@ module RAWG
 
       @count
     end
-
-    private
-
-    def fetch_next_page
-      # response = @client.get(@next_page_url)
-      # fetched_items = response[:results].map do |item|
-      #   @items_class.new(client: @client).from_api_response(item)
-      # end
-      # @items.push(*fetched_items)
-    end
   end
 end
