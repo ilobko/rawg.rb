@@ -7,7 +7,7 @@ describe RAWG::Collection do
 
   describe '#initialize' do
     subject(:collection) { described_class.new(given_items_class, **options) }
-    
+
     let(:given_items_class) { Class.new }
     let(:options) { {} }
 
