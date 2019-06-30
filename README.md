@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/rawg_rb.svg)](https://badge.fury.io/rb/rawg_rb)
 [![Build Status](https://travis-ci.com/ivanlobko/rawg.rb.svg?branch=master)](https://travis-ci.com/ivanlobko/rawg.rb)
 [![codecov](https://codecov.io/gh/ivanlobko/rawg.rb/branch/master/graph/badge.svg)](https://codecov.io/gh/ivanlobko/rawg.rb)
+[![Inline docs](http://inch-ci.org/github/ivanlobko/rawg.rb.svg?branch=master)](http://inch-ci.org/github/ivanlobko/rawg.rb)
 
 This is a Ruby client for RAWG API.
 
