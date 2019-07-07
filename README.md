@@ -42,15 +42,15 @@ minecraft.website      # => "https://minecraft.net"
 minecraft.rating       # => 4.32
 
 # Find similar games
-games_like_minecraft = minecraft.suggested     # => <RAWG::Collection>
+games_like_minecraft = minecraft.suggested     # => <RAWG::Paginator>
 
-# Collection is Enumerable.
+# Paginator is Enumerable.
 # If the result contains multiple pages, additional pages will be requested if needed.
 games_like_minecraft.first(2).map(&:name)  # => ['Project Explore', 'Planet Nomads']
 
 # Search games
-rawg.games(search: 'gta')                      # => <RAWG::Collection>
-rawg.games(search: 'zombie', genres: 'racing') # => <RAWG::Collection>
+rawg.games(search: 'gta')                      # => <RAWG::Paginator>
+rawg.games(search: 'zombie', genres: 'racing') # => <RAWG::Paginator>
 
 ```
 

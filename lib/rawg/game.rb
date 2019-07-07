@@ -23,7 +23,7 @@ module RAWG
 
     def suggested(options = {})
       response = @client.game_suggest(@id, options)
-      RAWG::Collection
+      RAWG::Paginator
         .new(RAWG::Game, client: @client)
         .from_api_response(response)
     end

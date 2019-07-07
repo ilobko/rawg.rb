@@ -50,9 +50,10 @@ describe RAWG::Game do
         .to have_been_made.once
     end
 
-    it 'returns a collection of games' do
+    it 'returns a paginator of games', :aggregate_failures do
       result = game.suggested
-      expect(result).to be_a RAWG::Collection
+      expect(result).to be_a RAWG::Paginator
+      expect(result.items_class).to be described_class
     end
   end
 end

@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
-describe RAWG::Collection do
+describe RAWG::Paginator do
   it 'includes Enumerable' do
     expect(described_class).to be < Enumerable
   end
 
   describe '#initialize' do
-    subject(:collection) { described_class.new(given_items_class, **options) }
+    subject(:paginator) { described_class.new(given_items_class, **options) }
 
     let(:given_items_class) { Class.new }
     let(:options) { {} }
 
     it 'uses items_class' do
-      expect(collection.items_class).to eq given_items_class
+      expect(paginator.items_class).to eq given_items_class
     end
 
     context 'when client is specified' do
@@ -20,13 +20,13 @@ describe RAWG::Collection do
       let(:options) { { client: specific_client } }
 
       it 'uses that client' do
-        expect(collection.client).to be(specific_client)
+        expect(paginator.client).to be(specific_client)
       end
     end
 
     context 'when client is not specified' do
       it 'uses RAWG::Client.new' do
-        expect(collection.client).to be_an_instance_of(RAWG::Client)
+        expect(paginator.client).to be_an_instance_of(RAWG::Client)
       end
     end
   end

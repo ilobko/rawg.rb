@@ -70,7 +70,7 @@ module RAWG
 
     def games(options = {})
       response = all_games(options)
-      RAWG::Collection.new(RAWG::Game, client: self).from_api_response(response)
+      RAWG::Paginator.new(RAWG::Game, client: self).from_api_response(response)
     end
 
     private

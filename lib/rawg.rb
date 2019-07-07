@@ -2,6 +2,6 @@
 
 require 'rawg/version'
 require 'rawg/utils'
-require 'rawg/collection'
+require 'rawg/paginator'
 require 'rawg/game'
 require 'rawg/client'

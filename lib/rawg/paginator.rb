@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 module RAWG
-  class Collection
+  # A class that stores and handles a collection of items.
+  class Paginator
     include Enumerable
 
     attr_reader :items_class, :client
