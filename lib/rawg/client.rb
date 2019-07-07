@@ -2,9 +2,12 @@
 
 require 'faraday'
 require 'faraday_middleware'
+require 'rawg/client/games'
 
 module RAWG
   class Client
+    include RAWG::Client::Games
+
     DEFAULT_USER_AGENT = "rawg.rb/#{RAWG::VERSION}"
     BASE_URL           = 'https://api.rawg.io'
 
@@ -23,28 +26,12 @@ module RAWG
       response
     end
 
-    def all_games(options = {})
-      get('/api/games', options)
-    end
-
     def all_users(options = {})
       get('/api/users', options)
     end
 
-    def search_games(query, options = {})
-      all_games(search: query, **options)
-    end
-
     def search_users(query, options = {})
       all_users(search: query, **options)
-    end
-
-    def game_info(game)
-      get("/api/games/#{game}")
-    end
-
-    def game_suggest(game, options = {})
-      get("/api/games/#{game}/suggested", options)
     end
 
     def game_reviews(game, options = {})
@@ -61,16 +48,6 @@ module RAWG
 
     def user_reviews(user, options = {})
       get("/api/users/#{user}/reviews", options)
-    end
-
-    def game(game)
-      response = game_info(game)
-      RAWG::Game.new(client: self).from_api_response(response)
-    end
-
-    def games(options = {})
-      response = all_games(options)
-      RAWG::Paginator.new(RAWG::Game, client: self).from_api_response(response)
     end
 
     private
