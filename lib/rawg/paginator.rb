@@ -25,25 +25,33 @@ module RAWG
       self
     end
 
-    def each
-      i = 0
-      loop do
-        raise StopIteration if i == @count - 1
+    def each(start = 0)
+      return enum_for(:each, start) { @count }.lazy unless block_given?
 
-        if !@items[i] && @next_page_url
-          response = @client.get(@next_page_url)
-          from_api_response(response)
-        end
-
-        yield @items[i]
-        i += 1
+      @items[start..-1].each do |item|
+        yield item
       end
+
+      return unless @next_page_url
+
+      start = [@items.count, start].max
+      fetch_next_page
+      each(start, &Proc.new)
     end
 
-    def count(*args)
-      return super if !args.empty? || block_given?
+    def count(item = nil)
+      return super(item, &Proc.new) if item || block_given?
 
       @count
+    end
+
+    private
+
+    def fetch_next_page
+      return self unless @next_page_url
+
+      response = @client.get(@next_page_url)
+      from_api_response(response)
     end
   end
 end
