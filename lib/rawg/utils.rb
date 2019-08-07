@@ -16,7 +16,7 @@ module RAWG
         attrs.each do |attr|
           define_method(attr) do
             instance_variable_get("@#{attr}") || begin
-              init.call(attr)
+              instance_eval(&init)
               instance_variable_get("@#{attr}")
             end
           end
