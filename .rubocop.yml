@@ -1,9 +1,4 @@
-AllCops:
-  Exclude:
-    - examples/**/*
-
-Style/Documentation:
-  Enabled: false
+require: rubocop-performance
 
 Metrics/BlockLength:
   Exclude:
