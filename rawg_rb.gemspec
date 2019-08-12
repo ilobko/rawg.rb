@@ -37,13 +37,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'faraday', '~> 0.15.4'
-  spec.add_dependency 'faraday_middleware', '~> 0.13.1'
+  spec.add_dependency 'faraday', '~> 0.15'
+  spec.add_dependency 'faraday_middleware', '~> 0.13'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'codecov', '>= 0.1.10'
+  spec.add_development_dependency 'codecov', '>= 0.1'
   spec.add_development_dependency 'factory_bot', '~> 5.0', '>= 5.0.2'
-  spec.add_development_dependency 'pry', '~> 0.12.2'
+  spec.add_development_dependency 'pry', '~> 0.12'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.8'
   spec.add_development_dependency 'webmock', '~> 3.6'
