@@ -5,6 +5,7 @@ require 'faraday_middleware'
 require 'rawg/client/games'
 
 module RAWG
+  # Client for RAWG API.
   class Client
     include RAWG::Client::Games
 
@@ -13,6 +14,15 @@ module RAWG
 
     attr_reader :user_agent
 
+    # Creates a new instance of the RAWG client
+    #
+    # @param [String] user_agent a string to be used in User-Agent headers
+    #   to identify you app
+    #
+    # @return [RAWG::Client]
+    #
+    # @example
+    #   rawg = RAWG::Client.new(user_agent: 'MyAwesomeApp/0.1')
     def initialize(user_agent: nil)
       @user_agent = combine_user_agents(user_agent, DEFAULT_USER_AGENT)
       @http_client = default_http_client

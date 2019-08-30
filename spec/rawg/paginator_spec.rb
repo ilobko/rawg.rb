@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 describe RAWG::Paginator do
+  subject(:paginator) { described_class.new(given_items_class, **options) }
+
+  let(:given_items_class) { Class.new }
+  let(:options) { {} }
+
   it 'includes Enumerable' do
     expect(described_class).to be < Enumerable
   end
 
   describe '#initialize' do
-    subject(:paginator) { described_class.new(given_items_class, **options) }
-
-    let(:given_items_class) { Class.new }
-    let(:options) { {} }
-
     it 'uses items_class' do
       expect(paginator.items_class).to eq given_items_class
     end
@@ -38,7 +38,18 @@ describe RAWG::Paginator do
     it 'appends @items'
   end
 
-  describe '#each'
+  describe '#each' do
+    it 'iterates through items'
+    it 'fetches next page'
+
+    context 'when no block is given' do
+      it 'returns Enumerator::Lazy' do
+        expect(paginator.each).to be_an Enumerator::Lazy
+      end
+
+      it 'calculates Enumerator\'s size without iterating'
+    end
+  end
 
   describe '#count' do
     it 'returns the number of items'

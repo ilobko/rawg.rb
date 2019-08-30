@@ -3,6 +3,12 @@
 require_relative './utils'
 
 module RAWG
+  # Representation of a game.
+  #
+  # @!attribute [r] id
+  #   @return [Integer] the id of the game
+  # @!attribute slug
+  #   @return [String] the slug of the game
   class Game
     include RAWG::Utils
 
@@ -27,5 +33,7 @@ module RAWG
         .new(RAWG::Game, client: @client)
         .from_api_response(response)
     end
+
+    attr_reader :client
   end
 end

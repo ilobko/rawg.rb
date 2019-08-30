@@ -1,11 +1,13 @@
 # frozen_string_literal: true
 
 module RAWG
+  # A collection of useful methods.
   module Utils
     def self.included(base)
       base.extend(ClassMethods)
     end
 
+    # A collection of useful class methods.
     module ClassMethods
       def lazy_attr_accessor(*attrs, init:)
         attr_writer(*attrs)
